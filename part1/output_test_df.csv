@@ -1,0 +1,255 @@
+,sentenceId,sentenceRepetition,id,form,lemma,upos,xpos,morph,head,dep,head_dep,space,predicate_prediction,label_ident_prediction,label_prediction,predicate_gold,label_ident_gold,label_gold,passive,full_constituent,predictions
+0,0,0,1,From,from,ADP,IN,_,3,case,3:case,_,False,False,X,False,False,_,False,From the AP,_
+1,0,0,2,the,the,DET,DT,Definite=Def|PronType=Art,3,det,3:det,_,False,False,X,False,False,_,False,the,_
+2,0,0,3,AP,AP,PROPN,NNP,Number=Sing,4,obl,4:obl:from,_,False,True,X,False,True,ARG2,False,the AP,ARG0
+3,0,0,4,comes,come,VERB,VBZ,Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin,0,root,0:root,_,True,False,X,True,False,_,False,From the AP comes this story :,_
+4,0,0,5,this,this,DET,DT,Number=Sing|PronType=Dem,6,det,6:det,_,False,False,X,False,False,_,False,this,_
+5,0,0,6,story,story,NOUN,NN,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG1,False,this story,ARG0
+6,0,0,7,:,:,PUNCT,:,_,4,punct,4:punct,_,False,False,X,False,False,_,False,:,_
+7,1,0,1,President,President,PROPN,NNP,Number=Sing,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,President,ARG0
+8,1,0,2,Bush,Bush,PROPN,NNP,Number=Sing,1,flat,1:flat,_,False,False,X,False,False,_,False,President Bush,_
+9,1,0,3,on,on,ADP,IN,_,4,case,4:case,_,False,False,X,False,False,_,False,on Tuesday,_
+10,1,0,4,Tuesday,Tuesday,PROPN,NNP,Number=Sing,5,obl,5:obl:on,_,False,True,X,False,True,ARGM-TMP,False,Tuesday,ARG0
+11,1,0,5,nominated,nominate,VERB,VBD,Mood=Ind|Tense=Past|VerbForm=Fin,0,root,0:root,_,True,False,X,True,False,_,False,President Bush on Tuesday nominated two individuals to replace retiring jurists on federal courts in the Washington area.,_
+12,1,0,6,two,two,NUM,CD,NumType=Card,7,nummod,7:nummod,_,False,False,X,False,False,_,False,two,_
+13,1,0,7,individuals,individual,NOUN,NNS,Number=Plur,5,obj,5:obj,_,False,True,X,False,True,ARG1,False,two individuals,ARG1
+14,1,0,8,to,to,PART,TO,_,9,mark,9:mark,_,False,False,X,False,False,_,False,to,_
+15,1,0,9,replace,replace,VERB,VB,VerbForm=Inf,5,advcl,5:advcl:to,_,False,False,X,False,True,ARG2,False,to replace retiring jurists on federal courts in the Washington area,_
+16,1,0,10,retiring,retire,VERB,VBG,VerbForm=Ger,11,amod,11:amod,_,False,False,X,False,False,_,False,retiring,_
+17,1,0,11,jurists,jurist,NOUN,NNS,Number=Plur,9,obj,9:obj,_,False,False,X,False,False,_,False,retiring jurists on federal courts in the Washington area,_
+18,1,0,12,on,on,ADP,IN,_,14,case,14:case,_,False,False,X,False,False,_,False,on federal courts in the Washington area,_
+19,1,0,13,federal,federal,ADJ,JJ,Degree=Pos,14,amod,14:amod,_,False,False,X,False,False,_,False,federal,_
+20,1,0,14,courts,court,NOUN,NNS,Number=Plur,11,nmod,11:nmod:on,_,False,False,X,False,False,_,False,federal courts in the Washington area,_
+21,1,0,15,in,in,ADP,IN,_,18,case,18:case,_,False,False,X,False,False,_,False,in the Washington area,_
+22,1,0,16,the,the,DET,DT,Definite=Def|PronType=Art,18,det,18:det,_,False,False,X,False,False,_,False,the,_
+23,1,0,17,Washington,Washington,PROPN,NNP,Number=Sing,18,compound,18:compound,_,False,False,X,False,False,_,False,Washington,_
+24,1,0,18,area,area,NOUN,NN,Number=Sing,14,nmod,14:nmod:in,SpaceAfter=No,False,False,X,False,False,_,False,the Washington area,_
+25,1,0,19,.,.,PUNCT,.,_,5,punct,5:punct,_,False,False,X,False,False,_,False,.,_
+26,1,1,1,President,President,PROPN,NNP,Number=Sing,5,nsubj,5:nsubj,_,False,False,X,False,False,_,False,President,_
+27,1,1,2,Bush,Bush,PROPN,NNP,Number=Sing,1,flat,1:flat,_,False,False,X,False,False,_,False,President Bush,_
+28,1,1,3,on,on,ADP,IN,_,4,case,4:case,_,False,False,X,False,False,_,False,on Tuesday,_
+29,1,1,4,Tuesday,Tuesday,PROPN,NNP,Number=Sing,5,obl,5:obl:on,_,False,False,X,False,False,_,False,Tuesday,_
+30,1,1,5,nominated,nominate,VERB,VBD,Mood=Ind|Tense=Past|VerbForm=Fin,0,root,0:root,_,False,False,X,False,False,_,False,President Bush on Tuesday nominated two individuals to replace retiring jurists on federal courts in the Washington area.,_
+31,1,1,6,two,two,NUM,CD,NumType=Card,7,nummod,7:nummod,_,False,False,X,False,False,_,False,two,_
+32,1,1,7,individuals,individual,NOUN,NNS,Number=Plur,5,obj,5:obj,_,False,False,X,False,True,ARG0,False,two individuals,_
+33,1,1,8,to,to,PART,TO,_,9,mark,9:mark,_,False,True,X,False,False,_,False,to,_
+34,1,1,9,replace,replace,VERB,VB,VerbForm=Inf,5,advcl,5:advcl:to,_,True,False,X,True,False,_,False,to replace retiring jurists on federal courts in the Washington area,_
+35,1,1,10,retiring,retire,VERB,VBG,VerbForm=Ger,11,amod,11:amod,_,False,False,X,False,False,_,False,retiring,_
+36,1,1,11,jurists,jurist,NOUN,NNS,Number=Plur,9,obj,9:obj,_,False,True,X,False,True,ARG1,False,retiring jurists on federal courts in the Washington area,ARG1
+37,1,1,12,on,on,ADP,IN,_,14,case,14:case,_,False,False,X,False,False,_,False,on federal courts in the Washington area,_
+38,1,1,13,federal,federal,ADJ,JJ,Degree=Pos,14,amod,14:amod,_,False,False,X,False,False,_,False,federal,_
+39,1,1,14,courts,court,NOUN,NNS,Number=Plur,11,nmod,11:nmod:on,_,False,False,X,False,False,_,False,federal courts in the Washington area,_
+40,1,1,15,in,in,ADP,IN,_,18,case,18:case,_,False,False,X,False,False,_,False,in the Washington area,_
+41,1,1,16,the,the,DET,DT,Definite=Def|PronType=Art,18,det,18:det,_,False,False,X,False,False,_,False,the,_
+42,1,1,17,Washington,Washington,PROPN,NNP,Number=Sing,18,compound,18:compound,_,False,False,X,False,False,_,False,Washington,_
+43,1,1,18,area,area,NOUN,NN,Number=Sing,14,nmod,14:nmod:in,SpaceAfter=No,False,False,X,False,False,_,False,the Washington area,_
+44,1,1,19,.,.,PUNCT,.,_,5,punct,5:punct,_,False,False,X,False,False,_,False,.,_
+45,1,2,1,President,President,PROPN,NNP,Number=Sing,5,nsubj,5:nsubj,_,False,False,X,False,False,_,False,President,_
+46,1,2,2,Bush,Bush,PROPN,NNP,Number=Sing,1,flat,1:flat,_,False,False,X,False,False,_,False,President Bush,_
+47,1,2,3,on,on,ADP,IN,_,4,case,4:case,_,False,False,X,False,False,_,False,on Tuesday,_
+48,1,2,4,Tuesday,Tuesday,PROPN,NNP,Number=Sing,5,obl,5:obl:on,_,False,False,X,False,False,_,False,Tuesday,_
+49,1,2,5,nominated,nominate,VERB,VBD,Mood=Ind|Tense=Past|VerbForm=Fin,0,root,0:root,_,False,False,X,False,False,_,False,President Bush on Tuesday nominated two individuals to replace retiring jurists on federal courts in the Washington area.,_
+50,1,2,6,two,two,NUM,CD,NumType=Card,7,nummod,7:nummod,_,False,False,X,False,False,_,False,two,_
+51,1,2,7,individuals,individual,NOUN,NNS,Number=Plur,5,obj,5:obj,_,False,False,X,False,False,_,False,two individuals,_
+52,1,2,8,to,to,PART,TO,_,9,mark,9:mark,_,False,False,X,False,False,_,False,to,_
+53,1,2,9,replace,replace,VERB,VB,VerbForm=Inf,5,advcl,5:advcl:to,_,False,False,X,False,False,_,False,to replace retiring jurists on federal courts in the Washington area,_
+54,1,2,10,retiring,retire,VERB,VBG,VerbForm=Ger,11,amod,11:amod,_,True,False,X,False,False,_,False,retiring,_
+55,1,2,11,jurists,jurist,NOUN,NNS,Number=Plur,9,obj,9:obj,_,False,False,X,False,False,_,False,retiring jurists on federal courts in the Washington area,_
+56,1,2,12,on,on,ADP,IN,_,14,case,14:case,_,False,False,X,False,False,_,False,on federal courts in the Washington area,_
+57,1,2,13,federal,federal,ADJ,JJ,Degree=Pos,14,amod,14:amod,_,False,False,X,False,False,_,False,federal,_
+58,1,2,14,courts,court,NOUN,NNS,Number=Plur,11,nmod,11:nmod:on,_,False,False,X,False,False,_,False,federal courts in the Washington area,_
+59,1,2,15,in,in,ADP,IN,_,18,case,18:case,_,False,False,X,False,False,_,False,in the Washington area,_
+60,1,2,16,the,the,DET,DT,Definite=Def|PronType=Art,18,det,18:det,_,False,False,X,False,False,_,False,the,_
+61,1,2,17,Washington,Washington,PROPN,NNP,Number=Sing,18,compound,18:compound,_,False,False,X,False,False,_,False,Washington,_
+62,1,2,18,area,area,NOUN,NN,Number=Sing,14,nmod,14:nmod:in,SpaceAfter=No,False,False,X,False,False,_,False,the Washington area,_
+63,1,2,19,.,.,PUNCT,.,_,5,punct,5:punct,_,False,False,X,False,False,_,False,.,_
+64,2,0,1,Bush,Bush,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,Bush,ARG0
+65,2,0,2,nominated,nominate,VERB,VBD,Mood=Ind|Tense=Past|VerbForm=Fin,0,root,0:root,_,True,False,X,True,False,_,False,"Bush nominated Jennifer M. Anderson for a 15 - year term as associate judge of the Superior Court of the District of Columbia , replacing Steffen W. Graae.",_
+66,2,0,3,Jennifer,Jennifer,PROPN,NNP,Number=Sing,2,obj,2:obj,_,False,True,X,False,True,ARG1,False,Jennifer,ARG1
+67,2,0,4,M.,M.,PROPN,NNP,Number=Sing,3,flat,3:flat,_,False,False,X,False,False,_,False,M.,_
+68,2,0,5,Anderson,Anderson,PROPN,NNP,Number=Sing,3,flat,3:flat,_,False,False,X,False,False,_,False,Jennifer M. Anderson,_
+69,2,0,6,for,for,ADP,IN,_,11,case,11:case,_,False,False,X,False,False,_,False,for a 15 - year term as associate judge of the Superior Court of the District of Columbia,_
+70,2,0,7,a,a,DET,DT,Definite=Ind|PronType=Art,11,det,11:det,_,False,False,X,False,False,_,False,a,_
+71,2,0,8,15,15,NUM,CD,NumType=Card,10,nummod,10:nummod,SpaceAfter=No,False,False,X,False,False,_,False,15,_
+72,2,0,9,-,-,PUNCT,HYPH,_,10,punct,10:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+73,2,0,10,year,year,NOUN,NN,Number=Sing,11,compound,11:compound,_,False,False,X,False,False,_,False,15 - year,_
+74,2,0,11,term,term,NOUN,NN,Number=Sing,2,obl,2:obl:for,_,False,True,X,False,True,ARG2,False,a 15 - year term as associate judge of the Superior Court of the District of Columbia,ARG1
+75,2,0,12,as,as,ADP,IN,_,14,case,14:case,_,False,False,X,False,False,_,False,as associate judge of the Superior Court of the District of Columbia,_
+76,2,0,13,associate,associate,ADJ,JJ,Degree=Pos,14,amod,14:amod,_,False,False,X,False,False,_,False,associate,_
+77,2,0,14,judge,judge,NOUN,NN,Number=Sing,11,nmod,11:nmod:as,_,False,False,X,False,False,_,False,associate judge of the Superior Court of the District of Columbia,_
+78,2,0,15,of,of,ADP,IN,_,18,case,18:case,_,False,False,X,False,False,_,False,of the Superior Court of the District of Columbia,_
+79,2,0,16,the,the,DET,DT,Definite=Def|PronType=Art,18,det,18:det,_,False,False,X,False,False,_,False,the,_
+80,2,0,17,Superior,Superior,PROPN,NNP,Number=Sing,18,compound,18:compound,_,False,False,X,False,False,_,False,Superior,_
+81,2,0,18,Court,Court,PROPN,NNP,Number=Sing,14,nmod,14:nmod:of,_,False,False,X,False,False,_,False,the Superior Court of the District of Columbia,_
+82,2,0,19,of,of,ADP,IN,_,21,case,21:case,_,False,False,X,False,False,_,False,of the District of Columbia,_
+83,2,0,20,the,the,DET,DT,Definite=Def|PronType=Art,21,det,21:det,_,False,False,X,False,False,_,False,the,_
+84,2,0,21,District,District,PROPN,NNP,Number=Sing,18,nmod,18:nmod:of,_,False,False,X,False,False,_,False,the District of Columbia,_
+85,2,0,22,of,of,ADP,IN,_,23,case,23:case,_,False,False,X,False,False,_,False,of Columbia,_
+86,2,0,23,Columbia,Columbia,PROPN,NNP,Number=Sing,21,nmod,21:nmod:of,SpaceAfter=No,False,False,X,False,False,_,False,Columbia,_
+87,2,0,24,",",",",PUNCT,",",_,2,punct,2:punct,_,False,False,X,False,False,_,False,",",_
+88,2,0,25,replacing,replace,VERB,VBG,VerbForm=Ger,2,advcl,2:advcl,_,False,False,X,False,True,ARGM-ADV,False,replacing Steffen W. Graae,_
+89,2,0,26,Steffen,Steffen,PROPN,NNP,Number=Sing,25,obj,25:obj,_,False,False,X,False,False,_,False,Steffen,_
+90,2,0,27,W.,W.,PROPN,NNP,Number=Sing,26,flat,26:flat,_,False,False,X,False,False,_,False,W.,_
+91,2,0,28,Graae,Graae,PROPN,NNP,Number=Sing,26,flat,26:flat,SpaceAfter=No,False,False,X,False,False,_,False,Steffen W. Graae,_
+92,2,0,29,.,.,PUNCT,.,_,2,punct,2:punct,_,False,False,X,False,False,_,False,.,_
+93,2,1,1,Bush,Bush,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,False,X,False,False,_,False,Bush,_
+94,2,1,2,nominated,nominate,VERB,VBD,Mood=Ind|Tense=Past|VerbForm=Fin,0,root,0:root,_,False,False,X,False,False,_,False,"Bush nominated Jennifer M. Anderson for a 15 - year term as associate judge of the Superior Court of the District of Columbia , replacing Steffen W. Graae.",_
+95,2,1,3,Jennifer,Jennifer,PROPN,NNP,Number=Sing,2,obj,2:obj,_,False,False,X,False,False,_,False,Jennifer,_
+96,2,1,4,M.,M.,PROPN,NNP,Number=Sing,3,flat,3:flat,_,False,False,X,False,False,_,False,M.,_
+97,2,1,5,Anderson,Anderson,PROPN,NNP,Number=Sing,3,flat,3:flat,_,False,False,X,False,False,_,False,Jennifer M. Anderson,_
+98,2,1,6,for,for,ADP,IN,_,11,case,11:case,_,False,False,X,False,False,_,False,for a 15 - year term as associate judge of the Superior Court of the District of Columbia,_
+99,2,1,7,a,a,DET,DT,Definite=Ind|PronType=Art,11,det,11:det,_,False,False,X,False,False,_,False,a,_
+100,2,1,8,15,15,NUM,CD,NumType=Card,10,nummod,10:nummod,SpaceAfter=No,False,False,X,False,False,_,False,15,_
+101,2,1,9,-,-,PUNCT,HYPH,_,10,punct,10:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+102,2,1,10,year,year,NOUN,NN,Number=Sing,11,compound,11:compound,_,False,False,X,False,False,_,False,15 - year,_
+103,2,1,11,term,term,NOUN,NN,Number=Sing,2,obl,2:obl:for,_,False,False,X,False,False,_,False,a 15 - year term as associate judge of the Superior Court of the District of Columbia,_
+104,2,1,12,as,as,ADP,IN,_,14,case,14:case,_,False,False,X,False,False,_,False,as associate judge of the Superior Court of the District of Columbia,_
+105,2,1,13,associate,associate,ADJ,JJ,Degree=Pos,14,amod,14:amod,_,False,False,X,False,False,_,False,associate,_
+106,2,1,14,judge,judge,NOUN,NN,Number=Sing,11,nmod,11:nmod:as,_,False,False,X,False,False,_,False,associate judge of the Superior Court of the District of Columbia,_
+107,2,1,15,of,of,ADP,IN,_,18,case,18:case,_,False,False,X,False,False,_,False,of the Superior Court of the District of Columbia,_
+108,2,1,16,the,the,DET,DT,Definite=Def|PronType=Art,18,det,18:det,_,False,False,X,False,False,_,False,the,_
+109,2,1,17,Superior,Superior,PROPN,NNP,Number=Sing,18,compound,18:compound,_,False,False,X,False,False,_,False,Superior,_
+110,2,1,18,Court,Court,PROPN,NNP,Number=Sing,14,nmod,14:nmod:of,_,False,False,X,False,False,_,False,the Superior Court of the District of Columbia,_
+111,2,1,19,of,of,ADP,IN,_,21,case,21:case,_,False,False,X,False,False,_,False,of the District of Columbia,_
+112,2,1,20,the,the,DET,DT,Definite=Def|PronType=Art,21,det,21:det,_,False,False,X,False,False,_,False,the,_
+113,2,1,21,District,District,PROPN,NNP,Number=Sing,18,nmod,18:nmod:of,_,False,False,X,False,False,_,False,the District of Columbia,_
+114,2,1,22,of,of,ADP,IN,_,23,case,23:case,_,False,False,X,False,False,_,False,of Columbia,_
+115,2,1,23,Columbia,Columbia,PROPN,NNP,Number=Sing,21,nmod,21:nmod:of,SpaceAfter=No,False,False,X,False,False,_,False,Columbia,_
+116,2,1,24,",",",",PUNCT,",",_,2,punct,2:punct,_,False,False,X,False,False,_,False,",",_
+117,2,1,25,replacing,replace,VERB,VBG,VerbForm=Ger,2,advcl,2:advcl,_,True,False,X,True,False,_,False,replacing Steffen W. Graae,_
+118,2,1,26,Steffen,Steffen,PROPN,NNP,Number=Sing,25,obj,25:obj,_,False,True,X,False,True,ARG1,False,Steffen,ARG1
+119,2,1,27,W.,W.,PROPN,NNP,Number=Sing,26,flat,26:flat,_,False,False,X,False,False,_,False,W.,_
+120,2,1,28,Graae,Graae,PROPN,NNP,Number=Sing,26,flat,26:flat,SpaceAfter=No,False,False,X,False,False,_,False,Steffen W. Graae,_
+121,2,1,29,.,.,PUNCT,.,_,2,punct,2:punct,_,False,False,X,False,False,_,False,.,_
+122,3,0,1,Bush,Bush,PROPN,NNP,Number=Sing,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,Bush,ARG0
+123,3,0,2,also,also,ADV,RB,_,3,advmod,3:advmod,_,False,True,X,False,True,ARGM-DIS,False,also,ARGM-EXT
+124,3,0,3,nominated,nominate,VERB,VBD,Mood=Ind|Tense=Past|VerbForm=Fin,0,root,0:root,_,True,False,X,True,False,_,False,"Bush also nominated A. Noel Anketell Kramer for a 15 - year term as associate judge of the District of Columbia Court of Appeals , replacing John Montague Steadman.",_
+125,3,0,4,A.,A.,PROPN,NNP,Number=Sing,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,A.,ARG1
+126,3,0,5,Noel,Noel,PROPN,NNP,Number=Sing,4,flat,4:flat,_,False,False,X,False,False,_,False,Noel,_
+127,3,0,6,Anketell,Anketell,PROPN,NNP,Number=Sing,4,flat,4:flat,_,False,False,X,False,False,_,False,Anketell,_
+128,3,0,7,Kramer,Kramer,PROPN,NNP,Number=Sing,4,flat,4:flat,_,False,False,X,False,False,_,False,A. Noel Anketell Kramer,_
+129,3,0,8,for,for,ADP,IN,_,13,case,13:case,_,False,False,X,False,False,_,False,for a 15 - year term as associate judge of the District of Columbia Court of Appeals,_
+130,3,0,9,a,a,DET,DT,Definite=Ind|PronType=Art,13,det,13:det,_,False,False,X,False,False,_,False,a,_
+131,3,0,10,15,15,NUM,CD,NumType=Card,12,nummod,12:nummod,SpaceAfter=No,False,False,X,False,False,_,False,15,_
+132,3,0,11,-,-,PUNCT,HYPH,_,12,punct,12:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+133,3,0,12,year,year,NOUN,NN,Number=Sing,13,compound,13:compound,_,False,False,X,False,False,_,False,15 - year,_
+134,3,0,13,term,term,NOUN,NN,Number=Sing,3,obl,3:obl:for,_,False,True,X,False,True,ARG2,False,a 15 - year term as associate judge of the District of Columbia Court of Appeals,ARG1
+135,3,0,14,as,as,ADP,IN,_,16,case,16:case,_,False,False,X,False,False,_,False,as associate judge of the District of Columbia Court of Appeals,_
+136,3,0,15,associate,associate,ADJ,JJ,Degree=Pos,16,amod,16:amod,_,False,False,X,False,False,_,False,associate,_
+137,3,0,16,judge,judge,NOUN,NN,Number=Sing,13,nmod,13:nmod:as,_,False,False,X,False,False,_,False,associate judge of the District of Columbia Court of Appeals,_
+138,3,0,17,of,of,ADP,IN,_,19,case,19:case,_,False,False,X,False,False,_,False,of the District of Columbia Court of Appeals,_
+139,3,0,18,the,the,DET,DT,Definite=Def|PronType=Art,19,det,19:det,_,False,False,X,False,False,_,False,the,_
+140,3,0,19,District,District,PROPN,NNP,Number=Sing,16,nmod,16:nmod:of,_,False,False,X,False,False,_,False,the District of Columbia,_
+141,3,0,20,of,of,ADP,IN,_,22,case,22:case,_,False,False,X,False,False,_,False,of Columbia,_
+142,3,0,21,Columbia,Columbia,PROPN,NNP,Number=Sing,22,compound,22:compound,_,False,False,X,False,False,_,False,Columbia,_
+143,3,0,22,Court,Court,PROPN,NNP,Number=Sing,19,nmod,19:nmod:of,_,False,False,X,False,False,_,False,Court of Appeals,_
+144,3,0,23,of,of,ADP,IN,_,24,case,24:case,_,False,False,X,False,False,_,False,of Appeals,_
+145,3,0,24,Appeals,Appeals,PROPN,NNPS,Number=Plur,22,nmod,22:nmod:of,SpaceAfter=No,False,False,X,False,False,_,False,Appeals,_
+146,3,0,25,",",",",PUNCT,",",_,3,punct,3:punct,_,False,False,X,False,False,_,False,",",_
+147,3,0,26,replacing,replace,VERB,VBG,VerbForm=Ger,3,advcl,3:advcl,_,False,False,X,False,True,ARGM-ADV,False,replacing John Montague Steadman,_
+148,3,0,27,John,John,PROPN,NNP,Number=Sing,26,obj,26:obj,_,False,False,X,False,False,_,False,John,_
+149,3,0,28,Montague,Montague,PROPN,NNP,Number=Sing,27,flat,27:flat,_,False,False,X,False,False,_,False,Montague,_
+150,3,0,29,Steadman,Steadman,PROPN,NNP,Number=Sing,27,flat,27:flat,SpaceAfter=No,False,False,X,False,False,_,False,John Montague Steadman,_
+151,3,0,30,.,.,PUNCT,.,_,3,punct,3:punct,_,False,False,X,False,False,_,False,.,_
+152,3,1,1,Bush,Bush,PROPN,NNP,Number=Sing,3,nsubj,3:nsubj,_,False,False,X,False,False,_,False,Bush,_
+153,3,1,2,also,also,ADV,RB,_,3,advmod,3:advmod,_,False,False,X,False,False,_,False,also,_
+154,3,1,3,nominated,nominate,VERB,VBD,Mood=Ind|Tense=Past|VerbForm=Fin,0,root,0:root,_,False,False,X,False,False,_,False,"Bush also nominated A. Noel Anketell Kramer for a 15 - year term as associate judge of the District of Columbia Court of Appeals , replacing John Montague Steadman.",_
+155,3,1,4,A.,A.,PROPN,NNP,Number=Sing,3,obj,3:obj,_,False,False,X,False,False,_,False,A.,_
+156,3,1,5,Noel,Noel,PROPN,NNP,Number=Sing,4,flat,4:flat,_,False,False,X,False,False,_,False,Noel,_
+157,3,1,6,Anketell,Anketell,PROPN,NNP,Number=Sing,4,flat,4:flat,_,False,False,X,False,False,_,False,Anketell,_
+158,3,1,7,Kramer,Kramer,PROPN,NNP,Number=Sing,4,flat,4:flat,_,False,False,X,False,False,_,False,A. Noel Anketell Kramer,_
+159,3,1,8,for,for,ADP,IN,_,13,case,13:case,_,False,False,X,False,False,_,False,for a 15 - year term as associate judge of the District of Columbia Court of Appeals,_
+160,3,1,9,a,a,DET,DT,Definite=Ind|PronType=Art,13,det,13:det,_,False,False,X,False,False,_,False,a,_
+161,3,1,10,15,15,NUM,CD,NumType=Card,12,nummod,12:nummod,SpaceAfter=No,False,False,X,False,False,_,False,15,_
+162,3,1,11,-,-,PUNCT,HYPH,_,12,punct,12:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+163,3,1,12,year,year,NOUN,NN,Number=Sing,13,compound,13:compound,_,False,False,X,False,False,_,False,15 - year,_
+164,3,1,13,term,term,NOUN,NN,Number=Sing,3,obl,3:obl:for,_,False,False,X,False,False,_,False,a 15 - year term as associate judge of the District of Columbia Court of Appeals,_
+165,3,1,14,as,as,ADP,IN,_,16,case,16:case,_,False,False,X,False,False,_,False,as associate judge of the District of Columbia Court of Appeals,_
+166,3,1,15,associate,associate,ADJ,JJ,Degree=Pos,16,amod,16:amod,_,False,False,X,False,False,_,False,associate,_
+167,3,1,16,judge,judge,NOUN,NN,Number=Sing,13,nmod,13:nmod:as,_,False,False,X,False,False,_,False,associate judge of the District of Columbia Court of Appeals,_
+168,3,1,17,of,of,ADP,IN,_,19,case,19:case,_,False,False,X,False,False,_,False,of the District of Columbia Court of Appeals,_
+169,3,1,18,the,the,DET,DT,Definite=Def|PronType=Art,19,det,19:det,_,False,False,X,False,False,_,False,the,_
+170,3,1,19,District,District,PROPN,NNP,Number=Sing,16,nmod,16:nmod:of,_,False,False,X,False,False,_,False,the District of Columbia,_
+171,3,1,20,of,of,ADP,IN,_,22,case,22:case,_,False,False,X,False,False,_,False,of Columbia,_
+172,3,1,21,Columbia,Columbia,PROPN,NNP,Number=Sing,22,compound,22:compound,_,False,False,X,False,False,_,False,Columbia,_
+173,3,1,22,Court,Court,PROPN,NNP,Number=Sing,19,nmod,19:nmod:of,_,False,False,X,False,False,_,False,Court of Appeals,_
+174,3,1,23,of,of,ADP,IN,_,24,case,24:case,_,False,False,X,False,False,_,False,of Appeals,_
+175,3,1,24,Appeals,Appeals,PROPN,NNPS,Number=Plur,22,nmod,22:nmod:of,SpaceAfter=No,False,False,X,False,False,_,False,Appeals,_
+176,3,1,25,",",",",PUNCT,",",_,3,punct,3:punct,_,False,False,X,False,False,_,False,",",_
+177,3,1,26,replacing,replace,VERB,VBG,VerbForm=Ger,3,advcl,3:advcl,_,True,False,X,True,False,_,False,replacing John Montague Steadman,_
+178,3,1,27,John,John,PROPN,NNP,Number=Sing,26,obj,26:obj,_,False,True,X,False,True,ARG1,False,John,ARG1
+179,3,1,28,Montague,Montague,PROPN,NNP,Number=Sing,27,flat,27:flat,_,False,False,X,False,False,_,False,Montague,_
+180,3,1,29,Steadman,Steadman,PROPN,NNP,Number=Sing,27,flat,27:flat,SpaceAfter=No,False,False,X,False,False,_,False,John Montague Steadman,_
+181,3,1,30,.,.,PUNCT,.,_,3,punct,3:punct,_,False,False,X,False,False,_,False,.,_
+182,4,0,1,The,the,DET,DT,Definite=Def|PronType=Art,2,det,2:det,_,False,False,X,False,False,_,False,The,_
+183,4,0,2,sheikh,sheikh,NOUN,NN,Number=Sing,9,nsubj:pass,9:nsubj:pass,_,False,False,X,False,False,_,False,The sheikh in wheel - chair,_
+184,4,0,3,in,in,ADP,IN,_,6,case,6:case,_,False,False,X,False,False,_,False,in wheel - chair,_
+185,4,0,4,wheel,wheel,NOUN,NN,Number=Sing,6,compound,6:compound,SpaceAfter=No,False,False,X,False,False,_,False,wheel,_
+186,4,0,5,-,-,PUNCT,HYPH,_,6,punct,6:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+187,4,0,6,chair,chair,NOUN,NN,Number=Sing,2,nmod,2:nmod:in,_,False,False,X,False,False,_,False,wheel - chair,_
+188,4,0,7,has,have,AUX,VBZ,Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin,9,aux,9:aux,_,True,False,X,True,False,_,False,has,_
+189,4,0,8,been,be,AUX,VBN,Tense=Past|VerbForm=Part,9,aux:pass,9:aux:pass,_,False,False,X,False,False,_,False,been,_
+190,4,0,9,attacked,attack,VERB,VBN,Tense=Past|VerbForm=Part,0,root,0:root,_,False,False,X,False,False,_,False,The sheikh in wheel - chair has been attacked with a F - 16 - launched bomb.,_
+191,4,0,10,with,with,ADP,IN,_,17,case,17:case,_,False,False,X,False,False,_,False,with a F - 16 - launched bomb,_
+192,4,0,11,a,a,DET,DT,Definite=Ind|PronType=Art,17,det,17:det,_,False,False,X,False,False,_,False,a,_
+193,4,0,12,F,f,NOUN,NN,Number=Sing,16,compound,16:compound,SpaceAfter=No,False,False,X,False,False,_,False,F,_
+194,4,0,13,-,-,PUNCT,HYPH,_,12,punct,12:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+195,4,0,14,16,16,NUM,CD,NumType=Card,12,compound,12:compound,SpaceAfter=No,False,False,X,False,False,_,False,16,_
+196,4,0,15,-,-,PUNCT,HYPH,_,16,punct,16:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+197,4,0,16,launched,launch,VERB,VBN,Tense=Past|VerbForm=Part,17,acl,17:acl,_,False,False,X,False,False,_,False,F - 16 - launched,_
+198,4,0,17,bomb,bomb,NOUN,NN,Number=Sing,9,obl,9:obl:with,SpaceAfter=No,False,False,X,False,False,_,False,a F - 16 - launched bomb,_
+199,4,0,18,.,.,PUNCT,.,_,9,punct,9:punct,_,False,False,X,False,False,_,False,.,_
+200,4,1,1,The,the,DET,DT,Definite=Def|PronType=Art,2,det,2:det,_,False,False,X,False,False,_,True,The,_
+201,4,1,2,sheikh,sheikh,NOUN,NN,Number=Sing,9,nsubj:pass,9:nsubj:pass,_,False,False,X,False,False,_,True,The sheikh in wheel - chair,_
+202,4,1,3,in,in,ADP,IN,_,6,case,6:case,_,False,False,X,False,False,_,True,in wheel - chair,_
+203,4,1,4,wheel,wheel,NOUN,NN,Number=Sing,6,compound,6:compound,SpaceAfter=No,False,False,X,False,False,_,True,wheel,_
+204,4,1,5,-,-,PUNCT,HYPH,_,6,punct,6:punct,SpaceAfter=No,False,False,X,False,False,_,True,-,_
+205,4,1,6,chair,chair,NOUN,NN,Number=Sing,2,nmod,2:nmod:in,_,False,False,X,False,False,_,True,wheel - chair,_
+206,4,1,7,has,have,AUX,VBZ,Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin,9,aux,9:aux,_,False,False,X,False,False,_,True,has,_
+207,4,1,8,been,be,AUX,VBN,Tense=Past|VerbForm=Part,9,aux:pass,9:aux:pass,_,True,False,X,True,False,_,True,been,_
+208,4,1,9,attacked,attack,VERB,VBN,Tense=Past|VerbForm=Part,0,root,0:root,_,False,False,X,False,False,_,True,The sheikh in wheel - chair has been attacked with a F - 16 - launched bomb.,_
+209,4,1,10,with,with,ADP,IN,_,17,case,17:case,_,False,False,X,False,False,_,True,with a F - 16 - launched bomb,_
+210,4,1,11,a,a,DET,DT,Definite=Ind|PronType=Art,17,det,17:det,_,False,False,X,False,False,_,True,a,_
+211,4,1,12,F,f,NOUN,NN,Number=Sing,16,compound,16:compound,SpaceAfter=No,False,False,X,False,False,_,True,F,_
+212,4,1,13,-,-,PUNCT,HYPH,_,12,punct,12:punct,SpaceAfter=No,False,False,X,False,False,_,True,-,_
+213,4,1,14,16,16,NUM,CD,NumType=Card,12,compound,12:compound,SpaceAfter=No,False,False,X,False,False,_,True,16,_
+214,4,1,15,-,-,PUNCT,HYPH,_,16,punct,16:punct,SpaceAfter=No,False,False,X,False,False,_,True,-,_
+215,4,1,16,launched,launch,VERB,VBN,Tense=Past|VerbForm=Part,17,acl,17:acl,_,False,False,X,False,False,_,True,F - 16 - launched,_
+216,4,1,17,bomb,bomb,NOUN,NN,Number=Sing,9,obl,9:obl:with,SpaceAfter=No,False,False,X,False,False,_,True,a F - 16 - launched bomb,_
+217,4,1,18,.,.,PUNCT,.,_,9,punct,9:punct,_,False,False,X,False,False,_,True,.,_
+218,4,2,1,The,the,DET,DT,Definite=Def|PronType=Art,2,det,2:det,_,False,False,X,False,False,_,False,The,_
+219,4,2,2,sheikh,sheikh,NOUN,NN,Number=Sing,9,nsubj:pass,9:nsubj:pass,_,False,True,X,False,True,ARG1,False,The sheikh in wheel - chair,ARG0
+220,4,2,3,in,in,ADP,IN,_,6,case,6:case,_,False,False,X,False,False,_,False,in wheel - chair,_
+221,4,2,4,wheel,wheel,NOUN,NN,Number=Sing,6,compound,6:compound,SpaceAfter=No,False,False,X,False,False,_,False,wheel,_
+222,4,2,5,-,-,PUNCT,HYPH,_,6,punct,6:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+223,4,2,6,chair,chair,NOUN,NN,Number=Sing,2,nmod,2:nmod:in,_,False,False,X,False,False,_,False,wheel - chair,_
+224,4,2,7,has,have,AUX,VBZ,Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin,9,aux,9:aux,_,False,False,X,False,False,_,False,has,_
+225,4,2,8,been,be,AUX,VBN,Tense=Past|VerbForm=Part,9,aux:pass,9:aux:pass,_,False,False,X,False,False,_,False,been,_
+226,4,2,9,attacked,attack,VERB,VBN,Tense=Past|VerbForm=Part,0,root,0:root,_,True,False,X,True,False,_,False,The sheikh in wheel - chair has been attacked with a F - 16 - launched bomb.,_
+227,4,2,10,with,with,ADP,IN,_,17,case,17:case,_,False,False,X,False,False,_,False,with a F - 16 - launched bomb,_
+228,4,2,11,a,a,DET,DT,Definite=Ind|PronType=Art,17,det,17:det,_,False,False,X,False,False,_,False,a,_
+229,4,2,12,F,f,NOUN,NN,Number=Sing,16,compound,16:compound,SpaceAfter=No,False,False,X,False,False,_,False,F,_
+230,4,2,13,-,-,PUNCT,HYPH,_,12,punct,12:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+231,4,2,14,16,16,NUM,CD,NumType=Card,12,compound,12:compound,SpaceAfter=No,False,False,X,False,False,_,False,16,_
+232,4,2,15,-,-,PUNCT,HYPH,_,16,punct,16:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+233,4,2,16,launched,launch,VERB,VBN,Tense=Past|VerbForm=Part,17,acl,17:acl,_,False,False,X,False,False,_,False,F - 16 - launched,_
+234,4,2,17,bomb,bomb,NOUN,NN,Number=Sing,9,obl,9:obl:with,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,False,a F - 16 - launched bomb,ARGM-LOC
+235,4,2,18,.,.,PUNCT,.,_,9,punct,9:punct,_,False,False,X,False,False,_,False,.,_
+236,4,3,1,The,the,DET,DT,Definite=Def|PronType=Art,2,det,2:det,_,False,False,X,False,False,_,False,The,_
+237,4,3,2,sheikh,sheikh,NOUN,NN,Number=Sing,9,nsubj:pass,9:nsubj:pass,_,False,False,X,False,False,_,False,The sheikh in wheel - chair,_
+238,4,3,3,in,in,ADP,IN,_,6,case,6:case,_,False,False,X,False,False,_,False,in wheel - chair,_
+239,4,3,4,wheel,wheel,NOUN,NN,Number=Sing,6,compound,6:compound,SpaceAfter=No,False,False,X,False,False,_,False,wheel,_
+240,4,3,5,-,-,PUNCT,HYPH,_,6,punct,6:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+241,4,3,6,chair,chair,NOUN,NN,Number=Sing,2,nmod,2:nmod:in,_,False,False,X,False,False,_,False,wheel - chair,_
+242,4,3,7,has,have,AUX,VBZ,Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin,9,aux,9:aux,_,False,False,X,False,False,_,False,has,_
+243,4,3,8,been,be,AUX,VBN,Tense=Past|VerbForm=Part,9,aux:pass,9:aux:pass,_,False,False,X,False,False,_,False,been,_
+244,4,3,9,attacked,attack,VERB,VBN,Tense=Past|VerbForm=Part,0,root,0:root,_,False,False,X,False,False,_,False,The sheikh in wheel - chair has been attacked with a F - 16 - launched bomb.,_
+245,4,3,10,with,with,ADP,IN,_,17,case,17:case,_,False,False,X,False,False,_,False,with a F - 16 - launched bomb,_
+246,4,3,11,a,a,DET,DT,Definite=Ind|PronType=Art,17,det,17:det,_,False,False,X,False,False,_,False,a,_
+247,4,3,12,F,f,NOUN,NN,Number=Sing,16,compound,16:compound,SpaceAfter=No,False,True,X,False,False,_,False,F,ARG1
+248,4,3,13,-,-,PUNCT,HYPH,_,12,punct,12:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+249,4,3,14,16,16,NUM,CD,NumType=Card,12,compound,12:compound,SpaceAfter=No,False,False,X,False,False,_,False,16,_
+250,4,3,15,-,-,PUNCT,HYPH,_,16,punct,16:punct,SpaceAfter=No,False,False,X,False,False,_,False,-,_
+251,4,3,16,launched,launch,VERB,VBN,Tense=Past|VerbForm=Part,17,acl,17:acl,_,True,False,X,False,False,_,False,F - 16 - launched,_
+252,4,3,17,bomb,bomb,NOUN,NN,Number=Sing,9,obl,9:obl:with,SpaceAfter=No,False,False,X,False,False,_,False,a F - 16 - launched bomb,_
+253,4,3,18,.,.,PUNCT,.,_,9,punct,9:punct,_,False,False,X,False,False,_,False,.,_
