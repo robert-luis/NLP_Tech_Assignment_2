@@ -1,0 +1,40 @@
+SRL Assignment 2
+Mode:sample
+Predicate Prediction ConfusionMatrix
+              precision    recall  f1-score   support
+
+       False      0.992     1.000     0.996       242
+        True      1.000     0.833     0.909        12
+
+    accuracy                          0.992       254
+   macro avg      0.996     0.917     0.952       254
+weighted avg      0.992     0.992     0.992       254
+
+
+
+Argument Identification ConfusionMatrix
+              precision    recall  f1-score   support
+
+       False      0.991     0.983     0.987       235
+        True      0.810     0.895     0.850        19
+
+    accuracy                          0.976       254
+   macro avg      0.900     0.939     0.919       254
+weighted avg      0.978     0.976     0.977       254
+
+
+
+Argument Classification ConfusionMatrix
+      Unnamed: 0  precision    recall  f1-score    support
+0           ARG0   0.375000  1.000000  0.545455   3.000000
+1           ARG1   1.000000  0.500000  0.666667   8.000000
+2           ARG2   0.000000  0.000000  0.000000   3.000000
+3       ARGM-DIS   0.000000  0.000000  0.000000   1.000000
+4       ARGM-LOC   0.000000  0.000000  0.000000   0.000000
+5       ARGM-MNR   0.000000  0.000000  0.000000   1.000000
+6       ARGM-NEG   0.000000  0.000000  0.000000   0.000000
+7       ARGM-TMP   0.000000  0.000000  0.000000   1.000000
+8              _   1.000000  0.500000  0.666667   2.000000
+9       accuracy   0.421053  0.421053  0.421053   0.421053
+10     macro avg   0.263889  0.222222  0.208754  19.000000
+11  weighted avg   0.585526  0.421053  0.437002  19.000000
