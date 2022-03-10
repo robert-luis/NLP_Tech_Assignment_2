@@ -1,0 +1,20 @@
+sentenceId,sentenceRepetition,id,form,lemma,upos,xpos,morph,head,dep,head_dep,space,predicate_prediction,label_ident_prediction,label_prediction,predicate_gold,label_ident_gold,label_gold,passive,full_constituent,predictions
+0,0,3,AP,AP,PROPN,NNP,Number=Sing,4,obl,4:obl:from,_,False,True,X,False,True,ARG2,False,the AP,ARG0
+0,0,6,story,story,NOUN,NN,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG1,False,this story,ARG0
+1,0,1,President,President,PROPN,NNP,Number=Sing,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,President,ARG0
+1,0,4,Tuesday,Tuesday,PROPN,NNP,Number=Sing,5,obl,5:obl:on,_,False,True,X,False,True,ARGM-TMP,False,Tuesday,ARG0
+1,0,7,individuals,individual,NOUN,NNS,Number=Plur,5,obj,5:obj,_,False,True,X,False,True,ARG1,False,two individuals,ARG1
+1,1,8,to,to,PART,TO,_,9,mark,9:mark,_,False,True,X,False,False,_,False,to,_
+1,1,11,jurists,jurist,NOUN,NNS,Number=Plur,9,obj,9:obj,_,False,True,X,False,True,ARG1,False,retiring jurists on federal courts in the Washington area,ARG1
+2,0,1,Bush,Bush,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,Bush,ARG0
+2,0,3,Jennifer,Jennifer,PROPN,NNP,Number=Sing,2,obj,2:obj,_,False,True,X,False,True,ARG1,False,Jennifer,ARG1
+2,0,11,term,term,NOUN,NN,Number=Sing,2,obl,2:obl:for,_,False,True,X,False,True,ARG2,False,a 15 - year term as associate judge of the Superior Court of the District of Columbia,ARGM-LOC
+2,1,26,Steffen,Steffen,PROPN,NNP,Number=Sing,25,obj,25:obj,_,False,True,X,False,True,ARG1,False,Steffen,ARGM-LOC
+3,0,1,Bush,Bush,PROPN,NNP,Number=Sing,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,Bush,ARG0
+3,0,2,also,also,ADV,RB,_,3,advmod,3:advmod,_,False,True,X,False,True,ARGM-DIS,False,also,ARGM-NEG
+3,0,4,A.,A.,PROPN,NNP,Number=Sing,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,A.,ARG1
+3,0,13,term,term,NOUN,NN,Number=Sing,3,obl,3:obl:for,_,False,True,X,False,True,ARG2,False,a 15 - year term as associate judge of the District of Columbia Court of Appeals,ARGM-LOC
+3,1,27,John,John,PROPN,NNP,Number=Sing,26,obj,26:obj,_,False,True,X,False,True,ARG1,False,John,ARGM-LOC
+4,2,2,sheikh,sheikh,NOUN,NN,Number=Sing,9,nsubj:pass,9:nsubj:pass,_,False,True,X,False,True,ARG1,False,The sheikh in wheel - chair,ARG0
+4,2,17,bomb,bomb,NOUN,NN,Number=Sing,9,obl,9:obl:with,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,False,a F - 16 - launched bomb,ARGM-LOC
+4,3,12,F,f,NOUN,NN,Number=Sing,16,compound,16:compound,SpaceAfter=No,False,True,X,False,False,_,False,F,ARG0
