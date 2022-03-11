@@ -28,12 +28,14 @@ Other relevant outputs: <br>
 
 __Run train and testing of model__ <br>
 
+
 The pipeline can be run with the provided test <br>
 
 mode options: <br>
 - production
 - sample
 - custom
+
 
 <path_to_train> <path_to_test> only have to be set for custom. <br>
 For production and sample mode, predefined paths are set (or can be amended) in the main.py file.<br>
@@ -42,6 +44,7 @@ For production and sample mode, predefined paths are set (or can be amended) in 
 cd part1
 python main.py <mode> <path_to_train> <path_to_test>
 ```
+
 
 The following execution plan provides an overview on the structure of the files and functions executed within the SRL model.
 ![Execution Plan](./data/images/SRLexecutionPlan.svg)
@@ -128,7 +131,7 @@ We have decided to use a Support Vector Machine (SVM). This was both based on pr
 
 ***Generate training and test instances***<br><br>
 Due to the considerable time all preprocessing steps require (especially the feature extraction using spacy to retrieve the constituents), we cut our datasets down to be able to run the code in a reasonable time.<br>
-The created training instances are composed of the first 250 sentences of the propbank train file, the test file contains the first 50 sentences of the respective file.<br><br>
+The created training instances are composed of the first 1000 sentences of the propbank train file, the test file contains the first 300 sentences of the respective file.<br><br>
 
 ***Train your classifier***<br><br>
 For the training of the classifier our approach uses predicted arguments (system labels) based on the predicted predicates.<br><br>
@@ -136,6 +139,79 @@ For the training of the classifier our approach uses predicted arguments (system
 ***Test your classifier on the test instances***<br><br>
 The test strategy underlying the following evaluations follows the same approach as our train approach and always considers predictions based on previous predictions, which means that errors from early rule based predictions are propagated to the evaluation of later steps in the pipeline.<br>
 The general low level of the achieved results reflect the small amount of training and testing data taken into consideration as described in Section 5.<br>
+
+__Results__<br>
+Mode:production<br>
+Predicate Prediction ConfusionMatrix<br>
+
+              precision    recall  f1-score   support<br><br>
+
+       False      0.997     0.992     0.995     28727<br>
+        True      0.771     0.893     0.828       847<br>
+
+    accuracy                          0.989     29574<br>
+   macro avg      0.884     0.942     0.911     29574<br>
+weighted avg      0.990     0.989     0.990     29574<br>
+<br>
+
+
+Argument Identification ConfusionMatrix<br>
+
+              precision    recall  f1-score   support<br><br>
+
+       False      0.990     0.964     0.977     28306<br>
+        True      0.495     0.779     0.605      1268<br>
+
+    accuracy                          0.956     29574<br>
+   macro avg      0.742     0.872     0.791     29574<br>
+weighted avg      0.969     0.956     0.961     29574<br>
+
+
+
+Argument Classification ConfusionMatrix<br>
+
+      Unnamed: 0  precision    recall  f1-score      support<br>
+0           ARG0   0.739274  0.945148  0.829630   237.000000<br>
+1           ARG1   0.790614  0.682243  0.732441   321.000000<br>
+2           ARG2   0.282051  0.141026  0.188034    78.000000<br>
+3           ARG3   0.000000  0.000000  0.000000    10.000000<br>
+4           ARG4   0.000000  0.000000  0.000000     6.000000<br>
+5       ARGM-ADJ   0.000000  0.000000  0.000000     0.000000<br>
+6       ARGM-ADV   0.512821  0.322581  0.396040    62.000000<br>
+7       ARGM-CAU   0.000000  0.000000  0.000000     4.000000<br>
+8       ARGM-COM   0.000000  0.000000  0.000000     4.000000<br>
+9       ARGM-DIR   1.000000  0.333333  0.500000     6.000000<br>
+10      ARGM-DIS   0.714286  0.454545  0.555556    22.000000<br>
+11      ARGM-EXT   0.000000  0.000000  0.000000     6.000000<br>
+12      ARGM-GOL   0.014925  0.250000  0.028169     4.000000<br>
+13      ARGM-LOC   0.000000  0.000000  0.000000    23.000000<br>
+14      ARGM-MNR   1.000000  0.045455  0.086957    22.000000<br>
+15      ARGM-NEG   0.948718  0.973684  0.961039    38.000000<br>
+16      ARGM-PRD   0.000000  0.000000  0.000000     3.000000<br>
+17      ARGM-PRP   0.000000  0.000000  0.000000     4.000000<br>
+18      ARGM-PRR   0.000000  0.000000  0.000000    14.000000<br>
+19      ARGM-TMP   0.772727  0.215190  0.336634    79.000000<br>
+20        C-ARG1   0.000000  0.000000  0.000000     6.000000<br>
+21        C-ARG2   0.000000  0.000000  0.000000     0.000000<br>
+22           C-V   0.000000  0.000000  0.000000     1.000000<br>
+23        R-ARG0   0.727273  0.842105  0.780488    19.000000<br>
+24        R-ARG1   0.200000  0.250000  0.222222     8.000000<br>
+25        R-ARG2   0.000000  0.000000  0.000000     0.000000<br>
+26    R-ARGM-CAU   0.000000  0.000000  0.000000     0.000000<br>
+27    R-ARGM-DIR   0.000000  0.000000  0.000000     0.000000<br>
+28    R-ARGM-LOC   1.000000  0.333333  0.500000     3.000000<br>
+29    R-ARGM-MNR   0.000000  0.000000  0.000000     8.000000<br>
+30    R-ARGM-TMP   0.000000  0.000000  0.000000     0.000000<br>
+31             _   0.951965  0.778571  0.856582   280.000000<br>
+32      accuracy   0.614353  0.614353  0.614353     0.614353<br>
+33     macro avg   0.301708  0.205225  0.217931  1268.000000<br>
+34  weighted avg   0.716584  0.614353  0.638224  1268.000000<br>
+<br>
+
+Total Processing Time: 104.34 min.<br><br>
+
+
+
 Some insights we gained from the made predictions are <br>ollowing:<br>
 * our system does not realise that there cannot be two ARG0s in one sentence<br>
 * our system classifies almost all arguments that are not ARG0/1/2/3 etc as ARGM-LOC. This might have to do with our limited training set<br>
