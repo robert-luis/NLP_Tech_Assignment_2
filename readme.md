@@ -218,7 +218,9 @@ weighted avg      0.969     0.956     0.961     29574
 Total Processing Time: 104.34 min.<br><br>
 
 <br>
+
 __Discussion of Results__
+
 The way how we evaluate the classification of the arguments is not only biased by the propagated errors of the previous prediction and argument identification, but also by the restructuring of the data to input it into the classification algorithm.
 As indicated before, we filter for only those lines which we predict to be arguments, so that only those lines are actually considered in the classification. The output of this is then used to create to Argument Classification Matrix, depicted above. <br>
 However, this means that all lines (i.e. tokens) which are actually arguments but which were not identified by us, are filtered out.
