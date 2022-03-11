@@ -131,6 +131,8 @@ The predicate and argument predictions are also included as features for our mod
 ### ***Select a machine learning algorithm***<br><br>
 We have decided to use a Support Vector Machine (SVM). This was both based on previous experiences (in the NER task for Machine Learning for NLP, SVM performed slightly better than logistic regression). It is also based on the fact that in the Introduction to the CoNNL-2005 shared task on Semantic Role Labeling, Carreras et al. (2005) note that 8 of the participating teams used Maximum Entropy (ME) and 6 used an SVM (sometimes in combination or both). However, when looking at the averaged F1 scores on the combined test data (WSJ and Brown) for the various approaches (and only when it was the only approach used), it turns out that SVM does somewhat better than ME (73.215 vs. 71.797).<br><br>
 
+Scikitklearn’s Support Vector Machine model was used for this task's argument classification. The train and test dictionaries are used as input. This is then vectorized, using DictVectorizer. Now, Scikitlearn’s LinearSVC(), with a linear kernel, and a max iteration of 10000 is applied. GridSearch finds the best parameters, so the parameter C (regularization), the loss function, and the parameter for tolerance, meaning when the system reaches the optimum.
+
 ### ***Generate training and test instances***<br><br>
 Due to the considerable time all preprocessing steps require (especially the feature extraction using spacy to retrieve the constituents), we cut our datasets down to be able to run the code in a reasonable time.<br>
 The created training instances are composed of the first 1000 sentences of the propbank train file, the test file contains the first 300 sentences of the respective file.<br><br>
@@ -235,8 +237,19 @@ A model takes some instances as input, and outputs some labels. AllenNLP takes a
 The trainer in AllenNLP, gives the input instances to Model.forward(), which is part of the training loop, which in srl_main is the run_training_loop function. The trainer makes everything 1 whole, it uses the model, optimizer, instance, data loader, etc. A vocabulary is built in the run_training_loop function, based on the training data and the development data.<br><br> 
 **Predictor**<br>
 A predictor takes JSON file as input, and also predicts classes in JSON. It is used to predict new instances. In the srl_main.py, there is a Semantic Role Labeler Predictor that takes the model as input, with a sentence, and tries to classify the arguments of the predicates in a sentence.<br> 
+
+After the AllenNLP environment is created, the following command needs to be executed.
+
+```
+cd part2 
+python main_part2.py
+```
+
+In main_part2.py, the training dataset of 2000 sentences is used as the path_to_file_train. This can be changed into ‘../data/input/srl_univprop_en.train.conll’ when the whole dataset is needed. Moreover, then path_to_file_train should also be changed into '../data/intermediate/neuralSRL_train.jsonl'  
+
 In the conll_to_json.py file, only the path_to_file and path_to_output variables need to be changed in order to alter between the training set and the development set. For this purpose, the dataset of the development set is used as the training set and the development set itself. Since the training dataset consists of many instances, running this entire dataset was not considered to be time efficient. Therefore, the training set is reduced to only include 2000 sentences. This smaller dataset is then used as input for the conll_to_json.py, as well as the development set.<br> 
-When the development dataset is used as input, the 2 example sentences are labeled as followed:<br>  
+When the development dataset is used as input, the 2 example sentences are labeled as followed:<br> 
+
 I am running away from here !<br> 
 ['I', 'am', 'running', 'away', 'from', 'here', '!']<br> 
 VERB: am | ARGS: ['0', 'B-V', '0', '0', '0', '0', '0']<br> 
@@ -245,6 +258,7 @@ The paint and wheels looked like glass and the interior looked new !<br>
 ['The', 'paint', 'and', 'wheels', 'looked', 'like', 'glass', 'and', 'the', 'interior', 'looked', 'new', '!']<br> 
 VERB: looked | ARGS: ['0', '0', '0', 'B-ARG0', 'B-V', '0', 'B-ARG1', '0', '0', '0', '0', '0', '0']<br> 
 VERB: looked | ARGS: ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', 'B-V', '0', '0']<br><br> 
+
 As can be seen, the 2 example sentences contain verbs that are correctly labeled as predicates and their arguments. So, we can conclude that the preprocessing works well.<br> 
 
 ## References<br>
