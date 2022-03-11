@@ -138,7 +138,8 @@ Due to the considerable time all preprocessing steps require (especially the fea
 The created training instances are composed of the first 1000 sentences of the propbank train file, the test file contains the first 300 sentences of the respective file.<br><br>
 
 ### ***Train your classifier***<br><br>
-For the training of the classifier our approach uses predicted arguments (system labels) based on the predicted predicates.<br><br>
+For the training of the classifier our approach uses predicted arguments (system labels) based on the predicted predicates. <br>
+For training the SVM, the dataframe is shortened to include only those rows of which the tokens are predicted as arguments. <br><br>
 
 ### ***Test your classifier on the test instances***<br><br>
 The test strategy underlying the following evaluations follows the same approach as our train approach and always considers predictions based on previous predictions, which means that errors from early rule based predictions are propagated to the evaluation of later steps in the pipeline.<br>
@@ -214,11 +215,18 @@ weighted avg      0.969     0.956     0.961     29574
 33     macro avg   0.301708  0.205225  0.217931  1268.000000
 34  weighted avg   0.716584  0.614353  0.638224  1268.000000
 ```
-
-
 Total Processing Time: 104.34 min.<br><br>
 
-
+<br>
+__Discussion of Results__
+The way how we evaluate the classification of the arguments is not only biased by the propagated errors of the previous prediction and argument identification, but also by the restructuring of the data to input it into the classification algorithm.
+As indicated before, we filter for only those lines which we predict to be arguments, so that only those lines are actually considered in the classification. The output of this is then used to create to Argument Classification Matrix, depicted above. <br>
+However, this means that all lines (i.e. tokens) which are actually arguments but which were not identified by us, are filtered out.
+This exclusion of false negatives then results in an artificially high recall score.
+<br>
+This incorrect evaluation is based on the assumption that only the identified arguments should be used for the classification. In contrast, if we were to take all lines into consideration to evaluate on, the overall result would be skewed by the large amount of tokens which are no argument at all (i.e. '\_').
+Therefore, we decided to keep the evaluation as above and to highlight that it is (highly) biased regarding the recall. 
+<br>
 
 Some insights we gained from the made predictions are the following:<br>
 * our system does not realise that there cannot be two ARG0s in one sentence<br>
