@@ -139,7 +139,7 @@ The created training instances are composed of the first 1000 sentences of the p
 
 ### ***Train your classifier***<br><br>
 For the training of the classifier our approach uses predicted arguments (system labels) based on the predicted predicates. <br>
-For training the SVM, the dataframe is shortened to include only those rows of which the tokens are predicted as arguments. <br><br>
+Furthermore, the dataframe is shortened to include only those rows of which the tokens are predicted as arguments. <br><br>
 
 ### ***Test your classifier on the test instances***<br><br>
 The test strategy underlying the following evaluations follows the same approach as our train approach and always considers predictions based on previous predictions, which means that errors from early rule based predictions are propagated to the evaluation of later steps in the pipeline.<br>
