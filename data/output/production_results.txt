@@ -1,0 +1,46 @@
+SRL Assignment 2
+Mode:production
+Predicate Prediction ConfusionMatrix
+
+              precision    recall  f1-score   support
+
+       False      0.997     0.992     0.995     28727
+        True      0.771     0.893     0.828       847
+
+    accuracy                          0.989     29574
+   macro avg      0.884     0.942     0.911     29574
+weighted avg      0.990     0.989     0.990     29574
+
+
+
+Argument Identification ConfusionMatrix
+
+              precision    recall  f1-score   support
+
+       False      0.990     0.964     0.977     28306
+        True      0.495     0.779     0.605      1268
+
+    accuracy                          0.956     29574
+   macro avg      0.742     0.872     0.791     29574
+weighted avg      0.969     0.956     0.961     29574
+
+
+
+Argument Classification ConfusionMatrix
+
+      Unnamed: 0  precision    recall  f1-score    support
+0           ARG0   0.375000  1.000000  0.545455   3.000000
+1           ARG1   1.000000  0.500000  0.666667   8.000000
+2           ARG2   0.000000  0.000000  0.000000   3.000000
+3       ARGM-DIS   0.000000  0.000000  0.000000   1.000000
+4       ARGM-LOC   0.000000  0.000000  0.000000   0.000000
+5       ARGM-MNR   0.000000  0.000000  0.000000   1.000000
+6       ARGM-NEG   0.000000  0.000000  0.000000   0.000000
+7       ARGM-TMP   0.000000  0.000000  0.000000   1.000000
+8              _   1.000000  0.500000  0.666667   2.000000
+9       accuracy   0.421053  0.421053  0.421053   0.421053
+10     macro avg   0.263889  0.222222  0.208754  19.000000
+11  weighted avg   0.585526  0.421053  0.437002  19.000000
+
+
+Total Processing Time: 62.43 min.
