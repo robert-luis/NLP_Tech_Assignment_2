@@ -1,5 +1,10 @@
 part1/.ipynb_checkpoints
-part2/.ipynb_checkpoints
+part1/__pycache__
 part1/otherNotebooks
+part2/.ipynb_checkpoints
+part2/__pycache__
+part2/tools/__pycache__
+part2/NLP_course
+
 data/intermediate/*
 
