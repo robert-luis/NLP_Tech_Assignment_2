@@ -30,7 +30,6 @@ from tools.srl_model_bert import SrlBert
 from tools.srl_model_lstm import SemanticRoleLabelerLSTM
 from tools.srl_predictor import SemanticRoleLabelerPredictor
 
-
 def read_data(reader: DatasetReader, data_paths: Dict) -> Tuple[List[Instance], List[Instance]]:
     print("Reading data")
     training_data = list(reader.read(data_paths['train']))
@@ -133,9 +132,9 @@ if __name__ == '__main__':
     EPOCHS=1
     BATCH_SIZE=32
     GPU_IX=-1
-    TRAIN_PATH = "NLP_course/data/srl_univprop_en.train.jsonl"
-    DEV_PATH = "NLP_course/data/srl_univprop_en.dev.jsonl"
-    SAVE_MODEL_PATH = f"NLP_course/data/model_srl_{MODEL_TYPE}"
+    TRAIN_PATH = "../data/intermediate/neuralSRL_train_2000.jsonl"
+    DEV_PATH = "../data/intermediate/neuralSRL_dev.jsonl"
+    SAVE_MODEL_PATH = f"../data/model_srl_{MODEL_TYPE}"
 
     # Read the Data
     dataset_reader = build_dataset_reader(BERT_MODEL_NAME)
