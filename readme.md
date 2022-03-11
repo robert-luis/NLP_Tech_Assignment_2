@@ -18,7 +18,7 @@ __Output__
 
 Main output containing overview on achieved precision / recall / f1-scores: <br>
 - data/output/production_results.txt<br>
-(https://github.com/robert-luis/NLP_Tech_Assignment_2/data/output/production_results.txt)
+
 
 Other relevant outputs: <br>
 - data/intermediate/production_train_05_identifiedArguments.csv <br>
@@ -26,7 +26,7 @@ Other relevant outputs: <br>
 - data/output/production_06_predictedArguments.csv <br>
 // csv containing predictions for predicates <br>
 
-__Run train and testing of model__ <br>
+__Run train and testing of model__ <br><br>
 
 
 The pipeline can be run with the provided test <br>
@@ -78,7 +78,7 @@ The traditional approach consists of training a classifier to predict the argume
 2. Argument classification<br>
 The first task – the identification of all predicates, and subsequently all arguments, within a sentence – is a prerequisite for the actual task of argument classification since arguments are only arguments in relation to a predicate. The second task – the argument classification – then is to predict which kind of argument (ARG0, ARG1, etc.) can be assigned to each predicted argument in a sentence in relation to one predicate. This is conducted for each predicate in a sentence and for all sentences. Since arguments refer to related semantic roles, we are able to infer semantic roles in sentences by applying this classification task.<br><br>
 
-***Extract predicates and arguments based on the dependency structure***<br><br>
+### ***Extract predicates and arguments based on the dependency structure***<br><br>
 __Predicates Prediction__<br>
 We extracted the predicates based on their universal POS-tag. We considered as possible predicates all verbs (i.e. all tokens in the dataset with the uPOS-tag ‘VERB’ or ‘AUX’). We are aware that by operating in this way we miss out on quite a number of nouns and adjectives which are considered by the gold data as predicates. This mainly applies to nominalized forms of verbs (examples of these in the training data are ‘killing’ in ‘This killing of a respected cleric will be causing us trouble for years to come’ or ‘equivalent’ in ‘The MoI in Iraq is equivalent to the US FBI [...]’.<br><br>
 __Argument Identification__<br>
@@ -86,10 +86,10 @@ For our argument extraction we tried to find all arguments to our predicted pred
 Additionally to this first rule of using the head of the dependents, we also implemented two further simple rules, which exclude punctuation as well as other identified predicates from the set of identified arguments.<br> 
 To find the arguments in sentences with multiple predicates, we duplicated the sentence n times, so as to be able to find the arguments per predicate. One challenge in this is that in some sentences arguments are arguments for different predicates, and only the first one is mentioned in the ‘head’ column.<br><br>
 
-***Describe the classification task for argument classification***<br><br>
+### ***Describe the classification task for argument classification***<br><br>
 To elaborate on the semantic role, each argument has a role that depends on its relation to its predicate. In this way by considering the predicate’s dependency on its constituents, it is possible to identify the possible ARGs in a sentence and to establish their role. For this reason, linguistic information for each argument (including its predicates and constituents) is very important so as to extract the type of ARGs in a sentence.<br><br>
 
-***Make a list of features to extract***<br><br>
+### ***Make a list of features to extract***<br><br>
 *Added features*<br><br>
 **Sentence identifier**<br>
 Adding an identifier to indicate that tokens belong to a sentence, which allows us to go through the data sentence by sentence.<br><br>
@@ -126,21 +126,23 @@ This information - and specifically the information in the dependency (dep) colu
 **Predictions**<br>
 The predicate and argument predictions are also included as features for our model, as they indicate which tokens should be looked at in identifying the argument class.<br><br>
 
-***Select a machine learning algorithm***<br><br>
+### ***Select a machine learning algorithm***<br><br>
 We have decided to use a Support Vector Machine (SVM). This was both based on previous experiences (in the NER task for Machine Learning for NLP, SVM performed slightly better than logistic regression). It is also based on the fact that in the Introduction to the CoNNL-2005 shared task on Semantic Role Labeling, Carreras et al. (2005) note that 8 of the participating teams used Maximum Entropy (ME) and 6 used an SVM (sometimes in combination or both). However, when looking at the averaged F1 scores on the combined test data (WSJ and Brown) for the various approaches (and only when it was the only approach used), it turns out that SVM does somewhat better than ME (73.215 vs. 71.797).<br><br>
 
-***Generate training and test instances***<br><br>
+### ***Generate training and test instances***<br><br>
 Due to the considerable time all preprocessing steps require (especially the feature extraction using spacy to retrieve the constituents), we cut our datasets down to be able to run the code in a reasonable time.<br>
 The created training instances are composed of the first 1000 sentences of the propbank train file, the test file contains the first 300 sentences of the respective file.<br><br>
 
-***Train your classifier***<br><br>
+### ***Train your classifier***<br><br>
 For the training of the classifier our approach uses predicted arguments (system labels) based on the predicted predicates.<br><br>
 
-***Test your classifier on the test instances***<br><br>
+### ***Test your classifier on the test instances***<br><br>
 The test strategy underlying the following evaluations follows the same approach as our train approach and always considers predictions based on previous predictions, which means that errors from early rule based predictions are propagated to the evaluation of later steps in the pipeline.<br>
 The general low level of the achieved results reflect the small amount of training and testing data taken into consideration as described in Section 5.<br>
 
 __Results__<br>
+Taken from (https://github.com/robert-luis/NLP_Tech_Assignment_2/data/output/production_results.txt) <br>
+
 Mode:production<br>
 *Predicate Prediction ConfusionMatrix*<br>
 ```
@@ -214,7 +216,7 @@ Total Processing Time: 104.34 min.<br><br>
 
 
 
-Some insights we gained from the made predictions are <br>ollowing:<br>
+Some insights we gained from the made predictions are the following:<br>
 * our system does not realise that there cannot be two ARG0s in one sentence<br>
 * our system classifies almost all arguments that are not ARG0/1/2/3 etc as ARGM-LOC. This might have to do with our limited training set<br>
 * the last sentence is passive, but unfortunately the dataset does not have 'Voice=Pass' for this verb, so our system did not pick that up<br>
