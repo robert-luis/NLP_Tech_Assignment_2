@@ -17,13 +17,13 @@ __Input__<br>
 __Output__
 
 Main output containing overview on achieved precision / recall / f1-scores: <br>
-- data/output/production_results.txt
+- data/output/production_results.txt<br>
 (https://github.com/robert-luis/NLP_Tech_Assignment_2/data/output/production_results.txt)
 
 Other relevant outputs: <br>
-  // csv containing expanded data incl. predicate and argument identification predictions <br>
+// csv containing expanded data incl. predicate and argument identification predictions <br>
 - data/intermediate/production_train_05_identifiedArguments.csv <br>
-  // csv containing predictions for predicates <br>
+// csv containing predictions for predicates <br>
 - data/output/production_06_predictedArguments.csv <br>
 
 
