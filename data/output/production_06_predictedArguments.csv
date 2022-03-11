@@ -1,20 +1,1269 @@
 sentenceId,sentenceRepetition,id,form,lemma,upos,xpos,morph,head,dep,head_dep,space,predicate_prediction,label_ident_prediction,label_prediction,predicate_gold,label_ident_gold,label_gold,passive,full_constituent,predictions
-0,0,3,AP,AP,PROPN,NNP,Number=Sing,4,obl,4:obl:from,_,False,True,X,False,True,ARG2,False,the AP,ARG0
-0,0,6,story,story,NOUN,NN,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG1,False,this story,ARG0
-1,0,1,President,President,PROPN,NNP,Number=Sing,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,President,ARG0
-1,0,4,Tuesday,Tuesday,PROPN,NNP,Number=Sing,5,obl,5:obl:on,_,False,True,X,False,True,ARGM-TMP,False,Tuesday,ARG0
-1,0,7,individuals,individual,NOUN,NNS,Number=Plur,5,obj,5:obj,_,False,True,X,False,True,ARG1,False,two individuals,ARG1
-1,1,8,to,to,PART,TO,_,9,mark,9:mark,_,False,True,X,False,False,_,False,to,_
-1,1,11,jurists,jurist,NOUN,NNS,Number=Plur,9,obj,9:obj,_,False,True,X,False,True,ARG1,False,retiring jurists on federal courts in the Washington area,ARG1
-2,0,1,Bush,Bush,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,Bush,ARG0
-2,0,3,Jennifer,Jennifer,PROPN,NNP,Number=Sing,2,obj,2:obj,_,False,True,X,False,True,ARG1,False,Jennifer,ARG1
-2,0,11,term,term,NOUN,NN,Number=Sing,2,obl,2:obl:for,_,False,True,X,False,True,ARG2,False,a 15 - year term as associate judge of the Superior Court of the District of Columbia,ARGM-LOC
-2,1,26,Steffen,Steffen,PROPN,NNP,Number=Sing,25,obj,25:obj,_,False,True,X,False,True,ARG1,False,Steffen,ARGM-LOC
-3,0,1,Bush,Bush,PROPN,NNP,Number=Sing,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,Bush,ARG0
-3,0,2,also,also,ADV,RB,_,3,advmod,3:advmod,_,False,True,X,False,True,ARGM-DIS,False,also,ARGM-NEG
-3,0,4,A.,A.,PROPN,NNP,Number=Sing,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,A.,ARG1
-3,0,13,term,term,NOUN,NN,Number=Sing,3,obl,3:obl:for,_,False,True,X,False,True,ARG2,False,a 15 - year term as associate judge of the District of Columbia Court of Appeals,ARGM-LOC
-3,1,27,John,John,PROPN,NNP,Number=Sing,26,obj,26:obj,_,False,True,X,False,True,ARG1,False,John,ARGM-LOC
-4,2,2,sheikh,sheikh,NOUN,NN,Number=Sing,9,nsubj:pass,9:nsubj:pass,_,False,True,X,False,True,ARG1,False,The sheikh in wheel - chair,ARG0
-4,2,17,bomb,bomb,NOUN,NN,Number=Sing,9,obl,9:obl:with,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,False,a F - 16 - launched bomb,ARGM-LOC
-4,3,12,F,f,NOUN,NN,Number=Sing,16,compound,16:compound,SpaceAfter=No,False,True,X,False,False,_,False,F,ARG0
+0,0,2,if,if,SCONJ,IN,_,4,mark,4:mark,_,False,True,X,False,False,_,False,if,_
+0,0,3,Google,Google,PROPN,NNP,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG1,False,Google,ARG0
+0,0,6,GoogleOS,GoogleOS,PROPN,NNP,Number=Sing,4,obl,4:obl:into,SpaceAfter=No,False,True,X,False,True,ARG2,False,GoogleOS,ARGM-GOL
+1,0,2,if,if,SCONJ,IN,_,4,mark,4:mark,_,False,True,X,False,False,_,False,if,_
+1,0,3,Google,Google,PROPN,NNP,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,Google,ARG0
+1,0,15,wares,wares,NOUN,NNS,Number=Plur,4,obl,4:obl:on,_,False,True,X,False,True,ARG1,False,mail,C-V
+1,0,22,system,system,NOUN,NN,Number=Sing,4,obl,4:obl:into,SpaceAfter=No,False,True,X,False,True,ARG4,False,full - fledged,ARGM-PRP
+4,1,3,post,post,NOUN,NN,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,This BuzzMachine post,ARG0
+4,4,5,that,that,SCONJ,IN,_,12,mark,12:mark,_,False,True,X,False,False,_,False,that,_
+4,4,8,rush,rush,NOUN,NN,Number=Sing,12,nsubj,12:nsubj,_,False,True,X,False,True,ARG1,False,Google 's rush toward ubiquity,ARG0
+4,6,14,which,which,PRON,WDT,PronType=Rel,18,obj,12:ref,_,False,True,X,False,True,ARG1,False,which,R-ARG1
+4,6,15,we,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,18,nsubj,18:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,we,ARG0
+4,6,17,all,all,ADV,RB,_,18,advmod,18:advmod,_,False,True,X,False,True,ARGM-ADV,False,ve,R-ARGM-MNR
+4,6,19,before,before,ADV,RB,_,18,advmod,18:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,which we ' ve all heard before,R-ARGM-MNR
+4,8,21,but,but,CCONJ,CC,_,27,cc,27:cc,_,False,True,X,False,False,_,False,",",_
+4,8,22,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,27,nsubj:pass,27:nsubj:pass,SpaceAfter=No,False,True,X,False,False,_,False,but,ARG1
+4,8,24,particularly,particularly,ADV,RB,_,27,advmod,27:advmod,_,False,True,X,False,False,_,False,it 's particularly well - put in this post.,R-ARGM-MNR
+4,8,25,well,well,ADV,RB,Degree=Pos,27,advmod,27:advmod,SpaceAfter=No,False,True,X,False,False,_,False,particularly,R-ARGM-MNR
+4,8,30,post,post,NOUN,NN,Number=Sing,27,obl,27:obl:in,SpaceAfter=No,False,True,X,False,False,_,False,this,ARGM-ADJ
+6,1,2,anybody,anybody,PRON,NN,Number=Sing,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,anybody,ARG0
+6,1,4,it,it,PRON,PRP,Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,it,ARG1
+6,1,6,anything,anything,PRON,NN,Number=Sing,3,obl,3:obl:for,_,False,True,X,False,True,ARG2,False,anything else,R-ARGM-MNR
+7,0,1,They,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,They,ARG0
+7,0,3,blogger,blogger,PROPN,NNP,Number=Sing,2,obj,2:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,blogger,ARG1
+7,0,5,of,of,ADV,RB,_,2,advmod,2:advmod,_,False,True,X,False,True,ARGM-ADV,False,of course,R-ARGM-MNR
+9,1,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,3,nsubj,3:nsubj,SpaceAfter=No,False,True,X,False,True,ARG1,False,I,ARG0
+9,1,4,away,away,ADV,RB,_,3,advmod,3:advmod,_,False,True,X,False,True,ARG3,False,I ' m staying away from the stock.,R-ARGM-MNR
+10,0,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+10,1,6,who,who,PRON,WP,PronType=Rel,8,nsubj,5:ref,_,False,True,X,False,True,R-ARG0,False,who,R-ARG0
+10,1,7,actually,actually,ADV,RB,_,8,advmod,8:advmod,_,False,True,X,False,True,ARGM-ADV,False,actually,R-ARGM-MNR
+10,1,10,blog,blog,NOUN,NN,Number=Sing,8,obj,8:obj,_,False,True,X,False,True,ARG1,False,my blog,ARG1
+10,3,5,few,few,ADJ,JJ,Degree=Pos,13,nsubj,8:nsubj|13:nsubj,_,False,True,X,False,True,ARG0,False,the very few who actually read my blog,ARG0
+10,3,12,not,not,PART,RB,_,13,advmod,13:advmod,_,False,True,X,False,True,ARGM-NEG,False,not,ARGM-NEG
+10,3,15,this,this,PRON,DT,Number=Sing|PronType=Dem,13,obl,13:obl:across,_,False,True,X,False,True,ARG1,False,this,R-ARGM-MNR
+10,3,16,yet,yet,ADV,RB,_,13,advmod,13:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,yet,R-ARGM-MNR
+10,4,18,but,but,CCONJ,CC,_,20,cc,20:cc,_,False,True,X,False,False,_,False,but,_
+10,4,19,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,20,nsubj,20:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+10,6,21,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,23,nsubj,23:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+10,6,24,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,23,obj,23:obj,_,False,True,X,False,True,ARG1,False,it,ARG1
+10,6,26,there,there,ADV,RB,PronType=Dem,23,advmod,23:advmod,_,False,True,X,False,True,ARG2,False,out there,R-ARGM-MNR
+10,6,27,anyways,anyways,ADV,RB,_,23,advmod,23:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-ADV,False,anyways,C-V
+11,1,1,John,John,PROPN,NNP,Number=Sing,6,nsubj,6:nsubj,_,False,True,X,False,True,ARG0,False,John,ARG0
+11,1,7,out,out,ADP,RP,_,6,compound:prt,6:compound:prt,_,False,True,X,False,False,_,False,John Donovan from Argghhh! has put out a excellent slide show on what was actually found and fought for in Fallujah.,_
+11,1,11,show,show,NOUN,NN,Number=Sing,6,obj,6:obj,_,False,True,X,False,True,ARG1,False,slide,ARG1
+11,4,15,actually,actually,ADV,RB,_,16,advmod,16:advmod,_,False,True,X,False,True,ARGM-ADV,False,was,R-ARGM-MNR
+11,4,21,Fallujah,Fallujah,PROPN,NNP,Number=Sing,16,obl,16:obl:in,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,False,in Fallujah,ARGM-GOL
+11,5,17,and,and,CCONJ,CC,_,18,cc,18:cc,_,False,True,X,False,False,_,False,what was actually found and fought for in Fallujah,_
+11,5,19,for,for,ADP,IN,_,18,obl,18:obl,_,False,True,X,False,True,ARG2,False,fought for in Fallujah,_
+12,0,2,here,here,ADV,RB,PronType=Dem,1,advmod,1:advmod,_,False,True,X,False,True,ARGM-GOL,False,here,R-ARGM-MNR
+12,1,3,To,to,PART,TO,_,4,mark,4:mark,_,False,True,X,False,False,_,False,To,_
+12,1,5,it,it,PRON,PRP,Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs,4,obj,4:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,it,ARG1
+13,0,1,He,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,False,_,False,He,ARG0
+13,0,5,observations,observation,NOUN,NNS,Number=Plur,2,obj,2:obj,_,False,True,X,False,True,ARGM-PRR,False,some good observations on a few of the pic 's,ARG1
+14,0,1,One,one,NUM,CD,NumType=Card,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,One of the pictures,ARG0
+14,0,7,flag,flag,NOUN,NN,Number=Sing,5,obj,5:obj|10:nsubj:pass,_,False,True,X,False,True,ARG1,False,a flag that was found in Fallujah,ARG1
+14,2,8,that,that,PRON,WDT,PronType=Rel,10,nsubj:pass,7:ref,_,False,True,X,False,True,R-ARG1,True,that,R-ARG0
+14,2,12,Fallujah,Fallujah,PROPN,NNP,Number=Sing,10,obl,10:obl:in,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,True,Fallujah,ARGM-GOL
+15,0,5,pictures,picture,NOUN,NNS,Number=Plur,7,obl,7:obl:on,_,False,True,X,False,False,_,False,the next two pictures,R-ARGM-DIR
+15,0,6,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,7,nsubj,7:nsubj,_,False,True,X,False,False,_,False,he,ARG0
+15,0,8,screenshots,screenshot,NOUN,NNS,Number=Plur,7,obj,7:obj,_,False,True,X,False,True,ARGM-PRR,False,screenshots of two beheading video 's,ARG1
+16,0,3,flags,flag,NOUN,NNS,Number=Plur,1,obj,1:obj,_,False,True,X,False,True,ARG1,False,the flags,ARG1
+16,0,7,one,one,NOUN,NN,Number=Sing,1,obl,1:obl:to,SpaceAfter=No,False,True,X,False,True,ARG2,False,one,ARGM-ADJ
+17,0,1,You,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,2,nsubj,2:nsubj|4:nsubj:xsubj,_,False,True,X,False,False,_,False,You,ARG0
+17,0,10,amazing,amazing,ADJ,JJ,Degree=Pos,2,ccomp,2:ccomp,SpaceAfter=No,False,True,X,False,False,_,False,amazing,ARG1
+17,1,3,to,to,PART,TO,_,4,mark,4:mark,_,False,True,X,False,False,_,False,to,_
+17,1,6,slides,slide,NOUN,NNS,Number=Plur,4,obj,4:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,these slides,ARG1
+18,2,3,operation,operation,NOUN,NN,Number=Sing,5,nsubj,5:nsubj|12:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,This Fallujah operation my turn out to be the most important operation done by the US Military since the end of the war.,ARG0
+18,2,6,out,out,ADP,RP,_,5,compound:prt,5:compound:prt,_,False,True,X,False,False,_,False,out,_
+18,2,12,operation,operation,NOUN,NN,Number=Sing,5,xcomp,5:xcomp,_,False,True,X,False,True,ARG2,False,the most important operation done by the US Military since the end of the war,ARGM-ADJ
+18,5,17,Military,military,NOUN,NN,Number=Sing,13,obl,13:obl:by,_,False,True,X,False,True,ARG0,False,the US Military,ARGM-ADJ
+18,5,20,end,end,NOUN,NN,Number=Sing,13,obl,13:obl:since,_,False,True,X,False,True,ARGM-TMP,False,the end of the war,ARGM-ADJ
+19,0,2,me,I,PRON,PRP,Case=Acc|Number=Sing|Person=1|PronType=Prs,1,obj,1:obj|3:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,me,ARG1
+19,1,5,chorus,chorus,NOUN,NN,Number=Sing,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,"the chorus of annoyance over Google 's new toolbar , which , as noted in the linked article , commits just about every sin an online marketer could commit , and makes up a few new ones besides",ARG1
+19,3,16,as,as,SCONJ,IN,_,17,mark,17:mark,_,False,True,X,False,False,_,False,as,_
+19,3,21,article,article,NOUN,NN,Number=Sing,17,obl,17:obl:in,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,False,the linked article,ARGM-GOL
+19,5,14,which,which,PRON,WDT,PronType=Rel,23,nsubj,12:ref,SpaceAfter=No,False,True,X,False,True,R-ARG0,False,which,R-ARG1
+19,5,27,sin,sin,NOUN,NN,Number=Sing,23,obj,23:obj,_,False,True,X,False,True,ARG1,False,just about every sin an online marketer could commit,ARG1
+19,7,30,marketer,marketer,NOUN,NN,Number=Sing,32,nsubj,32:nsubj,_,False,True,X,False,True,ARG0,False,an online marketer,ARG0
+19,8,34,and,and,CCONJ,CC,_,35,cc,35:cc,_,False,True,X,False,False,_,False,and,_
+19,8,36,up,up,ADP,RP,_,35,compound:prt,35:compound:prt,_,False,True,X,False,False,_,False,up,_
+19,8,40,ones,one,NOUN,NNS,Number=Plur,35,obj,35:obj,_,False,True,X,False,True,ARG1,False,a few new ones,ARG1
+19,8,41,besides,besides,ADV,RB,_,35,advmod,35:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-ADV,False,besides,C-V
+20,2,7,Google,Google,PROPN,NNP,Number=Sing,9,nsubj,9:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,the,ARG0
+20,2,11,privacy,privacy,NOUN,NN,Number=Sing,9,obj,9:obj,_,False,True,X,False,True,ARG1,False,-,ARG1
+21,1,2,You,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,5,nsubj,5:nsubj|7:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,You,ARG0
+21,1,4,n't,not,PART,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+21,2,6,to,to,PART,TO,_,7,mark,7:mark,_,False,True,X,False,False,_,False,to,_
+21,2,9,site,site,NOUN,NN,Number=Sing,7,obj,7:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,their site,ARG1
+21,4,11,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,13,nsubj,13:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+21,4,15,out,out,ADP,RP,_,13,compound:prt,13:compound:prt,_,False,True,X,False,True,ARGM-PRD,False,", you can opt - out of sharing your information",_
+21,5,16,of,of,SCONJ,IN,_,17,mark,17:mark,_,False,True,X,False,False,_,False,of sharing your information,_
+21,5,19,information,information,NOUN,NN,Number=Sing,17,obj,17:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,your information,ARG1
+21,7,21,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,24,nsubj,24:nsubj|26:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+21,7,23,n't,not,PART,RB,_,24,advmod,24:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+21,8,25,to,to,PART,TO,_,26,mark,26:mark,_,False,True,X,False,False,_,False,to,_
+21,8,27,stuff,stuff,NOUN,NN,Number=Sing,26,obj,26:obj,_,False,True,X,False,True,ARG1,False,stuff,ARG1
+21,8,29,anyone,anyone,PRON,NN,Number=Sing,26,obl,26:obl:to,_,False,True,X,False,True,ARG2,False,anyone with a Gmail account,ARGM-ADJ
+21,14,45,that,that,SCONJ,IN,_,48,mark,48:mark,_,False,True,X,False,False,_,False,that,_
+21,14,46,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,48,nsubj,48:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+21,14,49,something,something,PRON,NN,Number=Sing,48,obj,48:obj,_,False,True,X,False,True,ARG1,False,something,ARG1
+21,14,51,someone,someone,PRON,NN,Number=Sing,48,obl,48:obl:to|54:nsubj,_,False,True,X,False,True,ARG2,False,someone who would forward an excerpt to someone who would then store it on a Gmail account,ARGM-ADJ
+21,16,52,who,who,PRON,WP,PronType=Rel,54,nsubj,51:ref,_,False,True,X,False,True,R-ARG0,False,who,R-ARG0
+21,16,56,excerpt,excerpt,NOUN,NN,Number=Sing,54,obj,54:obj,_,False,True,X,False,True,ARG1,False,an excerpt,ARG1
+21,16,58,someone,someone,PRON,NN,Number=Sing,54,obl,54:obl:to|62:nsubj,_,False,True,X,False,True,ARG2,False,someone who would then store it on a Gmail account,ARGM-ADJ
+21,18,59,who,who,PRON,WP,PronType=Rel,62,nsubj,58:ref,_,False,True,X,False,True,R-ARG0,False,who,R-ARG0
+21,18,61,then,then,ADV,RB,PronType=Dem,62,advmod,62:advmod,_,False,True,X,False,True,ARGM-TMP,False,then,R-ARGM-MNR
+21,18,63,it,it,PRON,PRP,Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs,62,obj,62:obj,_,False,True,X,False,True,ARG1,False,it,ARG1
+21,18,67,account,account,NOUN,NN,Number=Sing,62,obl,62:obl:on,SpaceAfter=No,False,True,X,False,True,ARG2,False,a Gmail account,ARGM-ADJ
+21,19,35,and,and,CCONJ,CC,_,70,cc,70:cc,_,False,True,X,False,False,_,False,and,_
+21,19,44,worried,worried,ADJ,JJ,Degree=Pos,70,advcl,70:advcl:if,_,False,True,X,False,True,ARGM-ADV,False,worried that you might send something to someone who would forward an excerpt to someone who would then store it on a Gmail account,R-ARGM-CAU
+21,19,69,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,70,nsubj,70:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+21,19,76,time,time,NOUN,NN,Number=Sing,70,obj,70:obj,_,False,True,X,False,True,ARG1,False,"far , far too much time",ARG1
+21,19,79,hands,hand,NOUN,NNS,Number=Plur,70,obl,70:obl:on,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,False,your hands,ARGM-ADJ
+23,0,4,hand,hand,NOUN,NN,Number=Sing,7,obl,7:obl:on,SpaceAfter=No,False,True,X,False,True,ARGM-ADV,False,the other hand,R-ARGM-DIR
+23,0,6,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,7,nsubj,7:nsubj|9:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,it,ARG0
+23,0,9,cool,cool,ADJ,JJ,Degree=Pos,7,xcomp,7:xcomp,SpaceAfter=No,False,True,X,False,True,ARG1,False,pretty cool,R-ARGM-DIR
+24,0,1,Iran,Iran,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,Iran,ARG0
+24,2,3,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,it,ARG0
+24,2,7,energy,energy,NOUN,NN,Number=Sing,5,obj,5:obj,_,False,True,X,False,True,ARG1,False,nuclear energy,ARG1
+24,3,8,without,without,SCONJ,IN,_,9,mark,9:mark,_,False,True,X,False,False,_,False,without wanting nuclear weapons,_
+24,3,11,weapons,weapon,NOUN,NNS,Number=Plur,9,obj,9:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,nuclear weapons,ARG1
+25,1,3,States,States,PROPN,NNP,Number=Sing,6,nsubj,6:nsubj,_,False,True,X,False,True,ARG0,False,The United States,ARG0
+25,1,5,n't,not,PART,RB,_,6,advmod,6:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+25,1,9,Government,government,NOUN,NN,Number=Sing,6,obj,6:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,the Iranian Government,ARG1
+26,1,1,One,one,PRON,PRP,_,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,One,ARG0
+26,1,6,Government,government,NOUN,NN,Number=Sing,3,obj,3:obj,SpaceAfter=No,False,True,X,False,True,ARG2,False,the Iranian Government,ARG1
+27,0,1,But,but,CCONJ,CC,_,3,cc,3:cc,_,False,True,X,False,True,ARGM-DIS,False,But,ARGM-DIS
+27,0,2,there,there,PRON,EX,_,3,expl,3:expl,_,False,True,X,False,False,_,False,there,_
+27,0,5,proof,proof,NOUN,NN,Number=Sing,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG1,False,no proof,ARG0
+28,0,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+28,0,4,Article,article,NOUN,NN,Number=Sing,2,obj,2:obj,_,False,True,X,False,True,ARG1,False,an Article in Time magazine accusing the Iranian Government of being willing to start a nuclear war,ARG1
+28,1,11,Government,government,NOUN,NN,Number=Sing,8,obj,8:obj,_,False,True,X,False,True,ARG1,False,the Iranian Government,ARG1
+28,1,14,willing,willing,ADJ,JJ,Degree=Pos,8,advcl,8:advcl:of,_,False,True,X,False,True,ARG2,False,willing to start a nuclear war,C-V
+28,4,15,to,to,PART,TO,_,16,mark,16:mark,_,False,True,X,False,False,_,False,to,_
+28,4,19,war,war,NOUN,NN,Number=Sing,16,obj,16:obj,_,False,True,X,False,True,ARG1,False,a nuclear war,ARG1
+28,6,20,and,and,CCONJ,CC,_,22,cc,22:cc,_,False,True,X,False,False,_,False,and,_
+28,6,21,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,22,nsubj,22:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+28,6,25,Article,article,NOUN,NN,Number=Sing,22,obl,22:obl:with,SpaceAfter=No,False,True,X,False,True,ARG1,False,the Article,ARGM-ADJ
+30,1,2,President,President,PROPN,NNP,Number=Sing,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,The President,ARG0
+30,1,4,also,also,ADV,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-DIS,False,also,R-ARGM-MNR
+30,3,6,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,8,nsubj,8:nsubj|10:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,he,ARG0
+30,4,9,to,to,PART,TO,_,10,mark,10:mark,_,False,True,X,False,False,_,False,to,_
+30,4,11,Israel,Israel,PROPN,NNP,Number=Sing,10,obj,10:obj|12:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,Israel,ARG1
+30,5,15,map,map,NOUN,NN,Number=Sing,12,obl,12:obl:off,_,False,True,X,False,True,ARG2,False,the map he could n't even begin which to try without nuclear weapons,ARGM-ADJ
+30,5,16,which,which,PRON,WDT,PronType=Int,12,obj,12:obj,_,False,True,X,False,False,_,False,which,ARG1
+30,7,17,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,21,nsubj,21:nsubj|23:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,he,ARG0
+30,7,19,n't,not,PART,RB,_,21,advmod,21:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+30,7,20,even,even,ADV,RB,_,21,advmod,21:advmod,_,False,True,X,False,True,ARGM-ADV,False,even,R-ARGM-MNR
+30,8,22,to,to,PART,TO,_,23,mark,23:mark,_,False,True,X,False,False,_,False,to,_
+30,8,26,weapons,weapon,NOUN,NNS,Number=Plur,23,obl,23:obl:without,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,False,nuclear weapons,ARGM-ADJ
+31,1,1,But,but,CCONJ,CC,_,4,cc,4:cc,_,False,True,X,False,True,ARGM-DIS,False,But,ARGM-DIS
+31,1,2,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,he,ARG0
+31,2,5,that,that,SCONJ,IN,_,7,mark,7:mark,_,False,True,X,False,False,_,False,that,_
+31,2,6,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,7,nsubj,7:nsubj,_,False,True,X,False,True,ARG0,False,he,ARG0
+31,2,9,power,power,NOUN,NN,Number=Sing,7,obj,7:obj,_,False,True,X,False,True,ARG1,False,nuclear power for peaceful purposes,ARG1
+31,2,12,purposes,purpose,NOUN,NNS,Number=Plur,7,obl,7:obl:for,SpaceAfter=No,False,True,X,False,True,ARGM-PRP,False,peaceful purposes,ARGM-ADJ
+32,0,2,people,people,NOUN,NNS,Number=Plur,3,nsubj,3:nsubj|5:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,Many people,ARG0
+32,1,4,to,to,PART,TO,_,5,mark,5:mark,_,False,True,X,False,False,_,False,to,_
+32,1,6,diplomacy,diplomacy,NOUN,NN,Number=Sing,5,obj,5:obj,_,False,True,X,False,True,ARG1,False,diplomacy,ARG1
+32,1,8,Iran,Iran,PROPN,NNP,Number=Sing,5,obl,5:obl:with,_,False,True,X,False,True,ARGM-GOL,False,Iran rather than,ARGM-GOL
+32,1,12,pressure,pressure,NOUN,NN,Number=Sing,5,obl,5:obl:rather_than,SpaceAfter=No,False,True,X,False,True,ARGM-ADV,False,military pressure,ARGM-ADJ
+33,1,1,But,but,CCONJ,CC,_,4,cc,4:cc,_,False,True,X,False,True,ARGM-DIS,False,But,ARGM-DIS
+33,1,3,diplomacy,diplomacy,NOUN,NN,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG1,False,diplomacy,ARG0
+34,1,1,And,and,CCONJ,CC,_,4,cc,4:cc,_,False,True,X,False,True,ARGM-DIS,False,And,_
+34,1,3,anyone,anyone,PRON,NN,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,anyone,ARG0
+34,1,6,pressure,pressure,NOUN,NN,Number=Sing,4,obj,4:obj,_,False,True,X,False,True,ARG1,False,military pressure,ARG1
+34,1,8,proof,proof,NOUN,NN,Number=Sing,4,obl,4:obl:without,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,False,proof,ARGM-ADJ
+35,0,2,reader,reader,NOUN,NN,Number=Sing,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,One reader,ARG0
+35,0,4,out,out,ADP,RP,_,3,compound:prt,3:compound:prt,_,False,True,X,False,False,_,False,out,_
+35,1,5,that,that,SCONJ,IN,_,8,mark,8:mark,_,False,True,X,False,False,_,False,that,_
+35,1,7,President,President,PROPN,NNP,Number=Sing,8,nsubj,8:nsubj,_,False,True,X,False,True,ARG0,False,the President,ARG0
+35,1,10,Americans,Americans,PROPN,NNPS,Number=Plur,8,obj,8:obj,_,False,True,X,False,True,ARG1,False,the Americans in the embassy,ARG1
+35,2,14,when,when,ADV,WRB,PronType=Int,16,mark,16:mark,_,False,True,X,False,True,ARGM-TMP,False,when,ARGM-TMP
+35,2,15,they,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,16,nsubj,16:nsubj,_,False,True,X,False,True,ARG0,False,they,ARG0
+35,2,17,them,they,PRON,PRP,Case=Acc|Number=Plur|Person=3|PronType=Prs,16,obj,16:obj|18:nsubj:xsubj,_,False,True,X,False,False,_,False,them,ARG1
+35,2,18,hostage,hostage,NOUN,NN,Number=Sing,16,xcomp,16:xcomp,SpaceAfter=No,False,True,X,False,True,ARG2,False,hostage,R-ARGM-DIR
+36,1,1,He,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,He,ARG0
+36,1,4,this,this,PRON,DT,Number=Sing|PronType=Dem,3,obj,3:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,this,ARG1
+37,1,1,We,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,4,nsubj,4:nsubj|6:nsubj:xsubj,_,False,True,X,False,False,_,False,We,ARG0
+37,1,3,n't,not,PART,RB,_,4,advmod,4:advmod,_,False,True,X,False,False,_,False,n't,ARGM-NEG
+37,2,5,to,to,PART,TO,_,6,mark,6:mark,_,False,True,X,False,False,_,False,to,_
+37,2,7,him,he,PRON,PRP,Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs,6,obj,6:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,him,ARG1
+38,1,1,But,but,CCONJ,CC,_,5,cc,5:cc,_,False,True,X,False,True,ARGM-DIS,False,But,ARGM-DIS
+38,1,2,we,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,we,ARG0
+38,1,4,n't,not,PART,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+38,1,6,it,it,PRON,PRP,Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs,5,obj,5:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,it,ARG1
+39,1,1,It,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,3,expl,3:expl,_,False,True,X,False,False,_,False,It,R-ARGM-MNR
+39,2,4,that,that,SCONJ,IN,_,7,mark,7:mark,_,False,True,X,False,False,_,False,that,_
+39,2,5,Iranians,Iranians,PROPN,NNPS,Number=Plur,7,nsubj,7:nsubj|11:nsubj,_,False,True,X,False,False,_,False,Iranians,ARG0
+39,2,6,frequently,frequently,ADV,RB,_,7,advmod,7:advmod,_,False,True,X,False,False,_,False,frequently,R-ARGM-MNR
+39,2,8,statements,statement,NOUN,NNS,Number=Plur,7,obj,7:obj,_,False,True,X,False,True,ARGM-PRR,False,statements,ARG1
+39,4,9,and,and,CCONJ,CC,_,11,cc,11:cc,_,False,True,X,False,False,_,False,and,_
+39,4,10,then,then,ADV,RB,PronType=Dem,11,advmod,11:advmod,_,False,True,X,False,True,ARGM-TMP,False,then,R-ARGM-MNR
+39,4,13,lack,lack,NOUN,NN,Number=Sing,11,obl,11:obl:behind,_,False,True,X,False,True,ARGM-LOC,False,lack of proof,ARGM-ADJ
+40,0,2,crowds,crowd,NOUN,NNS,Number=Plur,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,Angry crowds,ARG0
+40,0,5,slogans,slogan,NOUN,NNS,Number=Plur,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,-,ARG1
+40,0,9,city,city,NOUN,NN,Number=Sing,3,obl,3:obl:in,_,False,True,X,False,True,ARGM-LOC,False,the,R-ARG2
+40,1,25,incident,incident,NOUN,NN,Number=Sing,20,obl,20:obl:in,_,False,True,X,False,True,ARG2,False,a,R-ARGM-DIR
+40,1,28,troops,troops,NOUN,NNS,Number=Plur,20,obl,20:obl:by,_,False,True,X,False,True,ARG0,False,a friendly fire incident by US troops,R-ARGM-DIR
+40,4,16,as,as,SCONJ,IN,_,30,mark,30:mark,_,False,True,X,False,False,_,False,". 256,000",_
+40,4,19,police,police,NOUN,NNS,Number=Plur,30,nsubj:pass,30:nsubj:pass,_,False,True,X,False,True,ARG1,False,as,ARG1
+40,4,32,Saturday,Saturday,PROPN,NNP,Number=Sing,30,obl,30:obl:on,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,were,ARGM-GOL
+41,0,1,Reuters,Reuters,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,Reuters,ARG0
+41,1,3,that,that,SCONJ,IN,_,10,mark,10:mark,_,False,True,X,False,False,_,False,that,_
+41,1,6,clerics,cleric,NOUN,NNS,Number=Plur,10,nsubj,10:nsubj,_,False,True,X,False,True,ARG0,False,Sunni clerics in the town,ARG0
+41,1,13,Declaration,declaration,NOUN,NN,Number=Sing,10,obj,10:obj,_,False,True,X,False,True,ARG1,False,a ' Declaration by the people of Fallujah ' condemning the deaths of the security guards and police,ARG1
+41,3,22,deaths,death,NOUN,NNS,Number=Plur,20,obj,20:obj,_,False,True,X,False,True,ARG1,False,the deaths of the security guards and police,ARG1
+41,5,32,days,day,NOUN,NNS,Number=Plur,30,obj,30:obj,_,False,True,X,False,True,ARG1,False,three days of mourning,ARG1
+41,6,36,and,and,CCONJ,CC,_,37,cc,37:cc,_,False,True,X,False,False,_,False,and,_
+41,6,41,strike,strike,NOUN,NN,Number=Sing,37,obl,37:obl:for,_,False,True,X,False,True,ARG1,False,a general strike,R-ARGM-DIR
+42,0,1,It,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG1,False,It,ARG0
+42,1,6,people,people,NOUN,NNS,Number=Plur,9,nsubj,9:nsubj,_,False,True,X,False,True,ARG0,False,The people of Fallujah,ARG0
+42,1,11,massacre,massacre,NOUN,NN,Number=Sing,9,obj,9:obj|14:nsubj:pass,_,False,True,X,False,True,ARG1,False,the massacre which was committed on Friday against people dedicated to the protection of Fallujah,ARG1
+42,3,12,which,which,PRON,WDT,PronType=Rel,14,nsubj:pass,11:ref,_,False,True,X,False,True,R-ARG1,False,which,R-ARG1
+42,3,16,Friday,Friday,PROPN,NNP,Number=Sing,14,obl,14:obl:on,_,False,True,X,False,True,ARGM-TMP,False,Friday,ARGM-GOL
+42,3,18,people,people,NOUN,NNS,Number=Plur,14,obl,14:obl:against,_,False,True,X,False,True,ARGM-GOL,False,people dedicated to the protection of Fallujah,R-ARGM-MNR
+43,0,6,leaders,leader,NOUN,NNS,Number=Plur,1,obj,1:obj|9:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,aggressive ( American ) leaders and soldiers,ARG1
+43,1,13,capable,capable,ADJ,JJ,Degree=Pos,9,ccomp,9:ccomp,_,False,True,X,False,True,ARG1,False,capable of protecting the city 's security and safety,ARG1
+43,4,14,of,of,SCONJ,IN,_,15,mark,15:mark,_,False,True,X,False,False,_,False,of protecting the city 's security and safety,_
+43,4,19,security,security,NOUN,NN,Number=Sing,15,obj,15:obj,_,False,True,X,False,True,ARG1,False,the city 's security and safety,ARG1
+43,5,23,and,and,CCONJ,CC,_,24,cc,24:cc,_,False,True,X,False,False,_,False,and,_
+43,5,25,them,they,PRON,PRP,Case=Acc|Number=Plur|Person=3|PronType=Prs,24,iobj,24:iobj,_,False,True,X,False,True,ARG2,False,them,R-ARGM-MNR
+43,6,26,to,to,PART,TO,_,27,mark,27:mark,_,False,True,X,False,False,_,False,to,_
+43,6,29,hands,hand,NOUN,NNS,Number=Plur,27,obj,27:obj,_,False,True,X,False,True,ARG1,False,their hands,ARG1
+43,6,32,city,city,NOUN,NN,Number=Sing,27,obl,27:obl:from,SpaceAfter=No,False,True,X,False,True,ARG3,False,the city,ARGM-GOL
+44,0,2,clerics,cleric,NOUN,NNS,Number=Plur,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,The clerics,ARG0
+44,0,4,talks,talk,NOUN,NNS,Number=Plur,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,talks with local US commanders,ARG1
+45,2,1,Falluja,Falluja,PROPN,NNP,Number=Sing,5,nsubj:pass,5:nsubj:pass,_,False,True,X,False,True,ARG1,False,Falluja,ARG1
+45,2,3,long,long,ADV,RB,Degree=Pos,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-TMP,False,long,R-ARGM-MNR
+45,2,8,relations,relation,NOUN,NNS,Number=Plur,5,obl,5:obl:by,_,False,True,X,False,True,ARG0,False,tense relations with the US soldiers,R-ARGM-MNR
+45,4,15,since,since,SCONJ,IN,_,19,mark,19:mark,_,False,True,X,False,False,_,False,since,_
+45,4,17,Sunnis,Sunnis,PROPN,NNPS,Number=Plur,19,nsubj,19:nsubj|20:nsubj:xsubj|26:nsubj:xsubj|28:nsubj:xsubj|31:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,local Sunnis,ARG0
+45,4,20,committed,committed,ADJ,JJ,Degree=Pos,19,xcomp,19:xcomp,_,False,True,X,False,True,ARG3,False,committed to Arab nationalism,R-ARGM-MNR
+45,7,24,or,or,CCONJ,CC,_,26,cc,26:cc,_,False,True,X,False,False,_,False,or,_
+45,7,28,fundamentalists,fundamentalist,NOUN,NNS,Number=Plur,26,xcomp,26:xcomp,_,False,True,X,False,True,ARG2,False,Sunni fundamentalists or even radicals,R-ARGM-MNR
+46,0,1,Cities,city,NOUN,NNS,Number=Plur,5,nsubj,5:nsubj|11:nsubj,_,False,True,X,False,True,ARG0,False,Cities such as Falluja,ARG0
+46,0,7,treatment,treatment,NOUN,NN,Number=Sing,5,obj,5:obj,_,False,True,X,False,True,ARG1,False,special treatment from Saddam,ARG1
+46,0,9,Saddam,Saddam,PROPN,NNP,Number=Sing,5,obl,5:obl:from,_,False,True,X,False,True,ARG2,False,Saddam,ARGM-GOL
+46,2,10,and,and,CCONJ,CC,_,11,cc,11:cc,_,False,True,X,False,False,_,False,and,_
+46,2,14,share,share,NOUN,NN,Number=Sing,11,obj,11:obj,_,False,True,X,False,True,ARG1,False,a disproportionate share of the country 's wealth and power,ARG1
+47,0,1,They,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,They,ARG0
+47,1,3,that,that,SCONJ,IN,_,7,mark,7:mark,_,False,True,X,False,False,_,False,that,_
+47,1,6,advent,advent,NOUN,NN,Number=Sing,7,nsubj,7:nsubj,_,False,True,X,False,True,ARG0,False,the American advent,ARG0
+47,1,9,them,they,PRON,PRP,Case=Acc|Number=Plur|Person=3|PronType=Prs,7,obl,7:obl:for,_,False,True,X,False,True,ARG2,False,them,R-ARGM-DIR
+47,1,11,demotion,demotion,NOUN,NN,Number=Sing,7,obj,7:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,a demotion,ARG1
+47,4,22,and,and,CCONJ,CC,_,24,cc,24:cc,_,False,True,X,False,False,_,False,and,_
+47,4,23,they,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,24,nsubj,24:nsubj|26:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,they,ARG0
+47,5,25,to,to,PART,TO,_,26,mark,26:mark,_,False,True,X,False,False,_,False,to,_
+47,5,27,quietly,quietly,ADV,RB,_,26,advmod,26:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,False,quietly,R-ARGM-MNR
+48,0,2,http://www.gulf-news.com/Articles/news.asp?ArticleID=97508,http://www.gulf-news.com/articles/news.asp?articleid=97508,X,ADD,_,1,obj,1:obj,_,False,True,X,False,True,ARG1,False,http://www.gulf-news.com/Articles/news.asp?ArticleID=97508,ARG1
+49,0,3,Court,Court,PROPN,NNP,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,The Supreme Court,ARG0
+49,0,6,ruling,ruling,NOUN,NN,Number=Sing,4,obj,4:obj,_,False,True,X,False,True,ARG1,False,its ruling,ARG1
+49,0,7,today,today,NOUN,NN,Number=Sing,4,obl:tmod,4:obl:tmod,_,False,True,X,False,True,ARGM-TMP,False,today,R-ARGM-DIR
+49,0,40,decision,decision,NOUN,NN,Number=Sing,4,obl,4:obl:in|45:nsubj,_,False,True,X,False,True,ARGM-ADV,False,a 5 - 3 decision that is 185 pages long,ARG2
+49,2,15,lines,line,NOUN,NNS,Number=Plur,12,obl,12:obl:along,_,False,True,X,False,True,ARGM-MNR,False,idelogical lines with John Roberts abstaining due to his involvement at the D.C. Circuit level,R-ARG2
+49,3,16,with,with,SCONJ,IN,_,19,mark,19:mark,_,False,True,X,False,False,_,False,with John Roberts,_
+49,3,17,John,John,PROPN,NNP,Number=Sing,19,nsubj,19:nsubj,_,False,True,X,False,True,ARG0,False,John,ARG0
+49,3,23,involvement,involvement,NOUN,NN,Number=Sing,19,obl,19:obl:due_to,_,False,True,X,False,True,ARGM-CAU,False,his involvement at the D.C. Circuit level,R-ARGM-DIR
+49,5,29,and,and,CCONJ,CC,_,32,cc,32:cc,_,False,True,X,False,False,_,False,and,_
+49,5,30,Anthony,Anthony,PROPN,NNP,Number=Sing,32,nsubj,32:nsubj,_,False,True,X,False,True,ARG0,False,Anthony,ARG0
+49,5,34,liberals,liberal,NOUN,NNS,Number=Plur,32,obj,32:obj,_,False,True,X,False,True,ARG1,False,the liberals,ARG1
+51,0,3,me,I,PRON,PRP,Case=Acc|Number=Sing|Person=1|PronType=Prs,1,obl,1:obl:with,_,False,True,X,False,True,ARG3,False,me,R-ARGM-DIR
+51,0,4,now,now,ADV,RB,_,1,advmod,1:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,now,ARGM-TMP
+51,1,6,John,John,PROPN,NNP,Number=Sing,9,nsubj,9:nsubj,_,False,True,X,False,True,ARG0,False,John,ARG0
+51,1,11,opinion,opinion,NOUN,NN,Number=Sing,9,obj,9:obj|50:obl,_,False,True,X,False,True,ARG1,False,the opinion of the Court,ARG1
+51,3,41,which,which,PRON,WDT,PronType=Rel,50,obl,11:ref,_,False,True,X,False,True,R-ARGM-MNR,False,which,R-ARGM-DIR
+51,3,42,KENNEDY,KENNEDY,PROPN,NNP,Number=Sing,50,nsubj,50:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,"in which KENNEDY , SOUTER , GINSBURG , and BREYER",R-ARGM-DIR
+51,5,68,which,which,PRON,WDT,PronType=Int,75,obl,54:ref,_,False,True,X,False,True,R-ARGM-MNR,False,which,R-ARGM-DIR
+51,5,69,SOUTER,SOUTER,PROPN,NNP,Number=Sing,75,nsubj,75:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,"SOUTER , GINSBURG , and",R-ARGM-DIR
+52,0,1,BREYER,breyer,NOUN,NNS,Number=Plur,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,BREYER,ARG0
+52,0,5,opinion,opinion,NOUN,NN,Number=Sing,2,obj,2:obj|15:obl,SpaceAfter=No,False,True,X,False,True,ARG1,False,"a concurring opinion ,",ARG1
+52,2,8,which,which,PRON,WDT,PronType=Int,15,obl,5:ref,_,False,True,X,False,True,R-ARGM-MNR,False,which,R-ARGM-DIR
+52,2,9,KENNEDY,KENNEDY,PROPN,NNP,Number=Sing,15,nsubj,15:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,"in which KENNEDY , SOUTER , and GINSBURG",ARG0
+53,0,1,KENNEDY,KENNEDY,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,KENNEDY,ARG0
+53,0,4,opinion,opinion,NOUN,NN,Number=Sing,2,obj,2:obj|17:obl,_,False,True,X,False,True,ARG1,False,"an opinion concurring in part ,",ARG1
+53,1,7,part,part,ADJ,JJ,Degree=Pos,5,obl,5:obl:in,SpaceAfter=No,False,True,X,False,True,ARGM-EXT,False,part,R-ARG2
+53,2,10,which,which,PRON,WDT,PronType=Int,17,obl,4:ref,_,False,True,X,False,True,R-ARGM-MNR,False,which,R-ARGM-DIR
+53,2,11,SOUTER,SOUTER,PROPN,NNP,Number=Sing,17,nsubj,17:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,"in which SOUTER , GINSBURG , and BREYER joined as to Parts I and II.",ARG0
+53,2,20,Parts,part,NOUN,NNS,Number=Plur,17,obl,17:obl:as_to,_,False,True,X,False,True,ARGM-ADV,False,Parts,R-ARGM-DIR
+54,0,1,SCALIA,SCALIA,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,SCALIA,ARG0
+54,0,5,opinion,opinion,NOUN,NN,Number=Sing,2,obj,2:obj|12:obl,SpaceAfter=No,False,True,X,False,True,ARG1,False,"a dissenting opinion , in which THOMAS and ALITO joined",ARG1
+54,2,8,which,which,PRON,WDT,PronType=Int,12,obl,5:ref,_,False,True,X,False,True,R-ARGM-MNR,False,which,R-ARG1
+54,2,9,THOMAS,THOMAS,PROPN,NNP,Number=Sing,12,nsubj,12:nsubj,_,False,True,X,False,True,ARG0,False,THOMAS and ALITO,ARG0
+55,0,1,THOMAS,THOMAS,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,THOMAS,ARG0
+55,0,5,opinion,opinion,NOUN,NN,Number=Sing,2,obj,2:obj|10:obl,SpaceAfter=No,False,True,X,False,True,ARG1,False,"a dissenting opinion , in which SCALIA joined",ARG1
+55,2,8,which,which,PRON,WDT,PronType=Rel,10,obl,5:ref,_,False,True,X,False,True,R-ARGM-MNR,False,which,R-ARG1
+55,2,9,SCALIA,SCALIA,PROPN,NNP,Number=Sing,10,nsubj,10:nsubj,_,False,True,X,False,True,ARG0,False,SCALIA,ARG0
+55,3,12,and,and,CCONJ,CC,_,16,cc,16:cc,_,False,True,X,False,False,_,False,and,_
+55,3,14,which,which,PRON,WDT,PronType=Int,16,obl,16:obl:in,_,False,True,X,False,True,R-ARGM-MNR,False,which,R-ARG1
+55,3,15,ALITO,ALITO,PROPN,NNP,Number=Sing,16,nsubj,16:nsubj,_,False,True,X,False,True,ARG0,False,ALITO,ARG0
+55,3,19,all,all,DET,DT,_,16,obl,16:obl:as_to,_,False,True,X,False,True,ARGM-ADV,False,all but,C-V
+56,0,1,ALITO,ALITO,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,ALITO,ARG0
+56,0,5,opinion,opinion,NOUN,NN,Number=Sing,2,obj,2:obj|12:obl,SpaceAfter=No,False,True,X,False,True,ARG1,False,"a dissenting opinion , in which SCALIA and THOMAS joined as to Parts I through III",ARG1
+56,2,8,which,which,PRON,WDT,PronType=Int,12,obl,5:ref,_,False,True,X,False,True,R-ARGM-MNR,False,which,R-ARG1
+56,2,9,SCALIA,SCALIA,PROPN,NNP,Number=Sing,12,nsubj,12:nsubj,_,False,True,X,False,True,ARG0,False,SCALIA and THOMAS,ARG0
+56,2,15,Parts,part,NOUN,NNS,Number=Plur,12,obl,12:obl:as_to,_,False,True,X,False,True,ARGM-ADV,False,Parts,R-ARG2
+57,1,1,It,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,3,expl,3:expl,_,False,True,X,False,False,_,False,It,R-ARGM-MNR
+57,1,4,me,I,PRON,PRP,Case=Acc|Number=Sing|Person=1|PronType=Prs,3,obj,3:obj,_,False,True,X,False,True,ARG2,False,me,ARG1
+57,1,7,while,while,NOUN,NN,Number=Sing,3,obl:tmod,3:obl:tmod,_,False,True,X,False,True,ARG1,False,a little while,ARGM-ADJ
+57,2,8,to,to,PART,TO,_,9,mark,9:mark,_,False,True,X,False,False,_,False,to,_
+57,2,12,thing,thing,NOUN,NN,Number=Sing,9,obj,9:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,the whole thing,ARG1
+57,3,14,but,but,CCONJ,CC,_,17,cc,17:cc,_,False,True,X,False,False,_,False,but,_
+57,3,15,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,17,nsubj,17:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+57,3,16,rarely,rarely,ADV,RB,_,17,advmod,17:advmod,_,False,True,X,False,True,ARGM-ADV,False,rarely,R-ARGM-MNR
+57,3,23,opinion,opinion,NOUN,NN,Number=Sing,17,obl,17:obl:with,SpaceAfter=No,False,True,X,False,True,ARG2,False,a John Paul Stevens opinion,ARGM-GOL
+58,1,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,3,nsubj,3:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,I,ARG0
+58,1,4,highlights,highlight,NOUN,NNS,Number=Plur,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,highlights,ARG1
+58,1,13,finished,finished,ADJ,JJ,Degree=Pos,3,advcl,3:advcl:when,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,m,C-V
+59,6,33,where,where,ADV,WRB,PronType=Rel,42,advmod,42:advmod,_,False,True,X,False,True,R-ARGM-LOC,False,"the altar , where of course their relationships should not only be frowned upon but should be constitutionally excluded )",R-ARGM-TMP
+59,6,34,of,of,ADV,RB,_,42,advmod,42:advmod,_,False,True,X,False,True,ARGM-ADV,False,",",R-ARGM-DIR
+59,6,37,relationships,relationship,NOUN,NNS,Number=Plur,42,nsubj:pass,42:nsubj:pass|48:nsubj:pass,_,False,True,X,False,True,ARG1,False,course,ARG1
+59,6,40,only,only,ADV,RB,_,42,advmod,42:advmod,_,False,True,X,False,True,ARGM-ADV,False,should,R-ARGM-DIR
+59,6,43,upon,upon,ADP,IN,_,42,obl,42:obl,_,False,True,X,False,True,C-ARG1,False,be,_
+59,9,44,but,but,CCONJ,CC,_,48,cc,48:cc,_,False,True,X,False,False,_,False,where of course their relationships should not only be frowned upon but should be constitutionally excluded,_
+59,9,47,constitutionally,constitutionally,ADV,RB,_,48,advmod,48:advmod,_,False,True,X,False,True,ARGM-MNR,False,should,R-ARGM-MNR
+59,11,2,news,news,NOUN,NN,Number=Sing,51,nsubj,51:nsubj,_,False,True,X,False,True,ARG0,False,"Important news such as President Bush 's miniscule calibrations on his marriage amendment / anti - gay ( update : he 's not against gays in the bedroom , just at the altar , where of course their relationships should not only be frowned upon but should be constitutionally excluded )",ARG0
+59,11,52,Sudan,Sudan,PROPN,NNP,Number=Sing,51,obj,51:obj,_,False,True,X,False,True,ARG1,False,has,ARG1
+59,11,58,pages,page,NOUN,NNS,Number=Plur,51,obl,51:obl:off,SpaceAfter=No,False,True,X,False,True,ARG2,False,the,ARGM-GOL
+60,0,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj|4:nsubj:xsubj,_,False,True,X,False,False,_,False,I,ARG0
+60,1,3,to,to,PART,TO,_,4,mark,4:mark,_,False,True,X,False,False,_,False,to,_
+60,1,7,BBC,BBC,PROPN,NNP,Number=Sing,4,obl,4:obl:to,_,False,True,X,False,True,ARG4,False,the BBC,ARGM-GOL
+60,1,10,report,report,NOUN,NN,Number=Sing,4,obl,4:obl:for,_,False,True,X,False,True,ARGM-PRP,False,this report,ARGM-ADJ
+61,2,5,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,6,nsubj,6:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+61,3,10,fast,fast,ADJ,JJ,Degree=Pos,12,compound,12:compound,SpaceAfter=No,False,True,X,False,False,_,False,fast,ARGM-ADJ
+61,6,21,that,that,SCONJ,IN,_,35,mark,35:mark,_,False,True,X,False,False,_,True,that,_
+61,6,28,crisis,crisis,NOUN,NN,Number=Sing,35,nsubj:pass,35:nsubj:pass,_,False,True,X,False,True,ARG1,True,the biggest short - term humanitarian crisis in the world,ARG1
+61,6,33,quickly,quickly,ADV,RB,_,35,advmod,35:advmod,_,False,True,X,False,True,ARGM-MNR,True,quickly,R-ARGM-DIR
+61,6,43,finished,finished,ADJ,JJ,Degree=Pos,35,advcl,35:advcl:once,_,False,True,X,False,True,ARGM-TMP,True,"once our Secretary of State was finished with his whirlwind tour , from the newspapers",R-ARG2
+61,6,51,newspapers,newspaper,NOUN,NNS,Number=Plur,35,obl,35:obl:from,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,True,the newspapers,ARGM-GOL
+63,1,13,to,to,PART,TO,_,14,mark,14:mark,_,False,True,X,False,False,_,False,to,_
+63,1,16,crisis,crisis,NOUN,NN,Number=Sing,14,obj,14:obj,_,False,True,X,False,True,ARG1,False,the crisis,ARG1
+63,2,22,ago,ago,ADV,RB,_,17,advmod,17:advmod,_,False,True,X,False,True,ARGM-TMP,False,a few short weeks ago,C-V
+63,3,9,that,that,SCONJ,IN,_,23,mark,23:mark,_,False,True,X,False,False,_,False,that,_
+63,3,12,will,will,NOUN,NN,Number=Sing,23,nsubj,23:nsubj|26:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,the political will to end the crisis,ARG0
+63,5,24,to,to,PART,TO,_,26,mark,26:mark,_,False,True,X,False,False,_,False,to,_
+64,0,3,time,time,NOUN,NN,Number=Sing,10,obl,10:obl:at,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,that time,R-ARGM-DIR
+64,0,8,Kofi,Kofi,PROPN,NNP,Number=Sing,10,nsubj,10:nsubj,_,False,True,X,False,True,ARG0,False,Kofi,ARG0
+64,3,11,steps,step,NOUN,NNS,Number=Plur,13,nsubj:pass,13:nsubj:pass,_,False,True,X,False,True,ARGM-PRR,True,steps,ARG1
+64,4,14,to,to,PART,TO,_,15,mark,15:mark,_,False,True,X,False,False,_,False,to,_
+64,4,18,violence,violence,NOUN,NN,Number=Sing,15,obj,15:obj,_,False,True,X,False,True,ARG1,False,the ethnic violence in Darfur,ARG1
+64,4,23,hours,hour,NOUN,NNS,Number=Plur,15,obl,15:obl:within,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,48 hours,ARGM-ADJ
+65,0,5,and,and,CCONJ,CC,_,8,cc,8:cc,_,False,True,X,False,False,_,False,and,_
+65,0,7,violence,violence,NOUN,NN,Number=Sing,8,nsubj,8:nsubj,_,False,True,X,False,True,ARG1,False,the violence,ARG0
+66,2,11,of,of,SCONJ,IN,_,12,mark,12:mark,_,False,True,X,False,False,_,False,"of keeping the peace , pledging 300 troops to an area that will need 15,000",_
+66,2,14,peace,peace,NOUN,NN,Number=Sing,12,obj,12:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,the peace,ARG1
+66,4,18,troops,troops,NOUN,NNS,Number=Plur,16,obj,16:obj,_,False,True,X,False,True,ARG1,False,300 troops,ARG1
+66,4,21,area,area,NOUN,NN,Number=Sing,16,obl,16:obl:to|24:nsubj,_,False,True,X,False,True,ARG2,False,"an area that will need 15,000",ARGM-ADJ
+66,6,22,that,that,PRON,WDT,PronType=Rel,24,nsubj,21:ref,_,False,True,X,False,True,R-ARG0,False,that,R-ARG0
+66,6,25,"15,000","15,000",NUM,CD,NumType=Card,24,obj,24:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,"15,000",ARG1
+66,6,29,analysts,analyst,NOUN,NNS,Number=Plur,24,obl,24:obl:accord_to,SpaceAfter=No,False,True,X,False,True,ARGM-ADV,False,analysts,ARGM-ADJ
+66,7,28,to,to,ADP,IN,_,27,fixed,27:fixed,_,False,True,X,False,False,_,False,to analysts,_
+67,1,1,And,and,CCONJ,CC,_,5,cc,5:cc,_,False,True,X,False,True,ARGM-DIS,False,And,_
+67,1,3,donors,donor,NOUN,NNS,Number=Plur,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,international donors,ARG0
+67,1,7,half,half,NOUN,NN,Number=Sing,5,obj,5:obj,_,False,True,X,False,True,ARG1,False,only half of the relief aid that Darfur needs,ARG1
+67,1,21,officials,official,NOUN,NNS,Number=Plur,5,obl,5:obl:accord_to,SpaceAfter=No,False,True,X,False,True,ARGM-ADV,False,the local UN officials,C-V
+67,3,12,that,that,PRON,WDT,PronType=Rel,14,obj,11:ref,_,False,True,X,False,True,R-ARG1,False,that,R-ARG0
+67,3,13,Darfur,Darfur,PROPN,NNP,Number=Sing,14,nsubj,14:nsubj,_,False,True,X,False,True,ARG0,False,Darfur,ARG0
+67,4,17,to,to,ADP,IN,_,16,fixed,16:fixed,_,False,True,X,False,False,_,False,to the local UN officials,_
+68,0,1,So,so,ADV,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-DIS,False,So,R-ARGM-DIR
+68,0,2,hear,hear,ADV,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARG2,False,"So hear we are , two weeks later , after that dazzling PR display two weeks ago by Powell and Annan , and the situation on the ground in Darfur appears basically unchanged.",R-ARGM-DIR
+68,0,3,we,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG1,False,we,ARG0
+68,0,8,later,later,ADV,RB,_,4,advmod,4:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,two weeks later,C-V
+68,0,14,display,display,NOUN,NN,Number=Sing,4,obl,4:obl:after,_,False,True,X,False,True,ARGM-TMP,False,that dazzling PR display two weeks ago by Powell and Annan,ARGM-PRP
+68,2,23,and,and,CCONJ,CC,_,31,cc,31:cc,_,False,True,X,False,False,_,False,and,_
+68,2,25,situation,situation,NOUN,NN,Number=Sing,31,nsubj,31:nsubj|33:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,the situation on the ground in Darfur,ARG0
+68,2,33,unchanged,unchanged,ADJ,JJ,Degree=Pos,31,xcomp,31:xcomp,SpaceAfter=No,False,True,X,False,True,C-ARG1,False,basically unchanged,R-ARGM-DIR
+69,1,1,Warren,Warren,PROPN,NNP,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,Warren,ARG0
+69,1,5,away,away,ADP,RP,_,4,compound:prt,4:compound:prt,_,False,True,X,False,False,_,False,away,_
+69,1,7,%,%,SYM,NN,Number=Sing,4,obj,4:obj,_,False,True,X,False,True,ARG1,False,85 % of his wealth,ARG1
+69,1,19,Foundation,Foundation,PROPN,NNP,Number=Sing,4,obl,4:obl:to,SpaceAfter=No,False,True,X,False,True,ARG2,False,the Bill and Melinda Gates Foundation,ARGM-GOL
+70,2,5,that,that,PRON,WDT,PronType=Rel,7,nsubj,4:ref,_,False,True,X,False,True,R-ARG0,False,that,R-ARG0
+70,2,6,really,really,ADV,RB,_,7,advmod,7:advmod,_,False,True,X,False,True,ARGM-EXT,False,really,R-ARGM-MNR
+70,2,8,me,I,PRON,PRP,Case=Acc|Number=Sing|Person=1|PronType=Prs,7,obj,7:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,me,ARG1
+70,4,14,for,for,SCONJ,IN,_,15,mark,15:mark,_,False,True,X,False,False,_,False,for keeping most of his money,_
+70,4,16,most,most,ADJ,JJS,Degree=Sup,15,obj,15:obj,_,False,True,X,False,True,ARG1,False,most of his money,ARG1
+70,5,13,justification,justification,NOUN,NN,Number=Sing,20,nsubj,20:nsubj,_,False,True,X,False,True,ARG1,False,Buffett 's usual justification for keeping most of his money,ARG0
+70,7,21,that,that,SCONJ,IN,_,25,mark,25:mark,_,False,True,X,False,False,_,False,that,_
+70,7,22,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,25,nsubj,25:nsubj,_,False,True,X,False,True,ARG0,False,he,ARG0
+70,7,24,still,still,ADV,RB,_,25,advmod,25:advmod,_,False,True,X,False,True,ARGM-TMP,False,still,R-ARGM-MNR
+70,7,27,value,value,NOUN,NN,Number=Sing,25,obj,25:obj,_,False,True,X,False,True,ARG1,False,the value of his fortune,ARG1
+70,7,35,rate,rate,NOUN,NN,Number=Sing,25,obl,25:obl:at,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,False,a pretty high rate,ARGM-GOL
+70,9,37,so,so,ADV,RB,_,42,advmod,42:advmod,_,False,True,X,False,True,ARGM-ADV,False,so,R-ARGM-MNR
+70,9,39,gifts,gift,NOUN,NNS,Number=Plur,42,nsubj,42:nsubj,_,False,True,X,False,True,ARG1,False,any gifts,ARG0
+70,9,45,money,money,NOUN,NN,Number=Sing,42,obj,42:obj,_,False,True,X,False,True,ARG2,False,significantly less money,ARG1
+71,2,6,to,to,PART,TO,_,7,mark,7:mark,_,False,True,X,False,False,_,False,to,_
+71,4,9,but,but,CCONJ,CC,_,16,cc,16:cc,_,False,True,X,False,False,_,False,but,_
+71,4,12,point,point,NOUN,NN,Number=Sing,16,obl,16:obl:at,_,False,True,X,False,True,ARGM-TMP,False,this point,ARGM-ADJ
+71,4,15,view,view,NOUN,NN,Number=Sing,16,nsubj,16:nsubj,_,False,True,X,False,True,ARG1,False,his ostensible view,ARG0
+71,4,25,redistributors,redistributor,NOUN,NNS,Number=Plur,16,ccomp,16:ccomp,SpaceAfter=No,False,True,X,False,True,ARG2,False,very good money - redistributors,ARG1
+71,6,27,and,and,CCONJ,CC,_,29,cc,29:cc,_,False,True,X,False,False,_,False,and,_
+71,6,28,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,29,nsubj,29:nsubj,_,False,True,X,False,True,ARG0,False,he,ARG0
+71,6,30,them,they,PRON,PRP,Case=Acc|Number=Plur|Person=3|PronType=Prs,29,obj,29:obj|32:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,them,ARG1
+71,7,31,to,to,PART,TO,_,32,mark,32:mark,_,False,True,X,False,False,_,False,to,_
+71,7,34,money,money,NOUN,NN,Number=Sing,32,obj,32:obj,_,False,True,X,False,True,ARG1,False,the money,ARG1
+71,7,36,soon,soon,ADV,RB,Degree=Pos,32,advmod,32:advmod,_,False,True,X,False,True,ARGM-TMP,False,as soon as possible,R-ARGM-MNR
+72,0,1,Which,which,PRON,WDT,PronType=Int,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG1,False,Which,ARG0
+72,0,2,essentially,essentially,ADV,RB,_,3,advmod,3:advmod,_,False,True,X,False,True,ARGM-ADV,False,essentially,R-ARGM-MNR
+72,0,7,worried,worried,ADJ,JJ,Degree=Pos,3,advcl,3:advcl:like,_,False,True,X,False,True,ARG2,False,worried that Bill or Melinda are going to die soon,R-ARGM-MNR
+72,4,8,that,that,SCONJ,IN,_,13,mark,13:mark,_,False,True,X,False,False,_,False,that,_
+72,4,9,Bill,Bill,PROPN,NNP,Number=Sing,13,nsubj,13:nsubj|15:nsubj:xsubj,_,False,True,X,False,False,_,False,Bill or Melinda,ARG0
+72,5,14,to,to,PART,TO,_,15,mark,15:mark,_,False,True,X,False,False,_,False,to,_
+72,5,16,soon,soon,ADV,RB,Degree=Pos,15,advmod,15:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,soon,R-ARGM-MNR
+73,0,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+73,1,5,reason,reason,NOUN,NN,Number=Sing,6,nsubj,6:nsubj,_,False,True,X,False,True,ARG1,False,his actual reason,ARG0
+73,1,10,worried,worried,ADJ,JJ,Degree=Pos,6,ccomp,6:ccomp,_,False,True,X,False,True,ARG2,False,worried that Berkshire Hathaway just ca n't grow quickly enough to justify his usual charity policy,ARG1
+73,5,11,that,that,SCONJ,IN,_,17,mark,17:mark,_,False,True,X,False,False,_,False,that,_
+73,5,13,Hathaway,Hathaway,PROPN,NNP,Number=Sing,17,nsubj,17:nsubj,_,False,True,X,False,True,ARG1,False,Berkshire Hathaway,ARG0
+73,5,14,just,just,ADV,RB,_,17,advmod,17:advmod,_,False,True,X,False,True,ARGM-DIS,False,just,ARGM-ADV
+73,5,16,n't,not,PART,RB,_,17,advmod,17:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+73,5,19,enough,enough,ADV,RB,_,17,advmod,17:advmod,_,False,True,X,False,True,ARGM-TMP,False,quickly enough to justify his usual charity policy,R-ARGM-MNR
+73,6,20,to,to,PART,TO,_,21,mark,21:mark,_,False,True,X,False,False,_,False,to,_
+73,6,25,policy,policy,NOUN,NN,Number=Sing,21,obj,21:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,his usual charity policy,ARG1
+74,3,5,how,how,ADV,WRB,PronType=Int,9,advmod,9:advmod,_,False,True,X,False,True,ARGM-MNR,False,sure how the market will react,R-ARGM-MNR
+74,3,7,market,market,NOUN,NN,Number=Sing,9,nsubj,9:nsubj,_,False,True,X,False,True,ARG0,False,the,ARG0
+75,1,1,It,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,It,ARG0
+75,1,3,n't,not,PART,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+75,1,9,worth,worth,NOUN,NN,Number=Sing,4,obj,4:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,the company 's intrinsic worth,ARG1
+75,2,12,as,as,SCONJ,IN,_,15,mark,15:mark,_,False,True,X,False,False,_,False,as,_
+75,2,14,article,article,NOUN,NN,Number=Sing,15,nsubj,15:nsubj,_,False,True,X,False,True,ARG0,False,the article,ARG0
+75,5,11,and,and,CCONJ,CC,_,21,cc,21:cc,_,False,True,X,False,False,_,True,and,_
+75,5,18,company,company,NOUN,NN,Number=Sing,21,nsubj:pass,21:nsubj:pass,_,False,True,X,False,True,ARG1,True,the company,ARG1
+75,5,25,index,index,NOUN,NN,Number=Sing,21,obl,21:obl:to,_,False,True,X,False,True,ARG2,True,a major index,ARGM-ADJ
+75,7,26,once,once,SCONJ,IN,_,29,mark,29:mark,_,False,True,X,False,False,_,False,once,_
+75,7,28,shares,share,NOUN,NNS,Number=Plur,29,nsubj,29:nsubj|31:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,the shares,ARG0
+75,7,30,more,more,ADV,RBR,_,29,advmod,29:advmod,_,False,True,X,False,True,ARG2,False,more,R-ARGM-MNR
+75,7,31,liquid,liquid,ADJ,JJ,Degree=Pos,29,xcomp,29:xcomp,SpaceAfter=No,False,True,X,False,True,ARG2,False,more liquid,ARGM-ADJ
+76,3,19,who,who,PRON,WP,PronType=Rel,20,nsubj,18:ref,_,False,True,X,False,True,R-ARG0,False,who,R-ARG0
+76,3,21,it,it,PRON,PRP,Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs,20,obj,20:obj,_,False,True,X,False,True,ARG1,False,it,ARG1
+76,3,22,best,best,ADV,RBS,Degree=Sup,20,advmod,20:advmod,_,False,True,X,False,True,ARGM-EXT,False,best,R-ARGM-MNR
+76,4,24,and,and,CCONJ,CC,_,25,cc,25:cc,_,False,True,X,False,False,_,False,and,_
+76,4,30,investor,investor,NOUN,NN,Number=Sing,25,xcomp,25:xcomp,_,False,True,X,False,True,C-ARG1,False,the best investor of the last century,ARG1
+77,0,1,em,em,INTJ,UH,_,9,discourse,9:discourse,_,False,True,X,False,True,ARGM-DIS,False,em...,R-ARGM-DIR
+77,0,3,no,no,INTJ,UH,_,9,discourse,9:discourse,_,False,True,X,False,True,ARGM-DIS,False,no...,R-ARGM-DIR
+77,0,7,foundation,foundation,NOUN,NN,Number=Sing,9,nsubj,9:nsubj,_,False,True,X,False,True,ARG0,False,the Gates foundation,ARG0
+77,0,8,mainly,mainly,ADV,RB,_,9,advmod,9:advmod,_,False,True,X,False,True,ARGM-ADV,False,mainly,R-ARGM-DIR
+77,0,12,research,research,NOUN,NN,Number=Sing,9,obl,9:obl:in,_,False,True,X,False,True,ARG2,False,medical research and education,R-ARGM-DIR
+77,3,16,that,that,PRON,DT,Number=Sing|PronType=Dem,17,nsubj,17:nsubj,_,False,True,X,False,True,ARG1,False,that,ARG0
+77,4,19,now,now,ADV,RB,_,18,advmod,18:advmod,_,False,True,X,False,True,ARGM-TMP,False,now,ARGM-TMP
+77,5,23,value,value,NOUN,NN,Number=Sing,20,obj,20:obj,_,False,True,X,False,True,ARG1,False,a tremendous value,ARG1
+77,7,25,to,to,SCONJ,IN,_,26,mark,26:mark,_,False,True,X,False,False,_,False,to donating in ten years,_
+77,7,29,years,year,NOUN,NNS,Number=Plur,26,obl,26:obl:in,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,ten years,ARGM-ADJ
+78,0,7,malaria,malaria,NOUN,NN,Number=Sing,5,obl,5:obl:from,_,False,True,X,False,True,ARGM-CAU,False,malaria,R-ARGM-DIR
+80,1,1,He,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,4,nsubj,4:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,He,ARG0
+80,1,3,not,not,PART,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-NEG,False,not,ARGM-NEG
+80,1,6,%,%,SYM,NN,Number=Sing,4,obj,4:obj,_,False,True,X,False,True,ARG1,False,85 %,ARG1
+80,1,7,away,away,ADP,RP,_,4,compound:prt,4:compound:prt,SpaceAfter=No,False,True,X,False,True,C-V,False,away,_
+80,3,9,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,11,nsubj,11:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,he,ARG0
+80,3,13,number,number,NOUN,NN,Number=Sing,11,obj,11:obj,_,False,True,X,False,True,ARG1,False,a number of shares that decrease in number at the rate of 5 % a year ( until gone,ARG1
+80,3,17,year,year,NOUN,NN,Number=Sing,11,obl:tmod,11:obl:tmod,_,False,True,X,False,True,ARGM-TMP,False,each year,ARGM-ADJ
+80,5,18,that,that,PRON,WDT,PronType=Rel,19,nsubj,15:ref,_,False,True,X,False,True,R-ARG1,False,that,R-ARG0
+80,5,21,number,number,NOUN,NN,Number=Sing,19,obl,19:obl:in,_,False,True,X,False,True,ARGM-MNR,False,number,ARGM-ADJ
+80,5,24,rate,rate,NOUN,NN,Number=Sing,19,obl,19:obl:at,_,False,True,X,False,True,ARG2,False,the rate of 5 % a year,ARGM-ADJ
+80,5,32,gone,gone,ADJ,JJ,Degree=Pos,19,advcl,19:advcl:until,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,until gone,C-V
+81,0,1,He,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,He,ARG0
+81,2,6,death,death,NOUN,NN,Number=Sing,7,nsubj,7:nsubj,_,False,True,X,False,False,_,False,his wife 's death,ARG0
+81,2,9,effect,effect,NOUN,NN,Number=Sing,7,obj,7:obj,_,False,True,X,False,True,ARGM-PRR,False,an effect on him,ARG1
+82,0,1,It,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,2,expl,2:expl,_,False,True,X,False,False,_,False,It,R-ARGM-DIR
+82,0,4,rational,rational,ADJ,JJ,Degree=Pos,2,xcomp,2:xcomp,_,False,True,X,False,True,ARG2,False,pretty rational,C-ARG1
+82,3,5,that,that,SCONJ,IN,_,8,mark,8:mark,_,False,True,X,False,False,_,False,that,_
+82,3,6,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,8,nsubj,8:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,he,ARG0
+82,4,9,that,that,SCONJ,IN,_,13,mark,13:mark,_,False,True,X,False,False,_,False,that,_
+82,4,10,Bill,Bill,PROPN,NNP,Number=Sing,13,nsubj,13:nsubj,_,False,True,X,False,True,ARG1,False,Bill and Melinda,ARG0
+82,4,17,spot,spot,NOUN,NN,Number=Sing,13,obl,13:obl:at,SpaceAfter=No,False,True,X,False,True,ARG2,False,a prime spot,ARGM-ADJ
+82,4,28,idea,idea,NOUN,NN,Number=Sing,13,advcl,13:advcl,SpaceAfter=No,False,True,X,False,False,_,False,a good idea,ARG1
+82,5,23,hose,hose,NOUN,NN,Number=Sing,20,obj,20:obj,_,False,True,X,False,True,ARG1,False,the money hose,ARG1
+82,5,24,now,now,ADV,RB,_,20,advmod,20:advmod,_,False,True,X,False,True,ARGM-TMP,False,now,ARGM-TMP
+82,8,30,but,but,CCONJ,CC,_,34,cc,34:cc,_,False,True,X,False,False,_,False,but,_
+82,8,31,Buffet,Buffet,PROPN,NNP,Number=Sing,34,nsubj,34:nsubj,_,False,True,X,False,True,ARG0,False,Buffet,ARG0
+82,8,33,still,still,ADV,RB,_,34,advmod,34:advmod,_,False,True,X,False,True,ARGM-TMP,False,still,R-ARGM-MNR
+82,8,35,most,most,ADJ,JJS,Degree=Sup,34,obj,34:obj|41:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,most of his donation,ARG1
+82,8,41,Berkshire,Berkshire,PROPN,NNP,Number=Sing,34,xcomp,34:xcomp,_,False,True,X,False,True,ARGM-LOC,False,Berkshire where it will compound,ARGM-GOL
+82,11,42,where,where,ADV,WRB,PronType=Rel,45,advmod,45:advmod,_,False,True,X,False,True,R-ARGM-LOC,False,where,R-ARG2
+82,11,43,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,45,nsubj,45:nsubj,_,False,True,X,False,True,ARG0,False,it,ARG0
+83,0,1,Bill,Bill,PROPN,NNP,Number=Sing,7,nsubj,7:nsubj,_,False,True,X,False,True,ARG0,False,Bill over at The Fourth Rail,ARG0
+83,0,10,essay,essay,NOUN,NN,Number=Sing,7,obj,7:obj,_,False,True,X,False,True,ARG1,False,"an excellent essay on how the MSM and the UN , even the leftist countries in Europe , are basically accepting terrorist organizations as legitimate forms of a political party",ARG1
+83,2,11,on,on,SCONJ,IN,_,28,mark,28:mark,_,False,True,X,False,False,_,False,"on how the MSM and the UN , even the leftist countries in Europe , are basically accepting terrorist organizations as legitimate forms of a political party",_
+83,2,12,how,how,ADV,WRB,PronType=Int,28,advmod,28:advmod,_,False,True,X,False,True,ARGM-MNR,False,how,R-ARGM-DIR
+83,2,14,MSM,MSM,PROPN,NNP,Number=Sing,28,nsubj,28:nsubj,_,False,True,X,False,True,ARG0,False,"the MSM and the UN , even the leftist countries in Europe",ARG0
+83,2,27,basically,basically,ADV,RB,_,28,advmod,28:advmod,_,False,True,X,False,True,ARGM-ADV,False,basically,R-ARGM-DIR
+83,2,30,organizations,organization,NOUN,NNS,Number=Plur,28,obj,28:obj,_,False,True,X,False,True,ARG1,False,terrorist organizations,ARG1
+83,2,33,forms,form,NOUN,NNS,Number=Plur,28,obl,28:obl:as,_,False,True,X,False,True,ARG3,False,legitimate forms of a political party,R-ARGM-DIR
+84,0,5,Palestinians,Palestinians,PROPN,NNPS,Number=Plur,6,nsubj,6:nsubj,_,False,True,X,False,True,ARG0,False,Palestinians,ARG0
+84,0,8,support,support,NOUN,NN,Number=Sing,6,obl,6:obl:in,_,False,True,X,False,True,ARG1,False,support of Hezbollah and Syria,R-ARGM-DIR
+84,3,4,day,day,NOUN,NN,Number=Sing,19,obl,19:obl:on,_,False,True,X,False,True,ARGM-TMP,False,the same day,R-ARGM-DIR
+84,3,16,group,group,NOUN,NN,Number=Sing,19,nsubj,19:nsubj,_,False,True,X,False,True,ARG0,False,the terrorist group Hamas,ARG0
+84,5,20,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,22,nsubj,22:nsubj,_,False,True,X,False,True,ARG0,False,it,ARG0
+84,5,28,elections,election,NOUN,NNS,Number=Plur,22,obl,22:obl:in,_,False,True,X,False,True,ARG1,False,the scheduled upcoming Parliamentary elections,R-ARGM-MNR
+85,0,3,north,north,NOUN,NN,Number=Sing,8,obl,8:obl:to,_,False,True,X,False,True,ARGM-LOC,False,the north in Lebanon,R-ARGM-DIR
+85,0,5,Lebanon,Lebanon,PROPN,NNP,Number=Sing,8,obl,8:obl:in,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,False,Lebanon,R-ARGM-DIR
+85,0,7,there,there,PRON,EX,_,8,expl,8:expl,_,False,True,X,False,False,_,False,there,_
+85,0,10,debate,debate,NOUN,NN,Number=Sing,8,nsubj,8:nsubj,_,False,True,X,False,True,ARG1,False,serious debate within Hezbollah about entering the Lebanese political process in light of Syria 's promised withdrawal,ARG0
+85,2,13,about,about,SCONJ,IN,_,14,mark,14:mark,_,False,True,X,False,False,_,False,about entering the Lebanese political process in light of Syria 's promised withdrawal,_
+85,2,18,process,process,NOUN,NN,Number=Sing,14,obj,14:obj,_,False,True,X,False,True,ARG1,False,the Lebanese political process,ARG1
+85,2,20,light,light,NOUN,NN,Number=Sing,14,obl,14:obl:in,_,False,True,X,False,True,ARGM-ADV,False,light of Syria 's promised withdrawal,ARGM-GOL
+86,1,1,Syria,Syria,PROPN,NNP,Number=Sing,3,nsubj,3:nsubj|5:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,Syria,ARG0
+86,2,4,to,to,PART,TO,_,5,mark,5:mark,_,False,True,X,False,False,_,False,to,_
+86,2,8,conditions,condition,NOUN,NNS,Number=Plur,5,obl,5:obl:under,_,False,True,X,False,True,ARGM-MNR,False,"the conditions set forth in UNSC Resolution 1559 , which has already begun",R-ARGM-MNR
+86,3,10,forth,forth,ADV,RB,_,9,advmod,9:advmod,_,False,True,X,False,True,ARGM-ADV,False,forth,R-ARGM-MNR
+86,3,13,Resolution,Resolution,PROPN,NNP,Number=Sing,9,obl,9:obl:in|19:nsubj,_,False,True,X,False,True,ARGM-LOC,False,"UNSC Resolution 1559 , which has already begun",ARGM-GOL
+86,5,16,which,which,PRON,WDT,PronType=Rel,19,nsubj,13:ref,_,False,True,X,False,True,R-ARG1,False,which,R-ARG1
+86,5,18,already,already,ADV,RB,_,19,advmod,19:advmod,_,False,True,X,False,True,ARGM-TMP,False,already,R-ARGM-MNR
+87,1,5,Kofi,Kofi,PROPN,NNP,Number=Sing,8,nsubj,8:nsubj,_,False,True,X,False,True,ARG0,False,Kofi,ARG0
+87,1,11,time,time,NOUN,NN,Number=Sing,8,ccomp,8:ccomp,_,False,True,X,False,True,ARG1,False,"time to"" recognize Hezbollah"" after easily being duped by"" the message on the placards they are using",ARG1
+87,3,12,to,to,PART,TO,_,14,mark,14:mark,_,False,True,X,False,False,_,False,to,_
+87,3,15,Hezbollah,Hezbollah,PROPN,NNP,Number=Sing,14,obj,14:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,Hezbollah,ARG1
+87,5,17,after,after,SCONJ,IN,_,20,mark,20:mark,_,False,True,X,False,False,_,True,"after easily being duped by"" the message on the placards they are using",_
+87,5,18,easily,easily,ADV,RB,_,20,advmod,20:advmod,_,False,True,X,False,True,ARGM-ADV,True,easily,R-ARGM-MNR
+87,5,24,message,message,NOUN,NN,Number=Sing,20,obl,20:obl:by,_,False,True,X,False,True,ARG0,True,the message on the placards they are using,ARGM-ADJ
+87,7,28,they,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,30,nsubj,30:nsubj,_,False,True,X,False,True,ARG0,False,they,ARG0
+89,1,14,to,to,PART,TO,_,15,mark,15:mark,_,False,True,X,False,False,_,False,their,_
+89,1,16,strength,strength,NOUN,NN,Number=Sing,15,obj,15:obj,_,False,True,X,False,True,ARG1,False,to,ARG1
+89,2,17,in,in,SCONJ,IN,_,18,mark,18:mark,_,False,True,X,False,False,_,False,to project strength in fighting terrorism,_
+89,2,19,terrorism,terrorism,NOUN,NN,Number=Sing,18,obj,18:obj,_,False,True,X,False,True,ARG1,False,in fighting terrorism,ARG1
+89,4,5,9-11,9-11,NUM,CD,NumType=Card,25,obl,25:obl:after,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,9 - 11,ARGM-TMP
+89,4,9,Nations,Nations,PROPN,NNP,Number=Sing,25,nsubj,25:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,the,ARG0
+89,4,13,attempts,attempt,NOUN,NNS,Number=Plur,25,obl,25:obl:despite,_,False,True,X,False,True,ARGM-ADV,False,despite their attempts to project strength in fighting terrorism,R-ARGM-DIR
+89,4,21,still,still,ADV,RB,_,25,advmod,25:advmod,_,False,True,X,False,True,ARGM-TMP,False,terrorism,R-ARGM-DIR
+89,4,23,not,not,PART,RB,_,25,advmod,25:advmod,_,False,True,X,False,True,ARGM-NEG,False,still,ARGM-NEG
+89,4,24,properly,properly,ADV,RB,_,25,advmod,25:advmod,_,False,True,X,False,True,ARGM-MNR,False,can,R-ARGM-DIR
+89,4,27,word,word,NOUN,NN,Number=Sing,25,obj,25:obj,_,False,True,X,False,True,ARG1,False,"Over three years after 9 - 11 , the United Nations , despite their attempts to project strength in fighting terrorism , still can not properly define the word"" terrorist"" , waffling over the issue of whether the murder of innocent civilians are terrorist acts.",ARG1
+89,5,35,issue,issue,NOUN,NN,Number=Sing,32,obl,32:obl:over,_,False,True,X,False,True,ARG1,False,over the issue of whether the murder of innocent civilians are terrorist acts,R-ARGM-DIR
+90,0,2,media,media,NOUN,NN,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,The media,ARG0
+90,0,3,routinely,routinely,ADV,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-TMP,False,routinely,R-ARGM-MNR
+90,0,6,lines,line,NOUN,NNS,Number=Plur,4,obj,4:obj,_,False,True,X,False,True,ARG1,False,the lines between terrorism and legitimate resistance,ARG1
+90,2,13,as,as,SCONJ,IN,_,25,mark,25:mark,_,False,True,X,False,False,_,False,as the recent article by Daniel Okrent of The New York Times,_
+90,2,16,article,article,NOUN,NN,Number=Sing,25,nsubj,25:nsubj,_,False,True,X,False,True,ARG0,False,the recent article by Daniel Okrent of The New York Times,ARG0
+92,1,3,to,to,PART,TO,_,4,mark,4:mark,_,False,True,X,False,False,_,False,to,_
+92,1,6,obvious,obvious,ADJ,JJ,Degree=Pos,4,obj,4:obj,_,False,True,X,False,True,ARG1,False,the obvious,ARG1
+92,2,7,to,to,PART,TO,_,8,mark,8:mark,_,False,True,X,False,False,_,False,to,_
+92,2,10,need,need,NOUN,NN,Number=Sing,8,obj,8:obj,_,False,True,X,False,True,ARG1,False,the need to avoid confrontation,ARG1
+92,4,11,to,to,PART,TO,_,12,mark,12:mark,_,False,True,X,False,False,_,False,to,_
+92,4,13,confrontation,confrontation,NOUN,NN,Number=Sing,12,obj,12:obj,_,False,True,X,False,True,ARG1,False,confrontation,ARG1
+92,7,2,decision,decision,NOUN,NN,Number=Sing,16,nsubj,16:nsubj|21:nsubj,_,False,True,X,False,True,ARG0,False,The decision to sidestep the obvious to satisfy the need to avoid confrontation,ARG0
+92,7,15,not,not,PART,RB,_,16,advmod,16:advmod,_,False,True,X,False,True,ARGM-NEG,False,not,ARGM-NEG
+92,7,17,peace,peace,NOUN,NN,Number=Sing,16,obj,16:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,peace,ARG1
+92,9,19,but,but,CCONJ,CC,_,21,cc,21:cc,_,False,True,X,False,False,_,False,but,_
+92,9,20,only,only,ADV,RB,_,21,advmod,21:advmod,_,False,True,X,False,True,ARGM-ADV,False,only,R-ARGM-MNR
+92,9,24,conflict,conflict,NOUN,NN,Number=Sing,21,obj,21:obj,_,False,True,X,False,True,ARG1,False,the eventual conflict as the predators of Hamas and Hezbollah,ARG1
+92,11,25,as,as,SCONJ,IN,_,32,mark,32:mark,_,False,True,X,False,False,_,False,as the predators of Hamas and Hezbollah,_
+92,11,27,predators,predator,NOUN,NNS,Number=Plur,32,nsubj,32:nsubj,_,False,True,X,False,True,ARG0,False,the predators of Hamas and Hezbollah,ARG0
+92,11,35,weakness,weakness,NOUN,NN,Number=Sing,32,obj,32:obj,_,False,True,X,False,True,ARG1,False,the inherent weakness of the internationals and the media,ARG1
+93,2,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,4,nsubj,4:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,I,ARG0
+93,2,7,fact,fact,NOUN,NN,Number=Sing,4,obl,4:obl:over,_,False,True,X,False,True,ARG1,False,this,ARGM-ADJ
+93,2,11,weeks,week,NOUN,NNS,Number=Plur,4,obl,4:obl:for,_,False,True,X,False,True,ARGM-TMP,False,few,R-ARGM-MNR
+93,2,12,now,now,ADV,RB,_,4,advmod,4:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,a few weeks,ARGM-TMP
+93,3,14,ever,ever,ADV,RB,_,20,advmod,20:advmod,_,False,True,X,False,False,_,False,",",R-ARGM-DIR
+93,3,15,since,since,SCONJ,IN,_,20,mark,20:mark,_,False,True,X,False,False,_,False,ever,_
+93,3,17,organizations,organization,NOUN,NNS,Number=Plur,20,nsubj,20:nsubj,_,False,True,X,False,True,ARG0,False,some,ARG0
+93,4,21,we,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,22,nsubj,22:nsubj|24:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,ever since some organizations and governments suggested we need to accept the fact that Hezbollah will get involved in running Lebanon,ARG0
+93,5,23,to,to,PART,TO,_,24,mark,24:mark,_,False,True,X,False,False,_,False,we need to accept the fact that Hezbollah will get involved in running Lebanon,_
+93,5,26,fact,fact,NOUN,NN,Number=Sing,24,obj,24:obj,_,False,True,X,False,True,ARG1,False,the,ARG1
+93,7,27,that,that,SCONJ,IN,_,30,mark,30:mark,_,False,True,X,False,False,_,False,the fact that Hezbollah will get involved in running Lebanon,_
+93,7,28,Hezbollah,Hezbollah,PROPN,NNP,Number=Sing,30,nsubj,30:nsubj|31:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,that,ARG0
+93,7,31,involved,involved,ADJ,JJ,Degree=Pos,30,xcomp,30:xcomp,_,False,True,X,False,True,ARG2,False,that Hezbollah will get,R-ARGM-MNR
+93,9,32,in,in,SCONJ,IN,_,33,mark,33:mark,_,False,True,X,False,False,_,False,that Hezbollah will get involved in running Lebanon,_
+93,9,34,Lebanon,Lebanon,PROPN,NNP,Number=Sing,33,obj,33:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,running Lebanon,ARG1
+96,1,5,that,that,PRON,WDT,PronType=Rel,6,nsubj,4:ref,_,False,True,X,False,True,R-ARG0,False,that,R-ARG0
+96,1,9,barracks,barracks,NOUN,NNS,Number=Plur,6,obj,6:obj,_,False,True,X,False,True,ARG1,False,our Marine barracks,ARG1
+96,1,11,1983,1983,NUM,CD,NumType=Card,6,obl,6:obl:in,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,1983,ARGM-TMP
+96,2,14,Americans,Americans,PROPN,NNPS,Number=Plur,13,obj,13:obj|15:nsubj:xsubj,_,False,True,X,False,False,_,False,Americans,ARG1
+96,2,15,hostage,hostage,NOUN,NN,Number=Sing,13,xcomp,13:xcomp,_,False,True,X,False,True,ARG2,False,hostage throughout the 80 's,ARG1
+96,2,18,80's,80',NOUN,NNS,Number=Plur,13,obl,13:obl:throughout,_,False,True,X,False,True,ARGM-TMP,False,the 80 's,R-ARG2
+96,5,19,and,and,CCONJ,CC,_,24,cc,24:cc,_,False,True,X,False,False,_,True,'s,_
+96,5,20,now,now,ADV,RB,_,24,advmod,24:advmod,_,False,True,X,False,True,ARGM-TMP,True,and,ARGM-TMP
+96,5,21,they,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,24,nsubj:pass,24:nsubj:pass|27:nsubj:xsubj,_,False,True,X,False,False,_,True,now,ARG1
+96,5,27,organization,organization,NOUN,NN,Number=Sing,24,xcomp,24:xcomp,SpaceAfter=No,False,True,X,False,True,ARG1,True,legitimate,ARGM-ADJ
+97,1,6,to,to,PART,TO,_,8,mark,8:mark,_,False,True,X,False,False,_,False,to,_
+97,1,7,never,never,ADV,RB,_,8,advmod,8:advmod,_,False,True,X,False,True,ARGM-NEG,False,never,R-ARGM-MNR
+97,1,10,MSM,MSM,PROPN,NNP,Number=Sing,8,obj,8:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,the MSM,ARG1
+98,0,7,Muhsin,Muhsin,PROPN,NNP,Number=Sing,5,obl,5:obl:by,_,False,True,X,False,True,ARG0,False,Muhsin,ARGM-GOL
+98,3,20,to,to,PART,TO,_,21,mark,21:mark,_,False,True,X,False,False,_,False,to,_
+98,3,26,lukewarmly,lukewarmly,ADV,RB,_,21,advcl,21:advcl:if,SpaceAfter=No,False,True,X,False,False,_,False,even if rather lukewarmly ) with the Americans,C-V
+98,3,30,Americans,Americans,PROPN,NNPS,Number=Plur,21,obl,21:obl:with,SpaceAfter=No,False,True,X,False,True,ARG1,False,the Americans,ARGM-GOL
+99,1,1,It,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,4,nsubj,4:nsubj|6:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,It,ARG0
+99,1,3,now,now,ADV,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-TMP,False,now,ARGM-TMP
+99,2,5,to,to,PART,TO,_,6,mark,6:mark,_,False,True,X,False,False,_,False,to,_
+99,2,7,out,out,ADP,RP,_,6,compound:prt,6:compound:prt,_,False,True,X,False,False,_,False,out of the Allawi caretaker government,_
+99,2,12,government,government,NOUN,NN,Number=Sing,6,obl,6:obl:of,SpaceAfter=No,False,True,X,False,True,ARG2,False,the Allawi caretaker government,ARGM-GOL
+100,2,11,Arabs,Arabs,PROPN,NNPS,Number=Plur,9,obj,9:obj|13:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,Sunni Arabs,ARG1
+100,3,12,to,to,PART,TO,_,13,mark,13:mark,_,False,True,X,False,False,_,False,to,_
+100,3,16,elections,election,NOUN,NNS,Number=Plur,13,obl,13:obl:in,_,False,True,X,False,True,ARG1,False,the elections scheduled for January,R-ARGM-MNR
+100,5,19,January,January,PROPN,NNP,Number=Sing,17,obl,17:obl:for,SpaceAfter=No,False,True,X,False,True,ARG3,False,January,ARGM-GOL
+100,8,21,and,and,CCONJ,CC,_,24,cc,24:cc,_,False,True,X,False,False,_,True,and,_
+100,8,27,stance,stance,NOUN,NN,Number=Sing,24,obl,24:obl:in,_,False,True,X,False,True,ARGM-ADV,True,this stance,ARGM-ADJ
+100,8,30,Association,Association,PROPN,NNP,Number=Sing,24,obl,24:obl:by,_,False,True,X,False,True,ARG0,True,the Association of Muslim Scholars,ARGM-GOL
+101,1,1,That,that,SCONJ,IN,_,8,mark,8:mark,_,False,True,X,False,False,_,False,That,_
+101,1,5,Party,Party,PROPN,NNP,Number=Sing,8,nsubj,8:nsubj|9:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,the Iraqi Islamic Party,ARG0
+101,1,7,now,now,ADV,RB,_,8,advmod,8:advmod,_,False,True,X,False,True,ARGM-TMP,False,now,ARGM-TMP
+101,2,11,Allawi,Allawi,PROPN,NNP,Number=Sing,9,obj,9:obj,_,False,True,X,False,True,ARG1,False,Allawi,ARG1
+101,3,15,question,question,NOUN,NN,Number=Sing,13,obj,13:obj,_,False,True,X,False,True,ARG1,False,"the question of whether a mass Sunni Arab boycott of the elections is in the offing , thus fatally weakening the legitimacy of any new government",ARG1
+101,8,31,thus,thus,ADV,RB,_,33,advmod,33:advmod,_,False,True,X,False,True,ARGM-ADV,False,thus,R-ARGM-MNR
+101,8,32,fatally,fatally,ADV,RB,_,33,advmod,33:advmod,_,False,True,X,False,True,ARGM-ADV,False,fatally,R-ARGM-MNR
+101,8,35,legitimacy,legitimacy,NOUN,NN,Number=Sing,33,obj,33:obj,_,False,True,X,False,True,ARG1,False,the legitimacy of any new government,ARG1
+102,0,6,Association,Association,PROPN,NNP,Number=Sing,10,nsubj,10:nsubj,_,False,True,X,False,True,ARG0,False,The Association of Muslim Scholars,ARG0
+102,0,11,Iraqis,Iraqis,PROPN,NNPS,Number=Plur,10,obj,10:obj|13:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,Iraqis,ARG1
+102,1,12,to,to,PART,TO,_,13,mark,13:mark,_,False,True,X,False,False,_,False,to,_
+102,1,16,attack,attack,NOUN,NN,Number=Sing,13,obl,13:obl:in,_,False,True,X,False,True,ARG1,False,the attack on Fallujah with the Americans,R-ARGM-DIR
+102,1,21,Americans,Americans,PROPN,NNPS,Number=Plur,13,obl,13:obl:with,SpaceAfter=No,False,True,X,False,True,ARGM-COM,False,the Americans,C-ARG2
+103,0,3,communique,communique,NOUN,NN,Number=Sing,7,obl,7:obl:in,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,False,a communique,R-ARGM-DIR
+103,0,6,AMS,AMS,PROPN,NNP,Number=Sing,7,nsubj,7:nsubj,_,False,True,X,False,True,ARG0,False,the AMS,ARG0
+103,1,9,for,for,SCONJ,IN,_,12,mark,12:mark,_,False,True,X,False,False,_,True,for,_
+103,1,10,Iraqis,Iraqis,PROPN,NNPS,Number=Plur,12,nsubj,12:nsubj,_,False,True,X,False,True,ARG0,True,Iraqis,ARG0
+103,1,11,to,to,PART,TO,_,12,mark,12:mark,_,False,True,X,False,False,_,True,to,_
+103,1,13,part,part,NOUN,NN,Number=Sing,12,obj,12:obj,_,False,True,X,False,True,ARG1,True,part,ARG1
+103,1,17,forces,force,NOUN,NNS,Number=Plur,12,obl,12:obl:with,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,True,"raiding forces"" in the assault on a city ,",R-ARG2
+103,1,21,assault,assault,NOUN,NN,Number=Sing,12,obl,12:obl:in,_,False,True,X,False,True,ARGM-LOC,True,the assault on a city,ARGM-GOL
+103,8,8,that,that,SCONJ,IN,_,39,mark,39:mark,_,False,True,X,False,False,_,True,that,_
+103,8,42,mortal,mortal,ADJ,JJ,Degree=Pos,39,xcomp,39:xcomp,_,False,True,X,False,True,ARG1,True,the most mortal of mortal sins,ARG2
+104,0,3,AMS,AMS,PROPN,NNP,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,The Sunni AMS,ARG0
+104,0,5,Iraqis,Iraqis,PROPN,NNPS,Number=Plur,4,obj,4:obj,SpaceAfter=No,False,True,X,False,True,ARG2,False,Iraqis,ARG1
+104,1,8,You,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,9,nsubj,9:nsubj|23:nsubj,_,False,True,X,False,True,ARG0,False,You,ARG0
+104,2,10,when,when,ADV,WRB,PronType=Int,12,mark,12:mark,_,False,True,X,False,False,_,False,when,ARGM-TMP
+104,2,11,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,12,nsubj,12:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+104,2,15,forces,force,NOUN,NNS,Number=Plur,12,obl,12:obl:with,_,False,True,X,False,True,ARGM-COM,False,occupation forces,R-ARG2
+104,2,18,assault,assault,NOUN,NN,Number=Sing,12,obl,12:obl:in,_,False,True,X,False,True,ARG1,False,the assault on Najaf,ARGM-GOL
+104,4,22,and,and,CCONJ,CC,_,23,cc,23:cc,_,False,True,X,False,False,_,False,and,_
+104,5,24,lest,lest,SCONJ,IN,_,26,mark,26:mark,_,False,True,X,False,False,_,False,lest,_
+104,5,25,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,26,nsubj,26:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+104,5,29,sin,sin,NOUN,NN,Number=Sing,26,obj,26:obj,_,False,True,X,False,True,ARG1,False,this same sin,ARG1
+104,5,31,Fallujah,Fallujah,PROPN,NNP,Number=Sing,26,obl,26:obl:in,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,False,Fallujah,ARGM-GOL
+105,0,6,emphemeral,emphemeral,ADJ,JJ,Degree=Pos,1,ccomp,1:ccomp,SpaceAfter=No,False,True,X,False,True,ARG1,False,emphemeral,ARG1
+106,1,5,movement,movement,NOUN,NN,Number=Sing,6,nsubj,6:nsubj,_,False,True,X,False,True,ARG0,False,The radical Shiite Sadr movement,ARG0
+106,1,8,statement,statement,NOUN,NN,Number=Sing,6,obj,6:obj,_,False,True,X,False,True,ARG1,False,a statement forbidding the participation of Iraqi troops in the attack on Fallujah,ARG1
+106,3,11,participation,participation,NOUN,NN,Number=Sing,9,obj,9:obj,_,False,True,X,False,True,ARG1,False,the participation of Iraqi troops in the attack on Fallujah,ARG1
+106,3,17,attack,attack,NOUN,NN,Number=Sing,9,obl,9:obl:in,_,False,True,X,False,True,ARG1,False,the attack on Fallujah,ARGM-ADJ
+106,3,21,as,as,ADV,RB,_,9,advmod,9:advmod,_,False,True,X,False,True,ARGM-DIS,False,as,C-V
+107,1,2,statement,statement,NOUN,NN,Number=Sing,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,The statement,ARG0
+107,2,6,We,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,7,nsubj,7:nsubj,_,False,True,X,False,True,ARG0,False,We,ARG0
+107,2,9,appeal,appeal,NOUN,NN,Number=Sing,7,obj,7:obj,_,False,True,X,False,True,ARG1,False,an appeal at the men in the Iraqi forces,ARG1
+107,2,12,men,man,NOUN,NNS,Number=Plur,7,obl,7:obl:at|25:nmod:at,_,False,True,X,False,True,ARG2,False,the men in the Iraqi forces,R-ARGM-MNR
+107,5,33,them,they,PRON,PRP,Case=Acc|Number=Plur|Person=3|PronType=Prs,31,obl,31:obl:upon,_,False,True,X,False,True,ARG1,False,them,R-ARGM-DIR
+107,6,34,to,to,PART,TO,_,35,mark,35:mark,_,False,True,X,False,False,_,False,to,_
+107,7,36,for,for,SCONJ,IN,_,37,mark,37:mark,_,False,True,X,False,False,_,False,for commiting this enormous sin under the banner of forces that do not respect our religion or any principles of basic humanity,_
+107,7,40,sin,sin,NOUN,NN,Number=Sing,37,obj,37:obj,_,False,True,X,False,True,ARG1,False,this enormous sin,ARG1
+107,7,43,banner,banner,NOUN,NN,Number=Sing,37,obl,37:obl:under,_,False,True,X,False,True,ARGM-MNR,False,the banner of forces that do not respect our religion or any principles of basic humanity,ARGM-GOL
+107,9,46,that,that,PRON,WDT,PronType=Rel,49,nsubj,45:ref,_,False,True,X,False,True,R-ARG0,False,that,R-ARG0
+107,9,48,not,not,PART,RB,_,49,advmod,49:advmod,_,False,True,X,False,True,ARGM-NEG,False,not,ARGM-NEG
+107,9,51,religion,religion,NOUN,NN,Number=Sing,49,obj,49:obj,_,False,True,X,False,True,ARG1,False,our religion or any principles of basic humanity,ARG1
+107,10,59,and,and,CCONJ,CC,_,61,cc,61:cc,_,False,True,X,False,False,_,False,and,_
+107,10,60,we,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,61,nsubj,61:nsubj,_,False,True,X,False,True,ARG0,False,we,ARG0
+107,10,62,them,they,PRON,PRP,Case=Acc|Number=Plur|Person=3|PronType=Prs,61,obj,61:obj|64:nsubj:xsubj,_,False,True,X,False,True,ARG2,False,them,ARG1
+107,11,63,to,to,PART,TO,_,64,mark,64:mark,_,False,True,X,False,False,_,False,to,_
+107,11,66,war,war,NOUN,NN,Number=Sing,64,obj,64:obj,_,False,True,X,False,True,ARG1,False,this war,ARG1
+107,11,68,illegal,illegal,ADJ,JJ,Degree=Pos,64,xcomp,64:xcomp,SpaceAfter=No,False,True,X,False,True,ARG2,False,as illegal,ARGM-GOL
+108,0,1,It,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,It,ARG0
+108,0,5,ploy,ploy,NOUN,NN,Number=Sing,2,xcomp,2:xcomp,SpaceAfter=No,False,True,X,False,True,ARG2,False,"a"" ploy"" the assertaion that the attack was merely on foreign fighters at Fallujah",ARG1
+108,0,8,assertaion,assertaion,NOUN,NN,Number=Sing,2,obj,2:obj|5:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,the assertaion that the attack was merely on foreign fighters at Fallujah,ARG1
+109,5,2,convergence,convergence,NOUN,NN,Number=Sing,24,nsubj:pass,24:nsubj:pass,_,False,True,X,False,True,ARG1,True,The convergence of views among the more militant Sunni Muslim clerics of AMS and the radical Shiites of the Sadr movement,ARG1
+109,5,25,before,before,ADV,RB,_,24,advmod,24:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,True,before,R-ARG2
+109,5,28,spring,spring,NOUN,NN,Number=Sing,24,obl:tmod,24:obl:tmod,_,False,True,X,False,True,ARGM-TMP,True,last spring,ARG1
+109,5,33,assault,assault,NOUN,NN,Number=Sing,24,obl,24:obl:during,_,False,True,X,False,True,ARGM-TMP,True,the initial US assault on Fallujah and during the US attack on Mahdi Army militiamen in Najaf,ARGM-GOL
+110,2,9,to,to,PART,TO,_,10,mark,10:mark,_,False,True,X,False,False,_,False,to,_
+110,2,12,risks,risk,NOUN,NNS,Number=Plur,10,obj,10:obj,_,False,True,X,False,True,ARGM-PRR,False,major risks,ARG1
+110,4,13,to,to,PART,TO,_,14,mark,14:mark,_,False,True,X,False,False,_,False,to,_
+110,4,16,Sunnis,Sunnis,PROPN,NNPS,Number=Plur,14,obj,14:obj|20:nmod,_,False,True,X,False,True,ARG1,False,"the Sunnis of Fallujah ,",ARG1
+110,6,20,many,many,ADJ,JJ,Degree=Pos,24,nsubj,24:nsubj,_,False,True,X,False,True,R-ARG0,False,many of whom,ARG0
+110,6,25,Saddam,Saddam,PROPN,NNP,Number=Sing,24,obj,24:obj,_,False,True,X,False,True,ARG1,False,Saddam and his anti - Shiite pogroms,ARG1
+111,0,1,President,President,PROPN,NNP,Number=Sing,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,President,ARG0
+111,0,6,nerves,nerve,NOUN,NNS,Number=Plur,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,a few nerves,ARG1
+111,0,7,yesterday,yesterday,NOUN,NN,Number=Sing,3,obl:tmod,3:obl:tmod,_,False,True,X,False,True,ARGM-TMP,False,yesterday,ARGM-ADJ
+111,0,10,choice,choice,NOUN,NN,Number=Sing,3,obl,3:obl:with,_,False,True,X,False,True,ARG2,False,his choice of words,ARGM-PRP
+113,0,3,groups,group,NOUN,NNS,Number=Plur,4,nsubj,4:nsubj,_,False,True,X,False,False,_,False,U.S. Muslim groups,ARG0
+113,0,5,President,President,PROPN,NNP,Number=Sing,4,obj,4:obj,_,False,True,X,False,False,_,False,President,ARG1
+113,0,8,Thursday,Thursday,PROPN,NNP,Number=Sing,4,obl,4:obl:on,_,False,True,X,False,False,_,False,Thursday,ARGM-GOL
+113,0,18,part,part,NOUN,NN,Number=Sing,4,parataxis,4:parataxis,_,False,True,X,False,False,_,False,"part of a"" war with Islamic fascists",ARG1
+113,1,9,for,for,SCONJ,IN,_,10,mark,10:mark,_,False,True,X,False,False,_,False,"for calling a foiled plot to blow up airplanes part of a"" war with Islamic fascists",_
+113,1,13,plot,plot,NOUN,NN,Number=Sing,10,obj,10:obj,_,False,True,X,False,True,ARG1,False,a foiled plot,ARG1
+113,4,14,to,to,PART,TO,_,15,mark,15:mark,_,False,True,X,False,False,_,False,to,_
+113,4,16,up,up,ADP,RP,_,15,compound:prt,15:compound:prt,_,False,True,X,False,False,_,False,up,_
+113,4,17,airplanes,airplane,NOUN,NNS,Number=Plur,15,obj,15:obj,_,False,True,X,False,True,ARG1,False,airplanes,ARG1
+113,8,30,term,term,NOUN,NN,Number=Sing,32,nsubj,32:nsubj,_,False,True,X,False,True,ARG0,False,the term,ARG0
+113,8,34,tensions,tension,NOUN,NNS,Number=Plur,32,obj,32:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,-,ARG1
+114,1,2,officials,official,NOUN,NNS,Number=Plur,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,U.S. officials,ARG0
+114,3,10,Britain,Britain,PROPN,NNP,Number=Sing,8,obl,8:obl:by,SpaceAfter=No,False,True,X,False,True,ARG0,False,Britain,ARGM-GOL
+114,4,12,to,to,PART,TO,_,13,mark,13:mark,_,False,True,X,False,False,_,False,to,_
+114,4,14,up,up,ADP,RP,_,13,compound:prt,13:compound:prt,_,False,True,X,False,False,_,False,up,_
+114,4,16,aircraft,aircraft,NOUN,NNS,Number=Plur,13,obj,13:obj,_,False,True,X,False,True,ARG1,False,several aircraft over the Atlantic bore,ARG1
+114,4,19,Atlantic,Atlantic,PROPN,NNP,Number=Sing,13,obl,13:obl:over,_,False,True,X,False,True,ARGM-LOC,False,Atlantic,ARGM-GOL
+114,5,6,plot,plot,NOUN,NN,Number=Sing,20,nsubj,20:nsubj,SpaceAfter=No,False,True,X,False,True,ARG1,False,"the plot , thwarted by Britain ,",ARG0
+114,5,21,many,many,ADJ,JJ,Degree=Pos,20,obj,20:obj,_,False,True,X,False,True,ARG2,False,many of the hallmarks of al Qaeda,ARG1
+115,0,2,We,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,We,ARG0
+115,0,10,term,term,NOUN,NN,Number=Sing,3,ccomp,3:ccomp,_,False,True,X,False,True,ARG1,False,an ill - advised term,ARG1
+115,2,7,ill,ill,ADV,RB,_,9,compound,9:compound,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,False,ill,ARGM-ADJ
+115,3,11,and,and,CCONJ,CC,_,13,cc,13:cc,_,False,True,X,False,False,_,False,and,_
+115,3,12,we,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,13,nsubj,13:nsubj,_,False,True,X,False,True,ARG0,False,we,ARG0
+115,3,17,counterproductive,counterproductive,ADJ,JJ,Degree=Pos,13,ccomp,13:ccomp,_,False,True,X,False,True,ARG1,False,counterproductive to associate Islam or Muslims with fascism,ARG1
+115,6,18,to,to,PART,TO,_,19,mark,19:mark,_,False,True,X,False,False,_,False,to,_
+115,6,20,Islam,Islam,PROPN,NNP,Number=Sing,19,obj,19:obj,_,False,True,X,False,True,ARG1,False,Islam or Muslims,ARG1
+115,6,24,fascism,fascism,NOUN,NN,Number=Sing,19,obl,19:obl:with,SpaceAfter=No,False,True,X,False,True,ARG2,False,fascism,ARGM-ADJ
+115,7,28,Nihad,Nihad,PROPN,NNP,Number=Sing,27,nsubj,27:nsubj,_,False,True,X,False,True,ARG0,False,Nihad,ARG0
+116,2,4,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,7,nsubj,7:nsubj,_,False,True,X,False,True,ARG0,False,he,ARG0
+116,2,6,n't,not,PART,RB,_,7,advmod,7:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+116,2,11,war,war,NOUN,NN,Number=Sing,7,ccomp,7:ccomp,_,False,True,X,False,True,ARG1,False,war with Islamic people,ARG1
+118,0,1,By,by,SCONJ,IN,_,2,mark,2:mark,_,False,True,X,False,False,_,False,"By using the word"" Islamic"" as an adjective Bush was purposely not associating Muslims with fascism , hence the qualifier.",_
+118,0,4,word,word,NOUN,NN,Number=Sing,2,obj,2:obj,_,False,True,X,False,True,ARG1,False,the word,ARG1
+118,0,10,adjective,adjective,NOUN,NN,Number=Sing,2,obl,2:obl:as,_,False,True,X,False,True,ARG2,False,adjective,ARGM-PRP
+118,2,11,Bush,Bush,PROPN,NNP,Number=Sing,15,nsubj,15:nsubj,_,False,True,X,False,True,ARG0,False,an adjective Bush,ARG0
+118,2,13,purposely,purposely,ADV,RB,_,15,advmod,15:advmod,_,False,True,X,False,True,ARGM-MNR,False,purposely,R-ARGM-DIR
+118,2,14,not,not,PART,RB,_,15,advmod,15:advmod,_,False,True,X,False,True,ARGM-NEG,False,not,ARGM-NEG
+118,2,16,Muslims,Muslims,PROPN,NNPS,Number=Plur,15,obj,15:obj,_,False,True,X,False,True,ARG1,False,Muslims,ARG1
+118,2,18,fascism,fascism,NOUN,NN,Number=Sing,15,obl,15:obl:with,SpaceAfter=No,False,True,X,False,True,ARG2,False,fascism,ARGM-GOL
+118,2,22,qualifier,qualifier,NOUN,NN,Number=Sing,15,parataxis,15:parataxis,SpaceAfter=No,False,True,X,False,False,_,False,hence the qualifier,ARG1
+119,1,2,if,if,SCONJ,IN,_,6,mark,6:mark,_,False,True,X,False,False,_,False,if,_
+119,1,3,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,6,nsubj,6:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+119,1,5,n't,not,PART,RB,_,6,advmod,6:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+119,1,8,now,now,ADV,RB,_,6,obl,6:obl:by,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,now,ARGM-TMP
+119,3,1,And,and,CCONJ,CC,_,15,cc,15:cc,_,False,True,X,False,True,ARGM-DIS,False,And,_
+119,3,11,roster,roster,NOUN,NN,Number=Sing,15,nsubj,15:nsubj,_,False,True,X,False,True,ARG0,False,the roster of suspected terrorists,ARG0
+119,3,16,not,not,ADV,RB,_,15,advmod,15:advmod,_,False,True,X,False,True,ARG1,False,not,ARGM-NEG
+119,3,18,Tom,Tom,PROPN,NNP,Number=Sing,15,obj,15:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,"a Tom , Dick or Harry among them",ARG1
+119,3,24,them,they,PRON,PRP,Case=Acc|Number=Plur|Person=3|PronType=Prs,15,obl,15:obl:among,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,False,them,ARGM-GOL
+134,0,8,Brian,Brian,PROPN,NNP,Number=Sing,7,xcomp,7:xcomp,_,False,True,X,False,True,ARGM-PRD,False,Brian,ARG2
+138,3,21,Canada,Canada,PROPN,NNP,Number=Sing,19,obl,19:obl:in,_,False,True,X,False,True,ARGM-LOC,False,Canada,ARGM-GOL
+138,3,25,ago,ago,ADV,RB,_,19,advmod,19:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,a few months ago,C-V
+150,1,1,We,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,3,nsubj,3:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,We,ARG0
+150,1,5,Steven,Steven,PROPN,NNP,Number=Sing,3,obj,3:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,a,ARG1
+150,3,10,that,that,PRON,WDT,PronType=Rel,13,nsubj,9:ref,_,False,True,X,False,True,R-ARG0,False,the one word that did n't crash my spell - check,R-ARG0
+150,3,12,n't,not,PART,RB,_,13,advmod,13:advmod,_,False,True,X,False,True,ARGM-NEG,False,did,ARGM-NEG
+150,3,17,check,check,NOUN,NN,Number=Sing,13,obj,13:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,-,ARG1
+150,6,19,despite,despite,SCONJ,IN,_,22,mark,22:mark,_,False,True,X,False,False,_,True,",",_
+150,6,20,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,22,nsubj:pass,22:nsubj:pass,_,False,True,X,False,True,ARG2,True,despite,ARG1
+150,6,25,Vikash,Vikash,PROPN,NNP,Number=Sing,22,obl,22:obl:by,_,False,True,X,False,True,ARG1,True,a,ARGM-GOL
+152,1,2,because,because,SCONJ,IN,_,6,mark,6:mark,_,False,True,X,False,False,_,False,because,_
+152,1,3,we,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,6,nsubj,6:nsubj|8:nsubj:xsubj|9:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,we,ARG0
+152,1,5,n't,not,PART,RB,_,6,advmod,6:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+152,2,7,to,to,PART,TO,_,8,mark,8:mark,_,False,True,X,False,False,_,False,to,_
+152,2,9,hateful,hateful,ADJ,JJ,Degree=Pos,8,xcomp,8:xcomp,_,False,True,X,False,True,ARG2,False,hateful,ARG2
+152,4,10,we,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,12,nsubj,12:nsubj|19:nsubj,_,False,True,X,False,True,ARG0,False,we,ARG0
+152,4,17,suspect,suspect,NOUN,NN,Number=Sing,12,ccomp,12:ccomp,_,False,True,X,False,True,ARG1,False,a possible suspect,ARG1
+152,6,1,But,but,CCONJ,CC,_,19,cc,19:cc,_,False,True,X,False,True,ARGM-DIS,False,But,ARGM-DIS
+152,6,18,and,and,CCONJ,CC,_,19,cc,19:cc,_,False,True,X,False,False,_,False,and,_
+152,6,21,travel,travel,NOUN,NN,Number=Sing,19,obj,19:obj|23:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,airline travel,ARG1
+152,6,23,miserable,miserable,ADJ,JJ,Degree=Pos,19,xcomp,19:xcomp,_,False,True,X,False,True,ARG1,False,airline travel more miserable than it 's ever been,ARG2
+152,10,24,than,than,SCONJ,IN,_,28,mark,28:mark,_,False,True,X,False,False,_,False,than,_
+152,10,25,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,28,nsubj,28:nsubj,SpaceAfter=No,False,True,X,False,True,ARG1,False,it,ARG0
+152,10,27,ever,ever,ADV,RB,_,28,advmod,28:advmod,_,False,True,X,False,True,ARGM-TMP,False,ever,R-ARGM-MNR
+153,0,4,site,site,NOUN,NN,Number=Sing,23,obl,23:obl:on,_,False,True,X,False,True,ARGM-LOC,False,the internet site of Monotheism and Holy War,R-ARGM-DIR
+153,0,21,group,group,NOUN,NN,Number=Sing,23,nsubj,23:nsubj,_,False,True,X,False,True,ARG0,False,the group,ARG0
+153,0,22,allegedly,allegedly,ADV,RB,_,23,advmod,23:advmod,_,False,True,X,False,True,ARGM-ADV,False,allegedly,R-ARGM-DIR
+153,1,26,We,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,27,nsubj,27:nsubj,_,False,True,X,False,True,ARG0,False,We,ARG0
+153,3,28,that,that,SCONJ,IN,_,41,mark,41:mark,_,False,True,X,False,False,_,False,that,_
+153,3,33,Group,Group,PROPN,NNP,Number=Sing,41,nsubj,41:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,Jihad Group,ARG0
+153,3,42,allegiance,allegiance,NOUN,NN,Number=Sing,41,obj,41:obj,_,False,True,X,False,True,ARG2,False,allegiance,ARG1
+153,3,45,sheikh,sheikh,NOUN,NN,Number=Sing,41,obl,41:obl:to,_,False,True,X,False,True,ARG1,False,the sheikh of the mujahideen Osama bin Laden,R-ARGM-DIR
+155,1,1,Abu,Abu,PROPN,NNP,Number=Sing,10,nsubj:pass,10:nsubj:pass|15:nsubj:xsubj,_,False,True,X,False,True,ARG1,True,Abu,ARG1
+155,1,15,rivals,rival,NOUN,NNS,Number=Plur,10,xcomp,10:xcomp,_,False,True,X,False,True,C-ARG1,True,bitter rivals of al - Qaeda,ARG1
+156,1,2,witness,witness,NOUN,NN,Number=Sing,9,nsubj,9:nsubj,_,False,True,X,False,True,ARG0,False,One witness at the Moutasaddiq trial in Germany,ARG0
+156,3,10,that,that,SCONJ,IN,_,14,mark,14:mark,_,False,True,X,False,False,_,False,that,_
+156,3,11,Zarqawi,Zarqawi,PROPN,NNP,Number=Sing,14,nsubj,14:nsubj,_,False,True,X,False,True,ARG0,False,Zarqawi,ARG0
+156,3,13,not,not,PART,RB,_,14,advmod,14:advmod,_,False,True,X,False,True,ARGM-NEG,False,not,ARGM-NEG
+156,3,15,Monotheism,Monotheism,PROPN,NNP,Number=Sing,14,obj,14:obj|20:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,Monotheism and Holy War,ARG1
+156,4,19,to,to,PART,TO,_,20,mark,20:mark,_,False,True,X,False,False,_,False,to,_
+156,4,21,resources,resource,NOUN,NNS,Number=Plur,20,obj,20:obj,_,False,True,X,False,True,ARG1,False,resources with al - Qaeda,ARG1
+156,4,25,Qaeda,Qaeda,PROPN,NNP,Number=Sing,20,obl,20:obl:with,_,False,True,X,False,True,ARG2,False,al - Qaeda,ARGM-GOL
+156,4,29,zeroes,zero,NOUN,NNS,Number=Plur,20,obl,20:obl:in,_,False,True,X,False,True,ARGM-TMP,False,the early zeroes of the 21st century,C-V
+157,8,12,that,that,SCONJ,IN,_,23,mark,23:mark,_,False,True,X,False,False,_,True,that,_
+157,8,19,groups,group,NOUN,NNS,Number=Plur,23,nsubj:pass,23:nsubj:pass,_,False,True,X,False,True,ARG1,True,even the divided small radical guerrilla groups,ARG1
+157,8,24,up,up,ADV,RB,_,23,advmod,23:advmod,SpaceAfter=No,False,True,X,False,False,_,True,up,C-V
+157,8,29,Qaeda,Qaeda,PROPN,NNP,Number=Sing,23,obl,23:obl:by,SpaceAfter=No,False,True,X,False,True,ARG0,True,al - Qaeda,ARGM-GOL
+160,1,18,who,who,PRON,WP,PronType=Rel,19,nsubj,16:ref,_,False,True,X,False,True,R-ARG0,False,who,R-ARG0
+160,1,21,loyalty,loyalty,NOUN,NN,Number=Sing,19,obj,19:obj,_,False,True,X,False,True,ARG2,False,personal loyalty,ARG1
+160,1,23,Usamah,Usamah,PROPN,NNP,Number=Sing,19,obl,19:obl:to,_,False,True,X,False,True,ARG1,False,Usamah,ARGM-GOL
+161,2,1,It,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,5,nsubj:pass,5:nsubj:pass,_,False,True,X,False,True,ARG1,True,It,ARG1
+161,2,3,notionally,notionally,ADV,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-ADV,True,notionally,ARGM-ADV
+161,3,6,to,to,PART,TO,_,7,mark,7:mark,_,False,True,X,False,False,_,False,to,_
+161,3,14,Brigade,Brigade,PROPN,NNP,Number=Sing,7,obj,7:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,"the 5,000 - strong"" 55th Brigade"" of the Taliban regime",ARG1
+161,3,27,definition,definition,NOUN,NN,Number=Sing,7,advcl,7:advcl:though,SpaceAfter=No,False,True,X,False,True,ARGM-ADV,False,the technical definition,ARG1
+162,2,4,Saudi,saudi,ADJ,JJ,Degree=Pos,8,advcl,8:advcl:because,SpaceAfter=No,False,True,X,False,True,ARGM-CAU,False,Saudi,ARGM-ADJ
+162,2,7,guess,guess,NOUN,NN,Number=Sing,8,nsubj,8:nsubj,_,False,True,X,False,True,ARG1,False,my guess,ARG0
+162,4,9,that,that,SCONJ,IN,_,13,mark,13:mark,_,False,True,X,False,False,_,True,that,_
+162,4,10,they,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,13,nsubj:pass,13:nsubj:pass,_,False,True,X,False,True,ARG1,True,they,ARG1
+162,4,12,especially,especially,ADV,RB,_,13,advmod,13:advmod,_,False,True,X,False,True,ARGM-EXT,True,especially,R-ARGM-MNR
+162,4,17,form,form,NOUN,NN,Number=Sing,13,obl,13:obl:by,_,False,True,X,False,True,ARG0,True,an extremist form of the Wahhabi school of Islam that predominates among Saudia 's some 15 million citizens,ARGM-ADJ
+162,5,24,that,that,PRON,WDT,PronType=Rel,25,nsubj,21:ref,_,False,True,X,False,True,R-ARG1,False,that,R-ARG0
+162,5,32,citizens,citizen,NOUN,NNS,Number=Plur,25,obl,25:obl:among,SpaceAfter=No,False,True,X,False,True,ARG2,False,some 15 million citizens,ARGM-GOL
+163,1,2,1998,1998,NUM,CD,NumType=Card,5,obl,5:obl:in,_,False,True,X,False,True,ARGM-TMP,True,1998,ARGM-TMP
+163,1,3,they,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,5,nsubj:pass,5:nsubj:pass,_,False,True,X,False,True,ARG1,True,they,ARG1
+163,1,7,Egyptians,Egyptians,PROPN,NNPS,Number=Plur,5,obl,5:obl:by,_,False,True,X,False,True,ARG0,True,Egyptians from the al - Jihad al - Islami group of Ayman al - Zawahiri,R-ARG2
+163,1,29,Egypt,Egypt,PROPN,NNP,Number=Sing,5,ccomp,5:ccomp,SpaceAfter=No,False,True,X,False,False,_,True,"Upper Egypt , especially Asyut and environs",ARG1
+165,1,6,and,and,CCONJ,CC,_,16,cc,16:cc,_,False,True,X,False,False,_,False,and,_
+165,1,12,group,group,NOUN,NN,Number=Sing,16,nsubj,16:nsubj,_,False,True,X,False,True,ARG0,False,his Monotheism and Holy War group in Afghanistan,ARG0
+165,1,15,probably,probably,ADV,RB,_,16,advmod,16:advmod,_,False,True,X,False,True,ARGM-ADV,False,probably,ARGM-ADV
+165,1,19,coloration,coloration,NOUN,NN,Number=Sing,16,obj,16:obj,_,False,True,X,False,True,ARG1,False,"a distinctive coloration as mainly Jordanian , Palestinian and Syrian",ARG1
+166,0,1,They,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,They,ARG0
+166,0,2,also,also,ADV,RB,_,3,advmod,3:advmod,_,False,True,X,False,True,ARGM-DIS,False,also,ARGM-DIS
+166,0,6,connection,connection,NOUN,NN,Number=Sing,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,a special connection to some extremists in Jordan and Germany,ARG1
+167,1,1,They,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,5,nsubj:pass,5:nsubj:pass,_,False,True,X,False,True,ARG1,True,They,ARG1
+167,1,3,probably,probably,ADV,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-ADV,True,probably,ARGM-ADV
+167,1,4,especially,especially,ADV,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-EXT,True,especially,ARGM-ADV
+167,1,9,school,school,NOUN,NN,Number=Sing,5,obl,5:obl:toward|16:nsubj,_,False,True,X,False,True,ARG2,True,"the Salafi school of modern Islamic thought , which has a Protestant - like emphasis on going back to the original practice of the early companions of the Prophet Muhammad",ARGM-ADJ
+167,3,15,which,which,PRON,WDT,PronType=Rel,16,nsubj,9:ref,_,False,True,X,False,True,R-ARG0,False,which,R-ARG1
+167,3,21,emphasis,emphasis,NOUN,NN,Number=Sing,16,obj,16:obj,_,False,True,X,False,True,ARG1,False,a Protestant - like emphasis on going back to the original practice of the early companions of the Prophet Muhammad,ARG1
+167,5,22,on,on,SCONJ,IN,_,23,mark,23:mark,_,False,True,X,False,False,_,False,on going back to the original practice of the early companions of the Prophet Muhammad,_
+167,5,24,back,back,ADV,RB,_,23,advmod,23:advmod,_,False,True,X,False,False,_,False,back to the original practice of the early companions of the Prophet Muhammad,R-ARGM-MNR
+168,2,10,though,though,SCONJ,IN,_,12,mark,12:mark,_,False,True,X,False,False,_,False,though,_
+168,2,11,they,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,12,nsubj,12:nsubj|18:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,they,ARG0
+168,2,18,minded,minded,ADJ,JJ,Degree=Pos,12,xcomp,12:xcomp,_,False,True,X,False,True,ARG2,False,rather narrow - minded in my experience,ARG2
+169,1,1,Monotheism,Monotheism,PROPN,NNP,Number=Sing,7,nsubj,7:nsubj,_,False,True,X,False,False,_,False,Monotheism and Holy War,ARG0
+169,1,5,obviously,obviously,ADV,RB,_,7,advmod,7:advmod,_,False,True,X,False,False,_,False,obviously,ARGM-ADV
+169,1,10,interpretation,interpretation,NOUN,NN,Number=Sing,7,obj,7:obj,_,False,True,X,False,True,ARGM-PRR,False,a violent interpretation of Salafism,ARG1
+169,3,21,so,so,ADV,RB,_,23,compound,23:compound,SpaceAfter=No,False,True,X,False,False,_,False,so,_
+169,4,14,rather,rather,ADV,RB,_,30,advmod,30:advmod,_,False,True,X,False,False,_,False,rather,R-ARGM-DIR
+169,4,15,as,as,SCONJ,IN,_,30,mark,30:mark,_,False,True,X,False,False,_,False,rather as,_
+169,4,16,the,the,DET,DT,Definite=Def|PronType=Art,30,reparandum,30:reparandum,_,False,True,X,False,False,_,False,the,R-ARGM-DIR
+169,4,18,leaders,leader,NOUN,NNS,Number=Plur,30,nsubj,30:nsubj,_,False,True,X,False,False,_,False,the the leaders of the so - called German Peasant Rebellion among early Protestants,ARG0
+170,1,3,sign,sign,NOUN,NN,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG1,False,Another worrisome sign,ARG0
+170,2,14,presence,presence,NOUN,NN,Number=Sing,10,obl,10:obl:to,_,False,True,X,False,True,ARG1,False,the US presence in Iraq,ARG2
+170,4,5,that,that,SCONJ,IN,_,18,mark,18:mark,_,False,True,X,False,False,_,False,that,_
+170,4,9,fundamentalists,fundamentalist,NOUN,NNS,Number=Plur,18,nsubj,18:nsubj|19:nsubj:xsubj|26:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,local Iraqi Sunni fundamentalists,ARG0
+170,5,20,Monotheism,Monotheism,PROPN,NNP,Number=Sing,19,obj,19:obj,_,False,True,X,False,True,ARG1,False,Monotheism and Holy War,ARG1
+170,6,25,and,and,CCONJ,CC,_,26,cc,26:cc,_,False,True,X,False,False,_,False,and,_
+170,6,32,insignia,insignia,NOUN,NN,Number=Sing,26,obj,26:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,its distinctive orange and black insignia,ARG1
+171,2,1,These,these,PRON,DT,Number=Plur|PronType=Dem,4,nsubj:pass,4:nsubj:pass,_,False,True,X,False,True,ARG1,True,These,ARG1
+171,2,7,crowds,crowd,NOUN,NNS,Number=Plur,4,obl,4:obl:among,_,False,True,X,False,True,ARGM-LOC,True,Iraqi crowds on Haifa Street in Baghdad and in Samarra,ARGM-ADJ
+172,0,1,So,so,ADV,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-ADV,False,So,ARGM-DIS
+172,0,2,now,now,ADV,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-TMP,False,now,ARGM-TMP
+172,0,3,there,there,PRON,EX,_,4,expl,4:expl,_,False,True,X,False,False,_,False,there,_
+172,0,5,hundreds,hundred,NOUN,NNS,Number=Plur,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG1,False,hundreds of al - Qaeda members in Iraq where there had been none before,ARG0
+172,2,13,where,where,ADV,WRB,PronType=Rel,16,advmod,16:advmod,_,False,True,X,False,True,R-ARGM-LOC,False,where,R-ARGM-LOC
+172,2,14,there,there,PRON,EX,_,16,expl,16:expl,_,False,True,X,False,False,_,False,there,_
+172,2,17,none,none,NOUN,NN,Number=Sing,16,nsubj,16:nsubj,_,False,True,X,False,True,ARG1,False,none,ARG0
+172,2,18,before,before,ADV,RB,_,16,advmod,16:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,before,ARGM-ADV
+173,3,2,consolidation,consolidation,NOUN,NN,Number=Sing,16,nsubj:pass,16:nsubj:pass,_,False,True,X,False,True,ARG1,True,The consolidation of smaller local radical fundamentalist groups with al - Qaeda,ARG1
+173,3,14,also,also,ADV,RB,_,16,advmod,16:advmod,_,False,True,X,False,True,ARGM-DIS,True,also,R-ARG2
+173,3,19,case,case,NOUN,NN,Number=Sing,16,obl,16:obl:in,_,False,True,X,False,True,ARG2,True,the case of the Fizazi group in Tangiers that morphed into the Moroccan Islamic Combatant Group,ARGM-GOL
+173,3,25,Tangiers,tangier,NOUN,NNS,Number=Plur,16,obl,16:obl:in|27:nsubj,_,False,True,X,False,True,ARGM-TMP,True,Tangiers,ARG2
+173,5,26,that,that,PRON,WDT,PronType=Rel,27,nsubj,25:ref,_,False,True,X,False,True,R-ARG1,False,that,R-ARG0
+173,6,28,into,into,SCONJ,IN,_,35,mark,35:mark,_,False,True,X,False,False,_,False,into the Moroccan Islamic Combatant Group,_
+173,6,33,Group,Group,PROPN,NNP,Number=Sing,35,nsubj,35:nsubj,_,False,True,X,False,True,ARG0,False,the Moroccan Islamic Combatant Group,ARG0
+173,6,36,members,member,NOUN,NNS,Number=Plur,35,obj,35:obj|38:nsubj|51:nsubj,_,False,True,X,False,True,ARG1,False,members who met with September 11 ringleader Muhammad Atta,ARG1
+173,7,37,who,who,PRON,WP,PronType=Rel,38,nsubj,36:ref,_,False,True,X,False,True,R-ARG0,False,who,R-ARG0
+173,7,42,ringleader,ringleader,NOUN,NN,Number=Sing,38,obl,38:obl:with,_,False,True,X,False,True,ARG1,False,September 11 ringleader,ARGM-GOL
+173,7,51,responsible,responsible,ADJ,JJ,Degree=Pos,38,conj,36:acl:relcl|38:conj:and,_,False,True,X,False,False,_,False,responsible for the Madrid train bombings,_
+174,1,4,Panel,Panel,PROPN,NNP,Number=Sing,6,nsubj,6:nsubj,_,False,True,X,False,True,ARG0,False,The September 11 Panel,ARG0
+174,1,8,findings,finding,NOUN,NNS,Number=Plur,6,obj,6:obj,_,False,True,X,False,True,ARG1,False,its findings,ARG1
+174,1,10,Thursday,Thursday,PROPN,NNP,Number=Sing,6,obl,6:obl:on,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,Thursday,ARGM-GOL
+175,0,1,It,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,It,ARG0
+175,0,4,points,point,NOUN,NNS,Number=Plur,2,obj,2:obj|9:obl,_,False,True,X,False,True,ARG1,False,10 points at which the US made key mistakes that might have stopped Bin Laden 's plot,ARG1
+175,1,6,which,which,PRON,WDT,PronType=Rel,9,obl,4:ref,_,False,True,X,False,False,_,False,which,R-ARG1
+175,1,8,US,US,PROPN,NNP,Number=Sing,9,nsubj,9:nsubj,_,False,True,X,False,False,_,False,the US,ARG0
+175,1,11,mistakes,mistake,NOUN,NNS,Number=Plur,9,obj,9:obj|15:nsubj,_,False,True,X,False,True,ARGM-PRR,False,key mistakes that might have stopped Bin Laden 's plot,ARG1
+175,5,12,that,that,PRON,WDT,PronType=Rel,15,nsubj,11:ref,_,False,True,X,False,True,R-ARG0,False,that,R-ARG0
+175,5,19,plot,plot,NOUN,NN,Number=Sing,15,obj,15:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,Bin Laden 's plot,ARG1
+177,0,1,Bush,Bush,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj|6:nsubj,_,False,True,X,False,True,ARG1,False,Bush,ARG0
+177,0,3,out,out,ADV,RB,_,2,advmod,2:advmod,_,False,True,X,False,False,_,False,out,C-V
+177,0,4,today,today,NOUN,NN,Number=Sing,2,obl:tmod,2:obl:tmod,_,False,True,X,False,True,ARGM-TMP,False,today,ARG1
+177,1,5,and,and,CCONJ,CC,_,6,cc,6:cc,_,False,True,X,False,False,_,False,and,_
+177,3,8,if,if,SCONJ,IN,_,11,mark,11:mark,_,False,True,X,False,False,_,False,if,_
+177,3,9,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,11,nsubj,11:nsubj,_,False,True,X,False,True,ARG0,False,he,ARG0
+177,5,12,what,what,PRON,WP,PronType=Int,14,nsubj,14:nsubj,_,False,True,X,False,True,ARG1,False,what,ARG0
+177,8,7,that,that,SCONJ,IN,_,19,mark,19:mark,_,False,True,X,False,False,_,False,that,_
+177,8,16,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,19,nsubj,19:nsubj,_,False,True,X,False,True,ARG0,False,he,ARG0
+177,8,21,effort,effort,NOUN,NN,Number=Sing,19,obj,19:obj,_,False,True,X,False,True,ARG1,False,every effort to stop it,ARG1
+177,10,22,to,to,PART,TO,_,23,mark,23:mark,_,False,True,X,False,False,_,False,to,_
+177,10,24,it,it,PRON,PRP,Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs,23,obj,23:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,it,ARG1
+177,12,26,and,and,CCONJ,CC,_,30,cc,30:cc,_,False,True,X,False,False,_,False,and,_
+177,12,27,that,that,SCONJ,IN,_,30,mark,30:mark,_,False,True,X,False,False,_,False,that,_
+177,12,28,so,so,ADV,RB,_,30,advmod,30:advmod,_,False,True,X,False,False,_,False,so,R-ARGM-MNR
+177,12,31,Clinton,Clinton,PROPN,NNP,Number=Sing,30,nsubj,30:nsubj,SpaceAfter=No,False,True,X,False,False,_,False,Clinton,ARG0
+179,2,1,Of,of,ADV,RB,_,6,advmod,6:advmod,_,False,True,X,False,True,ARGM-ADV,False,Of,ARGM-ADV
+179,2,3,Bush,Bush,PROPN,NNP,Number=Sing,6,nsubj,6:nsubj|8:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,Bush,ARG0
+179,3,7,to,to,PART,TO,_,8,mark,8:mark,_,False,True,X,False,False,_,False,to,_
+179,3,9,9/11,9/11,NUM,CD,NumType=Card,8,obj,8:obj,_,False,True,X,False,True,ARG1,False,9/11,ARG1
+179,5,10,if,if,SCONJ,IN,_,13,mark,13:mark,_,False,True,X,False,False,_,False,if,_
+179,5,11,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,13,nsubj,13:nsubj,_,False,True,X,False,True,ARG0,False,he,ARG0
+179,7,14,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,16,nsubj,16:nsubj,_,False,True,X,False,True,ARG1,False,it,ARG0
+180,1,2,question,question,NOUN,NN,Number=Sing,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG1,False,The question,ARG0
+180,4,7,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,9,nsubj,9:nsubj,_,False,True,X,False,True,ARG0,False,he,ARG0
+180,6,10,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,12,nsubj,12:nsubj,_,False,True,X,False,True,ARG1,False,it,ARG0
+182,0,1,We,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,We,ARG0
+182,0,2,now,now,ADV,RB,_,3,advmod,3:advmod,_,False,True,X,False,True,ARGM-TMP,False,now,ARGM-TMP
+182,2,4,that,that,SCONJ,IN,_,9,mark,9:mark,_,False,True,X,False,False,_,False,that,_
+182,2,5,Bush,Bush,PROPN,NNP,Number=Sing,9,nsubj,9:nsubj,_,False,True,X,False,True,ARG1,False,Bush and his administration,ARG0
+182,2,11,office,office,NOUN,NN,Number=Sing,9,obl,9:obl:into,_,False,True,X,False,True,ARG2,False,office obsessed with Iraq,ARG2
+182,2,12,obsessed,obsessed,ADJ,JJ,Degree=Pos,9,advcl,9:advcl,_,False,True,X,False,True,ARGM-PRD,False,obsessed with Iraq,ARG1
+183,1,1,Cheney,Cheney,PROPN,NNP,Number=Sing,3,nsubj,3:nsubj|11:nsubj,_,False,True,X,False,True,ARG0,False,Cheney,ARG0
+183,1,5,maps,map,NOUN,NNS,Number=Plur,3,obl,3:obl:at,_,False,True,X,False,True,ARG1,False,maps of Iraq oil fields,R-ARGM-MNR
+183,2,10,and,and,CCONJ,CC,_,11,cc,11:cc,_,False,True,X,False,False,_,False,and,_
+183,2,13,opportunities,opportunity,NOUN,NNS,Number=Plur,11,obl,11:obl:about,_,False,True,X,False,True,ARG1,False,opportunities for US companies there,R-ARG2
+183,2,19,already,already,ADV,RB,_,11,advmod,11:advmod,_,False,True,X,False,True,ARGM-TMP,False,already,C-V
+183,2,21,January,January,PROPN,NNP,Number=Sing,11,obl,11:obl:in,_,False,True,X,False,True,ARGM-TMP,False,January or February of 2001,ARGM-GOL
+184,0,1,Wolfowitz,Wolfowitz,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,Wolfowitz,ARG0
+184,0,5,Richard,Richard,PROPN,NNP,Number=Sing,2,obj,2:obj,_,False,True,X,False,True,ARG1,False,terrorism,ARG1
+184,1,7,when,when,ADV,WRB,PronType=Int,10,mark,10:mark,_,False,True,X,False,True,ARGM-TMP,False,Richard,ARGM-TMP
+184,1,9,latter,latter,ADJ,JJ,Degree=Pos,10,nsubj,10:nsubj,_,False,True,X,False,True,ARG0,False,when,ARG0
+184,1,16,threat,threat,NOUN,NN,Number=Sing,10,obl,10:obl:of,SpaceAfter=No,False,True,X,False,True,ARG1,False,-,ARGM-GOL
+184,3,19,that,that,SCONJ,IN,_,28,mark,28:mark,_,False,True,X,False,False,_,False,",",_
+184,3,22,threat,threat,NOUN,NN,Number=Sing,28,nsubj,28:nsubj,_,False,True,X,False,True,ARG1,False,the,ARG0
+184,3,30,Iraq,Iraq,PROPN,NNP,Number=Sing,28,obl,28:obl:from,SpaceAfter=No,False,True,X,False,True,ARG3,False,"that the preeminent threat of terrorism against the US came from Iraq , and",ARGM-GOL
+184,4,32,and,and,CCONJ,CC,_,33,cc,33:cc,_,False,True,X,False,False,_,False,Iraq,_
+184,5,34,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,35,nsubj,35:nsubj,_,False,True,X,False,True,ARG0,False,and,ARG0
+184,5,41,theory,theory,NOUN,NN,Number=Sing,35,obj,35:obj,_,False,True,X,False,True,ARG1,False,crackpot,ARG1
+185,0,1,If,if,SCONJ,IN,_,3,mark,3:mark,_,False,True,X,False,False,_,False,If,_
+185,0,2,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+185,0,5,theories,theory,NOUN,NNS,Number=Plur,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,crackpot theories,ARG1
+185,1,6,instead,instead,ADV,RB,_,8,mark,8:mark,_,False,True,X,False,False,_,False,instead,_
+185,1,11,reality,reality,NOUN,NN,Number=Sing,8,obl,8:obl:on,SpaceAfter=No,False,True,X,False,True,ARG2,False,the reality,ARGM-GOL
+185,4,20,mainly,mainly,ADV,RB,_,21,advmod,21:advmod,_,False,True,X,False,True,ARGM-ADV,False,mainly,ARGM-ADV
+185,4,22,out,out,ADP,RP,_,21,compound:prt,21:compound:prt,_,False,True,X,False,False,_,False,out,_
+185,4,24,al,al,PROPN,NNP,Number=Sing,21,obl,21:obl:by,SpaceAfter=No,False,True,X,False,True,ARG0,False,al,ARGM-GOL
+185,5,37,Bin,Bin,PROPN,NNP,Number=Sing,35,obl,35:obl:with,_,False,True,X,False,True,ARG2,False,Bin,ARGM-GOL
+185,7,40,then,then,ADV,RB,PronType=Dem,43,advmod,43:advmod,_,False,True,X,False,True,ARGM-ADV,False,then,ARGM-TMP
+185,7,41,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,43,nsubj,43:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+185,7,47,threat,threat,NOUN,NN,Number=Sing,43,obl,43:obl:on,SpaceAfter=No,False,True,X,False,True,ARG1,False,the wrong threat,ARGM-GOL
+186,2,4,attacks,attack,NOUN,NNS,Number=Plur,11,obl,11:obl:after,_,False,True,X,False,True,ARGM-TMP,False,the attacks on September 11,R-ARGM-DIR
+186,2,9,Bush,Bush,PROPN,NNP,Number=Sing,11,nsubj,11:nsubj,_,False,True,X,False,True,ARG0,False,Bush,ARG0
+186,2,13,Iraq,Iraq,PROPN,NNP,Number=Sing,11,obl,11:obl:about,SpaceAfter=No,False,True,X,False,True,ARG1,False,Iraq,ARGM-GOL
+187,0,1,Wolfowitz,Wolfowitz,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj|6:nsubj,_,False,True,X,False,True,ARG0,False,Wolfowitz,ARG0
+187,0,4,him,he,PRON,PRP,Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs,2,obl,2:obl:to,_,False,True,X,False,True,ARG2,False,him,ARGM-GOL
+187,1,5,and,and,CCONJ,CC,_,6,cc,6:cc,_,False,True,X,False,False,_,False,and,_
+187,2,7,that,that,SCONJ,IN,_,9,mark,9:mark,_,False,True,X,False,False,_,False,that,_
+187,2,8,there,there,PRON,EX,_,9,expl,9:expl,_,False,True,X,False,False,_,False,there,_
+187,2,15,chance,chance,NOUN,NN,Number=Sing,9,nsubj,9:nsubj,_,False,True,X,False,True,ARG1,False,a 10 to 50 % chance that Iraq was behind them,ARG0
+189,3,9,and,and,CCONJ,CC,_,22,cc,22:cc,_,False,True,X,False,False,_,True,and,_
+189,3,12,links,link,NOUN,NNS,Number=Plur,22,nsubj:pass,22:nsubj:pass,_,False,True,X,False,True,ARG1,True,no operational links between al - Qaeda and Iraq,ARG1
+189,3,20,ever,ever,ADV,RB,_,22,advmod,22:advmod,_,False,True,X,False,True,ARGM-TMP,True,ever,ARGM-ADV
+190,0,1,Rumsfeld,Rumsfeld,PROPN,NNP,Number=Sing,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,Rumsfeld,ARG0
+190,0,2,initially,initially,ADV,RB,_,3,advmod,3:advmod,_,False,True,X,False,True,ARGM-TMP,False,initially,ARGM-ADV
+190,0,5,attack,attack,NOUN,NN,Number=Sing,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,an attack on al - Qaeda bases in Afghanistan,ARG1
+190,3,15,there,there,PRON,EX,_,16,expl,16:expl,_,False,True,X,False,False,_,False,there,_
+190,3,20,targets,target,NOUN,NNS,Number=Plur,16,nsubj,16:nsubj,SpaceAfter=No,False,True,X,False,True,ARG1,False,""" no good targets"" in Afghanistan",ARG0
+190,3,23,Afghanistan,Afghanistan,PROPN,NNP,Number=Sing,16,obl,16:obl:in,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,False,Afghanistan,ARGM-GOL
+191,1,9,that,that,PRON,WDT,PronType=Rel,11,nsubj,8:ref,_,False,True,X,False,True,R-ARG0,False,that,R-ARG0
+191,1,14,hijackers,hijacker,NOUN,NNS,Number=Plur,11,obj,11:obj,_,False,True,X,False,True,ARG2,False,the 9/11 hijackers and other terrorists,ARG1
+191,2,22,States,States,PROPN,NNP,Number=Sing,18,obl,18:obl:for,SpaceAfter=No,False,True,X,False,True,ARG1,False,the United States,ARGM-GOL
+192,1,2,Pentagon,Pentagon,PROPN,NNP,Number=Sing,6,nsubj,6:nsubj,_,False,True,X,False,True,ARG0,False,The Pentagon,ARG0
+192,1,4,not,not,PART,RB,_,6,advmod,6:advmod,_,False,True,X,False,True,ARGM-NEG,False,not,ARGM-NEG
+192,1,5,even,even,ADV,RB,_,6,advmod,6:advmod,_,False,True,X,False,True,ARGM-ADV,False,even,ARGM-ADV
+192,1,8,plan,plan,NOUN,NN,Number=Sing,6,obj,6:obj|20:obj,_,False,True,X,False,True,ARG1,False,"a plan for dealing with Afghanistan or al - Qaeda that it could pull off the shelf , according to Bob Woodward",ARG1
+192,1,27,Bob,Bob,PROPN,NNP,Number=Sing,6,obl,6:obl:accord_to,_,False,True,X,False,True,ARGM-ADV,False,Bob,ARG2
+192,3,9,for,for,SCONJ,IN,_,10,mark,10:mark,_,False,True,X,False,False,_,False,for dealing with Afghanistan or al - Qaeda,_
+192,3,12,Afghanistan,Afghanistan,PROPN,NNP,Number=Sing,10,obl,10:obl:with,_,False,True,X,False,True,ARG1,False,Afghanistan or al - Qaeda,ARGM-GOL
+192,5,17,that,that,PRON,WDT,PronType=Rel,20,obj,8:ref,_,False,True,X,False,True,R-ARG1,False,that,ARG1
+192,5,18,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,20,nsubj,20:nsubj,_,False,True,X,False,True,ARG0,False,it,ARG0
+192,5,23,shelf,shelf,NOUN,NN,Number=Sing,20,obl,20:obl:off,SpaceAfter=No,False,True,X,False,True,ARG2,False,the shelf,ARGM-GOL
+192,6,26,to,to,ADP,IN,_,25,fixed,25:fixed,_,False,True,X,False,False,_,False,to Bob Woodward,_
+193,1,1,Bush,Bush,PROPN,NNP,Number=Sing,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,Bush,ARG0
+193,1,3,not,not,PART,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-NEG,False,not,ARGM-NEG
+193,1,6,eye,eye,NOUN,NN,Number=Sing,4,obj,4:obj,_,False,True,X,False,True,ARG1,False,his eye on the ball,ARG1
+193,1,9,ball,ball,NOUN,NN,Number=Sing,4,obl,4:obl:on,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,False,the ball,ARGM-GOL
+194,0,1,Neither,neither,CCONJ,CC,_,2,cc,2:cc,_,False,True,X,False,False,_,False,Neither,_
+194,0,3,Cheney,Cheney,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,SpaceAfter=No,False,True,X,False,False,_,False,"Cheney , Rumsfeld , or Wolfowitz",ARG0
+195,1,1,They,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,They,ARG0
+195,1,5,Ahab,Ahab,PROPN,NNP,Number=Sing,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,Captain Ahab,ARG1
+195,1,11,whale,whale,NOUN,NN,Number=Sing,3,obl,3:obl:to,SpaceAfter=No,False,True,X,False,True,ARGM-GOL,False,Saddam 's great white whale,ARG2
+196,0,2,Hubris,hubris,NOUN,NN,Number=Sing,3,nsubj,3:nsubj,_,False,True,X,False,False,_,False,Imperial Hubris,ARG0
+196,0,5,case,case,NOUN,NN,Number=Sing,3,obj,3:obj,_,False,True,X,False,True,ARGM-PRR,False,the case that lots of people in the CIA and counter - terrorism divisions elsewhere in the US government knew all about Bin Laden and the threat he posed,ARG1
+196,2,6,that,that,SCONJ,IN,_,21,mark,21:mark,_,False,True,X,False,False,_,False,that,_
+196,2,7,lots,lot,NOUN,NNS,Number=Plur,21,nsubj,21:nsubj,_,False,True,X,False,True,ARG0,False,lots of people in the CIA and counter - terrorism divisions elsewhere in the US government,ARG0
+196,2,24,Bin,Bin,PROPN,NNP,Number=Sing,21,obl,21:obl:about,_,False,True,X,False,True,ARG1,False,all,ARGM-GOL
+196,3,29,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,30,nsubj,30:nsubj,_,False,True,X,False,True,ARG0,False,the,ARG0
+197,2,1,They,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,6,nsubj:pass,6:nsubj:pass|9:nsubj:pass,_,False,True,X,False,True,ARG1,True,They,ARG1
+197,2,5,accounts,account,NOUN,NNS,Number=Plur,6,obl,6:obl:from,_,False,True,X,False,True,ARGM-ADV,True,all accounts marginalized,R-ARG2
+197,3,7,and,and,CCONJ,CC,_,9,cc,9:cc,_,False,True,X,False,False,_,False,and,_
+197,3,8,not,not,PART,RB,_,9,advmod,9:advmod,_,False,True,X,False,True,ARGM-NEG,False,not,ARGM-NEG
+197,3,10,to,to,ADP,IN,_,9,obl,9:obl,SpaceAfter=No,False,True,X,False,True,C-ARG1,False,to,_
+198,0,1,Bush,Bush,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,Bush,ARG0
+198,0,3,Dick,Dick,PROPN,NNP,Number=Sing,2,obj,2:obj,_,False,True,X,False,True,ARG1,False,Dick,ARG1
+198,0,21,cabinet,cabinet,NOUN,NN,Number=Sing,2,obl,2:obl:from,SpaceAfter=No,False,True,X,False,True,ARG3,False,his cabinet,ARG2
+199,1,1,Dick,Dick,PROPN,NNP,Number=Sing,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,Dick,ARG0
+199,1,3,never,never,ADV,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-NEG,False,never,ARGM-NEG
+199,1,4,thereafter,thereafter,ADV,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-TMP,False,thereafter,ARGM-ADV
+199,1,8,cooperation,cooperation,NOUN,NN,Number=Sing,5,obj,5:obj,_,False,True,X,False,True,ARG1,False,"any real cooperation from the cabinet officers , who outranked him",ARG1
+199,3,14,who,who,PRON,WP,PronType=Rel,15,nsubj,12:ref,_,False,True,X,False,True,R-ARG0,False,who,R-ARG0
+199,3,16,him,he,PRON,PRP,Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs,15,obj,15:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,him,ARG1
+199,5,18,and,and,CCONJ,CC,_,22,cc,22:cc,_,False,True,X,False,False,_,False,and,_
+199,5,19,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,22,nsubj,22:nsubj,_,False,True,X,False,True,ARG0,False,he,ARG0
+199,5,21,not,not,PART,RB,_,22,advmod,22:advmod,_,False,True,X,False,True,ARGM-NEG,False,not,ARGM-NEG
+199,5,23,them,they,PRON,PRP,Case=Acc|Number=Plur|Person=3|PronType=Prs,22,obj,22:obj|25:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,them,ARG1
+199,5,42,fire,fire,NOUN,NN,Number=Sing,22,advcl,22:advcl:on,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,fire,ARG1
+199,6,24,to,to,PART,TO,_,25,mark,25:mark,_,False,True,X,False,False,_,False,to,_
+199,6,28,stations,station,NOUN,NNS,Number=Plur,25,obl,25:obl:to,_,False,True,X,False,True,ARG4,False,battle stations,ARG2
+199,6,31,summer,summer,NOUN,NN,Number=Sing,25,obl,25:obl:in,_,False,True,X,False,True,ARGM-TMP,False,"the summer of 2001 when George Tenet 's hair was"" on fire"" about the excited chatter the CIA was picking up from radical Islamist terrorists",ARG2
+199,10,49,CIA,CIA,PROPN,NNP,Number=Sing,51,nsubj,51:nsubj,_,False,True,X,False,True,ARG0,False,the CIA,ARG0
+199,10,52,up,up,ADP,RP,_,51,compound:prt,51:compound:prt,_,False,True,X,False,False,_,False,up,_
+199,10,56,terrorists,terrorist,NOUN,NNS,Number=Plur,51,obl,51:obl:from,SpaceAfter=No,False,True,X,False,True,ARGM-DIR,False,radical Islamist terrorists,ARGM-GOL
+200,1,4,Clinton,Clinton,PROPN,NNP,Number=Sing,7,obl,7:obl:as_for,_,False,True,X,False,True,ARGM-ADV,False,Clinton,ARGM-GOL
+200,1,8,me,I,PRON,PRP,Case=Acc|Number=Sing|Person=1|PronType=Prs,7,obj,7:obj|9:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,me,ARG1
+200,2,11,thing,thing,NOUN,NN,Number=Sing,9,obj,9:obj,_,False,True,X,False,True,ARG1,False,one thing,ARG1
+201,1,1,Clinton,Clinton,PROPN,NNP,Number=Sing,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,Clinton,ARG0
+201,1,4,out,out,ADP,RP,_,3,compound:prt,3:compound:prt,_,False,True,X,False,False,_,False,out,_
+201,1,6,deal,deal,NOUN,NN,Number=Sing,3,obj,3:obj|20:nsubj,_,False,True,X,False,True,ARG1,False,a deal with Pakistani Prime Minister Nawaz Sharif,ARG1
+201,1,14,summer,summer,NOUN,NN,Number=Sing,3,obl,3:obl:in,_,False,True,X,False,True,ARGM-TMP,False,"summer of 1999 that would have allowed the US to send a Special Ops team in after Bin Laden in Qandahar ,",ARG2
+201,5,17,that,that,PRON,WDT,PronType=Rel,20,nsubj,6:ref,_,False,True,X,False,True,R-ARG0,False,that,R-ARG0
+201,5,22,US,US,PROPN,NNP,Number=Sing,20,obj,20:obj|24:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,the US,ARG1
+201,6,23,to,to,PART,TO,_,24,mark,24:mark,_,False,True,X,False,False,_,False,to,_
+201,6,28,team,team,NOUN,NN,Number=Sing,24,obj,24:obj,_,False,True,X,False,True,ARG1,False,a Special Ops team,ARG1
+201,6,29,in,in,ADV,RB,_,24,advmod,24:advmod,_,False,True,X,False,True,ARGM-DIR,False,"in after Bin Laden in Qandahar ,",C-V
+201,6,31,Bin,Bin,PROPN,NNP,Number=Sing,24,obl,24:obl:after,_,False,True,X,False,True,ARG2,False,Bin,ARGM-GOL
+201,6,34,Qandahar,Qandahar,PROPN,NNP,Number=Sing,24,obl,24:obl:in,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,False,Qandahar,ARGM-GOL
+201,7,38,Pakistan,Pakistan,PROPN,NNP,Number=Sing,36,obl,36:obl:from,SpaceAfter=No,False,True,X,False,True,ARGM-LOC,False,Pakistan,ARGM-GOL
+202,0,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+202,1,3,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+202,1,7,base,base,NOUN,NN,Number=Sing,4,obj,4:obj,_,False,True,X,False,True,ARG1,False,the Pakistan base for rescue operations,ARG1
+202,1,10,operations,operation,NOUN,NNS,Number=Plur,4,obl,4:obl:for,_,False,True,X,False,True,ARGM-PRP,False,rescue operations,ARG2
+202,3,11,in,in,SCONJ,IN,_,14,mark,14:mark,_,False,True,X,False,False,_,False,in case,_
+202,3,13,anything,anything,PRON,NN,Number=Sing,14,nsubj,14:nsubj|15:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,anything,ARG0
+202,3,15,wrong,wrong,ADJ,JJ,Degree=Pos,14,xcomp,14:xcomp,SpaceAfter=No,False,True,X,False,True,ARG2,False,wrong,ARG2
+203,0,1,You,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,You,ARG0
+203,0,2,also,also,ADV,RB,_,3,advmod,3:advmod,_,False,True,X,False,True,ARGM-ADV,False,also,ARGM-DIS
+203,0,6,space,space,NOUN,NN,Number=Sing,3,obj,3:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,Pakistani air space,ARG1
+204,5,6,and,and,CCONJ,CC,_,9,cc,9:cc,_,False,True,X,False,False,_,False,and,_
+205,0,1,But,but,CCONJ,CC,_,10,cc,10:cc,_,False,True,X,False,False,_,False,But,ARGM-DIS
+205,0,3,fall,fall,NOUN,NN,Number=Sing,10,obl,10:obl:in,_,False,True,X,False,False,_,False,fall of 1999,R-ARGM-DIR
+205,0,7,Gen.,Gen.,PROPN,NNP,Number=Sing,10,nsubj,10:nsubj,_,False,True,X,False,False,_,False,Gen.,ARG0
+205,0,12,coup,coup,NOUN,NN,Number=Sing,10,obj,10:obj,_,False,True,X,False,True,ARGM-PRR,False,a coup against Nawaz Sharif,ARG1
+206,2,13,and,and,CCONJ,CC,_,18,cc,18:cc,_,False,True,X,False,False,_,False,and,_
+206,2,17,government,government,NOUN,NN,Number=Sing,18,nsubj,18:nsubj,_,False,True,X,False,True,ARG0,False,the new military government,ARG0
+206,2,21,deal,deal,NOUN,NN,Number=Sing,18,obl,18:obl:on,SpaceAfter=No,False,True,X,False,True,ARG1,False,the deal,ARGM-GOL
+207,0,1,Musharraf,Musharraf,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,Musharraf,ARG0
+207,0,3,Clinton,Clinton,PROPN,NNP,Number=Sing,2,obj,2:obj,_,False,True,X,False,True,ARG2,False,Clinton,ARG1
+207,2,4,he,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,7,nsubj,7:nsubj,_,False,True,X,False,True,ARG0,False,he,ARG0
+207,2,6,n't,not,PART,RB,_,7,advmod,7:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+207,2,9,soil,soil,NOUN,NN,Number=Sing,7,obj,7:obj,_,False,True,X,False,True,ARG1,False,Pakistani soil or air space,ARG1
+207,3,13,to,to,PART,TO,_,14,mark,14:mark,_,False,True,X,False,False,_,False,to,_
+207,3,16,team,team,NOUN,NN,Number=Sing,14,obj,14:obj,_,False,True,X,False,True,ARG1,False,the team,ARG1
+207,3,17,in,in,ADV,RB,_,14,advmod,14:advmod,_,False,True,X,False,True,ARGM-DIR,False,in,ARGM-DIR
+207,3,19,Bin,Bin,PROPN,NNP,Number=Sing,14,obl,14:obl:against,_,False,True,X,False,True,ARG2,False,Bin,ARGM-GOL
+208,0,4,map,map,NOUN,NN,Number=Sing,1,obl,1:obl:at,_,False,True,X,False,True,ARG1,False,a map,ARG2
+208,1,5,and,and,CCONJ,CC,_,7,cc,7:cc,_,False,True,X,False,False,_,False,and,_
+208,1,6,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,7,nsubj,7:nsubj|9:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+208,2,8,to,to,PART,TO,_,9,mark,9:mark,_,False,True,X,False,False,_,False,to,_
+208,2,10,out,out,ADP,RP,_,9,compound:prt,9:compound:prt,_,False,True,X,False,False,_,False,out,_
+208,4,11,how,how,ADV,WRB,PronType=Int,21,advmod,21:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,False,how,R-ARGM-TMP
+208,4,14,fall,fall,NOUN,NN,Number=Sing,21,obl,21:obl:in,_,False,True,X,False,True,ARGM-TMP,False,fall of 1999,R-ARGM-DIR
+208,4,18,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,21,nsubj,21:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+208,4,20,possibly,possibly,ADV,RB,_,21,advmod,21:advmod,_,False,True,X,False,True,ARGM-ADV,False,possibly,ARGM-ADV
+208,4,22,off,off,ADP,RP,_,21,compound:prt,21:compound:prt,_,False,True,X,False,False,_,False,off,_
+208,4,25,operation,operation,NOUN,NN,Number=Sing,21,obj,21:obj,_,False,True,X,False,True,ARG1,False,such an operation without Pakistani facilities,ARG1
+208,4,28,facilities,facility,NOUN,NNS,Number=Plur,21,obl,21:obl:without,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,False,Pakistani facilities,ARG2
+209,1,1,Of,of,ADV,RB,_,7,advmod,7:advmod,_,False,True,X,False,True,ARGM-ADV,False,Of,ARGM-ADV
+209,1,4,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,7,nsubj,7:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+209,1,6,just,just,ADV,RB,_,7,advmod,7:advmod,_,False,True,X,False,True,ARGM-ADV,False,just,ARGM-ADV
+209,1,8,in,in,ADV,RB,_,7,advmod,7:advmod,_,False,True,X,False,True,ARGM-DIR,False,in,ARGM-DIR
+209,1,11,force,force,NOUN,NN,Number=Sing,7,obl,7:obl:by,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,False,main force,ARGM-GOL
+210,0,9,direction,direction,NOUN,NN,Number=Sing,6,obl,6:obl:in,SpaceAfter=No,False,True,X,False,True,ARG3,False,that direction,ARGM-GOL
+210,1,1,But,but,CCONJ,CC,_,12,cc,12:cc,_,False,True,X,False,True,ARGM-DIS,False,But,ARGM-DIS
+210,1,3,those,those,PRON,DT,Number=Plur|PronType=Dem,12,obl,12:obl:for,_,False,True,X,False,True,ARGM-PRP,False,those of you,R-ARGM-DIR
+210,1,11,please,please,INTJ,UH,_,12,discourse,12:discourse,_,False,True,X,False,True,ARGM-DIS,False,please,_
+210,1,13,up,up,ADP,RP,_,12,compound:prt,12:compound:prt,_,False,True,X,False,False,_,False,up Carter 's Tabas operation,_
+210,1,17,operation,operation,NOUN,NN,Number=Sing,12,obj,12:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,Carter 's Tabas operation,ARG1
+211,2,1,It,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,5,nsubj:pass,5:nsubj:pass,_,False,True,X,False,True,ARG1,True,It,ARG1
+211,2,4,easily,easily,ADV,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-ADV,True,easily,ARGM-ADV
+212,0,1,Clinton,Clinton,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj|5:nsubj,_,False,True,X,False,True,ARG0,False,Clinton,ARG0
+212,1,4,and,and,CCONJ,CC,_,5,cc,5:cc,_,False,True,X,False,False,_,False,and,_
+212,1,6,hard,hard,ADV,RB,Degree=Pos,5,advmod,5:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-MNR,False,hard,ARGM-TMP
+213,0,2,gods,god,NOUN,NNS,Number=Plur,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG1,False,The gods,ARG0
+213,0,4,n't,not,PART,RB,_,3,advmod,3:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+213,0,6,us,we,PRON,PRP,Case=Acc|Number=Plur|Person=1|PronType=Prs,3,obl,3:obl:with,_,False,True,X,False,True,ARG2,False,us,ARG2
+213,0,9,one,one,NUM,CD,NumType=Card,3,obl,3:obl:on,SpaceAfter=No,False,True,X,False,True,ARGM-ADV,False,that one,ARGM-TMP
+214,0,1,that,that,PRON,DT,Number=Sing|PronType=Dem,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG1,False,that,ARG0
+214,0,14,king,king,NOUN,NN,Number=Sing,2,obl,2:obl:as,SpaceAfter=No,False,True,X,False,True,C-ARG1,False,the king,ARG2
+214,1,3,how,how,ADV,WRB,PronType=Int,5,advmod,5:advmod,_,False,True,X,False,False,_,False,how,R-ARGM-TMP
+214,1,4,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+214,1,6,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,5,obj,5:obj|8:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,you,ARG1
+214,2,7,to,to,PART,TO,_,8,mark,8:mark,_,False,True,X,False,False,_,False,to,_
+214,2,10,me,I,PRON,PRP,Case=Acc|Number=Sing|Person=1|PronType=Prs,8,obl,8:obl:to,_,False,True,X,False,True,ARG1,False,me,ARG2
+215,1,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+215,1,3,n't,not,PART,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+215,1,5,so,so,ADV,RB,_,4,advmod,4:advmod,SpaceAfter=No,False,True,X,False,True,ARG1,False,so,ARGM-ADV
+218,0,2,exciting,exciting,ADJ,JJ,Degree=Pos,1,xcomp,1:xcomp,SpaceAfter=No,False,True,X,False,True,ARG2,False,exciting,C-ARG1
+219,1,2,to,to,PART,TO,_,3,mark,3:mark,_,False,True,X,False,False,_,False,to,_
+219,1,5,dinner,dinner,NOUN,NN,Number=Sing,3,obl,3:obl:to,_,False,True,X,False,True,ARG4,False,dinner,ARG2
+219,1,7,me,I,PRON,PRP,Case=Acc|Number=Sing|Person=1|PronType=Prs,3,obl,3:obl:with,_,False,True,X,False,True,ARGM-COM,False,me,ARG2
+219,2,8,before,before,SCONJ,IN,_,10,mark,10:mark,_,False,True,X,False,False,_,False,before,_
+219,2,9,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,10,nsubj,10:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+219,2,14,time,time,NOUN,NN,Number=Sing,10,obj,10:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,your ' matt time,ARG1
+220,0,1,probablyl,probablyl,ADV,RB,_,2,advmod,2:advmod,_,False,True,X,False,False,_,False,probablyl,ARGM-ADV
+220,1,3,na,to,PART,TO,Abbr=Yes,5,mark,5:mark,_,False,True,X,False,False,_,False,na,_
+220,1,4,just,just,ADV,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-ADV,False,just,ARGM-ADV
+220,1,6,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,5,obj,5:obj,_,False,True,X,False,True,ARG1,False,it,ARG1
+221,0,1,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+221,0,4,whatever,whatever,PRON,WP,PronType=Int,2,parataxis,2:parataxis,SpaceAfter=No,False,True,X,False,False,_,False,"you know , whatever.",R-ARG0
+222,1,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+222,1,4,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,3,obj,3:obj|5:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,you,ARG1
+222,1,6,later,later,ADV,RB,_,3,advmod,3:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,later,ARGM-ADV
+223,1,1,what,what,PRON,WP,PronType=Int,4,obj,4:obj,_,False,True,X,False,True,ARG1,False,what,ARG1
+223,1,3,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+223,1,5,tonight,tonight,NOUN,NN,Number=Sing,4,obl:tmod,4:obl:tmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,tonight,ARG1
+225,1,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+225,1,7,things,thing,NOUN,NNS,Number=Plur,3,obl,3:obl:of,_,False,True,X,False,True,ARG1,False,a few things,ARG2
+227,0,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj|4:nsubj:xsubj,_,False,True,X,False,False,_,False,i,ARG0
+227,1,3,to,to,PART,TO,_,4,mark,4:mark,_,False,True,X,False,False,_,False,to,_
+227,1,5,one,one,NUM,CD,NumType=Card,4,obj,4:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,one,ARG1
+230,1,1,why,why,ADV,WRB,PronType=Int,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-CAU,False,why,ARGM-TMP
+230,1,3,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+230,3,5,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,7,nsubj,7:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+230,3,8,one,one,NUM,CD,NumType=Card,7,obj,7:obj,_,False,True,X,False,True,ARG1,False,one of those,ARG1
+231,1,2,n't,not,PART,RB,_,3,advmod,3:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+231,2,4,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+231,2,7,night,night,NOUN,NN,Number=Sing,5,obl:tmod,5:obl:tmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,last night,ARG1
+233,3,5,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,8,nsubj,8:nsubj|10:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+233,3,7,n't,not,PART,RB,_,8,advmod,8:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+233,3,12,either,either,ADV,RB,_,8,advmod,8:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-ADV,False,either,ARGM-ADV
+233,4,9,to,to,PART,TO,_,10,mark,10:mark,_,False,True,X,False,False,_,False,to,_
+233,4,11,you,you,PRON,PRP,Case=Acc|Person=2|PronType=Prs,10,obj,10:obj,_,False,True,X,False,True,ARG1,False,you,ARG1
+233,5,14,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,16,nsubj,16:nsubj|18:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+233,5,15,just,just,ADV,RB,_,16,advmod,16:advmod,_,False,True,X,False,True,ARGM-ADV,False,just,ARGM-ADV
+233,6,17,to,to,PART,TO,_,18,mark,18:mark,_,False,True,X,False,False,_,False,to,_
+233,6,20,cd,cd,NOUN,NN,Number=Sing,18,obj,18:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,a cd,ARG1
+234,1,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG1,False,i,ARG0
+234,1,3,n't,not,PART,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+235,1,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+235,1,4,somewhere,somewhere,NOUN,NN,Number=Sing,3,obj,3:obj|6:nsubj,_,False,True,X,False,True,ARG1,False,somewhere,ARG1
+235,2,5,that,that,PRON,WDT,PronType=Rel,6,nsubj,4:ref,_,False,True,X,False,True,R-ARG0,False,that,R-ARG0
+235,2,8,jacket,jacket,NOUN,NN,Number=Sing,6,obj,6:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,a jacket,ARG1
+237,1,1,yeah,yeah,INTJ,UH,_,5,discourse,5:discourse,SpaceAfter=No,False,True,X,False,True,ARGM-DIS,False,yeah,ARGM-DIS
+237,1,3,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+237,1,6,somewhere,somewhere,NOUN,NN,Number=Sing,5,obj,5:obj,_,False,True,X,False,True,ARG1,False,somewhere,ARG1
+239,1,1,what,what,PRON,WP,PronType=Int,4,obj,4:obj,_,False,True,X,False,True,ARG1,False,what,ARG1
+239,1,3,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+240,1,1,we,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,we,ARG0
+240,1,4,somewhere,somewhere,NOUN,NN,Number=Sing,3,advmod,3:advmod,_,False,True,X,False,True,ARG4,False,somewhere,ARG1
+244,2,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+244,3,5,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,6,nsubj,6:nsubj,_,False,True,X,False,True,ARG1,False,you,ARG0
+244,3,7,up,up,ADP,RP,_,6,compound:prt,6:compound:prt,_,False,True,X,False,False,_,False,up,_
+244,3,11,girl,girl,NOUN,NN,Number=Sing,6,obl,6:obl:with,_,False,True,X,False,True,ARGM-ADV,False,some other girl,ARG2
+244,4,12,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,13,nsubj,13:nsubj,_,False,True,X,False,False,_,False,i,ARG0
+244,4,15,bet,bet,NOUN,NN,Number=Sing,13,obj,13:obj,_,False,True,X,False,True,ARGM-PRR,False,the bet,ARG1
+244,4,16,with,with,ADP,IN,_,13,obl,13:obl,SpaceAfter=No,False,True,X,False,False,_,False,with,_
+246,0,1,really,really,ADV,RB,_,4,advmod,4:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-ADV,False,really,ARGM-ADV
+246,0,3,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+246,0,6,idea,idea,NOUN,NN,Number=Sing,4,obj,4:obj,_,False,True,X,False,True,ARG1,False,no idea you 're talking what about,ARG1
+246,2,7,what,what,PRON,WP,PronType=Int,10,obl,10:obl:about,_,False,True,X,False,True,ARG1,False,what,R-ARGM-DIR
+246,2,8,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,10,nsubj,10:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,you,ARG0
+247,2,1,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+247,2,6,someone,someone,PRON,NN,Number=Sing,4,obl,4:obl:of,_,False,True,X,False,True,ARG1,False,someone else,ARG2
+248,1,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+248,1,3,n't,not,PART,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+248,1,4,even,even,ADV,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-ADV,False,even,ARGM-ADV
+248,1,6,a&m,a&m,PROPN,NNP,Number=Sing,5,obj,5:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,a&m,ARG1
+248,3,8,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,11,nsubj,11:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+248,3,10,n't,not,PART,RB,_,11,advmod,11:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+248,3,13,them,they,PRON,PRP,Case=Acc|Number=Plur|Person=3|PronType=Prs,11,obl,11:obl:on,SpaceAfter=No,False,True,X,False,True,ARG2,False,them,ARG2
+249,0,1,colorado,colorado,PROPN,NNP,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,colorado,ARG0
+249,0,4,a&m,a&m,PROPN,NNP,Number=Sing,2,obj,2:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,texas a&m,ARG1
+250,0,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+250,1,3,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+250,1,6,bet,bet,NOUN,NN,Number=Sing,4,obj,4:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,the bet,ARG1
+252,0,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+252,0,4,number,number,NOUN,NN,Number=Sing,2,obj,2:obj,_,False,True,X,False,True,ARG1,False,her number,ARG1
+252,0,5,though,though,ADV,RB,_,2,discourse,2:discourse,SpaceAfter=No,False,True,X,False,True,ARGM-ADV,False,though,ARGM-DIS
+253,0,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj|4:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+253,1,3,to,to,PART,TO,_,4,mark,4:mark,_,False,True,X,False,False,_,False,to,_
+253,1,5,up,up,ADP,RP,_,4,compound:prt,4:compound:prt,_,False,True,X,False,False,_,False,up,_
+253,1,8,girl,girl,NOUN,NN,Number=Sing,4,obl,4:obl:with,_,False,True,X,False,True,ARG2,False,girl,ARG2
+254,0,1,what,what,PRON,WP,PronType=Int,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG1,False,what,ARG0
+254,0,4,you,you,PRON,PRP,Case=Acc|Person=2|PronType=Prs,2,obl,2:obl:to,SpaceAfter=No,False,True,X,False,True,ARG2,False,you,ARG2
+255,0,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,False,_,False,i,ARG0
+255,0,4,blast,blast,NOUN,NN,Number=Sing,2,obj,2:obj,_,False,True,X,False,True,ARGM-PRR,False,a blast,ARG1
+255,0,6,night,night,NOUN,NN,Number=Sing,2,obl:tmod,2:obl:tmod,SpaceAfter=No,False,True,X,False,False,_,False,that night,ARG1
+256,1,2,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG1,False,you,ARG0
+256,1,4,up,up,ADP,RP,_,3,compound:prt,3:compound:prt,_,False,True,X,False,False,_,False,up,_
+256,1,8,chick,chick,NOUN,NN,Number=Sing,3,obl,3:obl:with,_,False,True,X,False,True,ARG2,False,that blonde chick,ARG2
+256,1,10,night,night,NOUN,NN,Number=Sing,3,obl:tmod,3:obl:tmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,saturday night,ARG1
+257,1,1,no,no,INTJ,UH,_,5,discourse,5:discourse,_,False,True,X,False,True,ARGM-DIS,False,no,ARGM-DIS
+257,1,2,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+257,1,4,not,not,PART,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-NEG,False,not,ARGM-NEG
+258,0,1,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG1,False,i,ARG0
+258,0,3,here,here,ADV,RB,PronType=Dem,2,advmod,2:advmod,_,False,True,X,False,True,ARGM-DIR,False,here,ARGM-ADV
+258,0,5,night,night,NOUN,NN,Number=Sing,2,obl:tmod,2:obl:tmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,last night,ARG1
+259,1,2,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+262,1,1,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+262,1,4,me,I,PRON,PRP,Case=Acc|Number=Sing|Person=1|PronType=Prs,3,iobj,3:iobj,_,False,True,X,False,True,ARG4,False,me,ARG1
+262,1,5,dinner,dinner,NOUN,NN,Number=Sing,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,dinner,ARG1
+262,2,6,when,when,ADV,WRB,PronType=Int,8,mark,8:mark,_,False,True,X,False,True,ARGM-TMP,False,when,ARGM-TMP
+262,2,7,we,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,8,nsubj,8:nsubj,_,False,True,X,False,True,ARG1,False,we,ARG0
+262,2,9,back,back,ADV,RB,_,8,advmod,8:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-DIR,False,back,ARGM-ADV
+263,2,4,they,they,PRON,PRP,Case=Nom|Number=Plur|Person=3|PronType=Prs,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG1,False,they,ARG0
+264,2,7,b/c,because,SCONJ,IN,Abbr=Yes,12,mark,12:mark,_,False,True,X,False,False,_,False,b,_
+264,2,8,most,most,ADJ,JJS,Degree=Sup,12,nsubj,12:nsubj,_,False,True,X,False,True,ARG0,False,/,ARG0
+264,2,14,offices,office,NOUN,NNS,Number=Plur,12,obj,12:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,houston wo n't be too affected b / c most of the layoffs affect satelite offices.,ARG1
+266,1,1,hopefully,hopefully,ADV,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-ADV,False,hopefully,ARGM-ADV
+266,1,2,she,she,PRON,PRP,Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,she,ARG0
+266,1,4,n't,not,PART,RB,_,5,advmod,5:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+266,1,6,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,5,obj,5:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,you,ARG1
+267,1,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,4,nsubj,4:nsubj|5:nsubj:xsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,I,ARG0
+267,1,3,probably,probably,ADV,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-ADV,False,probably,ARGM-ADV
+267,1,7,weekend,weekend,NOUN,NN,Number=Sing,4,obl:tmod,4:obl:tmod,SpaceAfter=No,False,True,X,False,True,ARGM-TMP,False,next weekend,ARG1
+268,0,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+268,3,3,that,that,SCONJ,IN,_,7,mark,7:mark,_,False,True,X,False,False,_,False,that,_
+268,3,4,more,more,ADJ,JJR,Degree=Cmp,7,nsubj,7:nsubj,_,False,True,X,False,True,ARG1,False,more,ARG0
+268,3,8,up,up,ADV,RP,_,7,advmod,7:advmod,PTBPOS=RB,False,True,X,False,True,ARG2,False,up,_
+268,3,14,month,month,NOUN,NN,Number=Sing,7,obl,7:obl:in,_,False,True,X,False,True,ARGM-TMP,False,the next month,ARG2
+269,0,1,Someone,someone,PRON,NN,Number=Sing,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,Someone,ARG0
+269,0,3,me,I,PRON,PRP,Case=Acc|Number=Sing|Person=1|PronType=Prs,2,iobj,2:iobj,_,False,True,X,False,True,ARG2,False,me,ARG1
+269,2,4,that,that,SCONJ,IN,_,7,mark,7:mark,_,False,True,X,False,False,_,False,that,_
+269,2,5,Chase,Chase,PROPN,NNP,Number=Sing,7,nsubj,7:nsubj,_,False,True,X,False,True,ARG0,False,Chase,ARG0
+269,2,9,shitload,shitload,NOUN,NN,Number=Sing,7,obj,7:obj,_,False,True,X,False,True,ARG1,False,a shitload of layoffs,ARG1
+271,1,1,she,she,PRON,PRP,Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG1,False,she,ARG0
+271,2,4,to,to,PART,TO,_,5,mark,5:mark,_,False,True,X,False,False,_,False,to,_
+271,4,6,if,if,SCONJ,IN,_,9,mark,9:mark,_,False,True,X,False,False,_,False,if,_
+271,4,7,she,she,PRON,PRP,Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs,9,nsubj,9:nsubj,_,False,True,X,False,True,ARG0,False,she,ARG0
+271,4,10,financing,financing,NOUN,NN,Number=Sing,9,obj,9:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,financing,ARG1
+276,0,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+276,0,2,just,just,ADV,RB,_,3,advmod,3:advmod,_,False,True,X,False,True,ARGM-TMP,False,just,ARGM-ADV
+276,0,5,email,email,NOUN,NN,Number=Sing,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,your email,ARG1
+276,2,6,and,and,CCONJ,CC,_,9,cc,9:cc,_,False,True,X,False,False,_,False,and,_
+276,2,7,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,9,nsubj,9:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+276,2,8,certainly,certainly,ADV,RB,_,9,advmod,9:advmod,_,False,True,X,False,True,ARGM-ADV,False,certainly,ARGM-ADV
+276,3,10,with,with,SCONJ,IN,_,12,mark,12:mark,_,False,True,X,False,False,_,False,with Jeff making the call,_
+276,3,11,Jeff,Jeff,PROPN,NNP,Number=Sing,12,nsubj,12:nsubj,_,False,True,X,False,False,_,False,Jeff,ARG0
+276,3,14,call,call,NOUN,NN,Number=Sing,12,obj,12:obj,SpaceAfter=No,False,True,X,False,True,ARGM-PRR,False,the call,ARG1
+277,1,1,He,he,PRON,PRP,Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,He,ARG0
+277,1,6,relationship,relationship,NOUN,NN,Number=Sing,3,obj,3:obj,_,False,True,X,False,True,ARG1,False,a good relationship with Mulva,ARG1
+278,2,5,that,that,PRON,WDT,PronType=Rel,7,obj,4:ref,_,False,True,X,False,False,_,False,that,ARG1
+278,2,6,we,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,7,nsubj,7:nsubj,_,False,True,X,False,False,_,False,we,ARG0
+278,4,8,but,but,CCONJ,CC,_,11,cc,11:cc,_,False,True,X,False,False,_,False,but,_
+278,4,9,we,we,PRON,PRP,Case=Nom|Number=Plur|Person=1|PronType=Prs,11,nsubj,11:nsubj,_,False,True,X,False,False,_,False,we,ARG0
+278,4,12,assurances,assurance,NOUN,NNS,Number=Plur,11,obj,11:obj,_,False,True,X,False,True,ARGM-PRR,False,assurances from Phillips regarding performance,ARG1
+279,1,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+279,1,3,n't,not,PART,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+279,1,10,however,however,ADV,RB,_,4,advmod,4:advmod,SpaceAfter=No,False,True,X,False,True,ARGM-DIS,False,however,ARGM-ADV
+279,3,6,much,much,ADV,RB,_,9,advmod,9:advmod,_,False,True,X,False,True,ARGM-EXT,False,how much,ARGM-ADV
+279,3,7,it,it,PRON,PRP,Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs,9,nsubj,9:nsubj,_,False,True,X,False,True,ARG0,False,it,ARG0
+280,1,1,Richard,Richard,PROPN,NNP,Number=Sing,8,nsubj,8:nsubj,_,False,True,X,False,True,ARG0,False,Richard,ARG0
+280,1,10,ideas,idea,NOUN,NNS,Number=Plur,8,obj,8:obj,_,False,True,X,False,True,ARG1,False,some ideas,ARG1
+280,1,11,here,here,ADV,RB,PronType=Dem,8,advmod,8:advmod,_,False,True,X,False,True,ARGM-ADV,False,here,ARGM-ADV
+280,1,15,sure,sure,ADJ,JJ,Degree=Pos,8,conj,8:conj:but,_,False,True,X,False,False,_,False,sure you ' ve already gone through it with them,_
+280,5,16,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,19,nsubj,19:nsubj,SpaceAfter=No,False,True,X,False,True,ARG0,False,you,ARG0
+280,5,18,already,already,ADV,RB,_,19,advmod,19:advmod,_,False,True,X,False,True,ARGM-TMP,False,ve,ARGM-ADV
+280,5,21,it,it,PRON,PRP,Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs,19,obl,19:obl:through,_,False,True,X,False,True,ARG1,False,through it,ARG2
+280,5,23,them,they,PRON,PRP,Case=Acc|Number=Plur|Person=3|PronType=Prs,19,obl,19:obl:with,SpaceAfter=No,False,True,X,False,True,ARGM-COM,False,with them,ARG2
+281,2,4,how,how,ADV,WRB,PronType=Int,7,advmod,7:advmod,_,False,True,X,False,True,ARGM-MNR,False,how,ARGM-MNR
+281,2,6,details,detail,NOUN,NNS,Number=Plur,7,nsubj,7:nsubj|8:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,the details,ARG0
+281,2,8,fuzzy,fuzzy,ADJ,JJ,Degree=Pos,7,xcomp,7:xcomp,_,False,True,X,False,True,ARG2,False,fuzzy,ARG2
+282,0,1,When,when,ADV,WRB,PronType=Int,3,mark,3:mark,_,False,True,X,False,True,ARGM-TMP,False,When,ARGM-TMP
+282,0,2,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+282,0,4,it,it,PRON,PRP,Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs,3,obj,3:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,it,ARG1
+282,2,6,i,i,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,8,nsubj,8:nsubj|10:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,i,ARG0
+282,3,9,to,to,PART,TO,_,10,mark,10:mark,_,False,True,X,False,False,_,False,to,_
+282,3,11,back,back,ADV,RB,_,10,advmod,10:advmod,_,False,True,X,False,True,ARG1,False,back to our remedies and discussions,ARGM-ADV
+282,6,17,but,but,CCONJ,CC,_,22,cc,22:cc,_,False,True,X,False,False,_,False,but,_
+282,6,20,years,year,NOUN,NNS,Number=Plur,22,nsubj,22:nsubj,_,False,True,X,False,True,ARG0,False,the 3 years,ARG0
+282,6,23,it,it,PRON,PRP,Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs,22,obj,22:obj|24:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,it,ARG1
+282,6,24,difficult,difficult,ADJ,JJ,Degree=Pos,22,xcomp,22:xcomp,SpaceAfter=No,False,True,X,False,True,ARG1,False,it difficult,ARG2
+283,1,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,4,nsubj,4:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+283,1,3,n't,not,PART,RB,_,4,advmod,4:advmod,_,False,True,X,False,True,ARGM-NEG,False,n't,ARGM-NEG
+283,1,16,willing,willing,ADJ,JJ,Degree=Pos,4,conj,4:conj:but,_,False,True,X,False,False,_,False,always,_
+283,2,5,if,if,SCONJ,IN,_,7,mark,7:mark,_,False,True,X,False,False,_,False,if,_
+283,2,6,there,there,PRON,EX,_,7,expl,7:expl,_,False,True,X,False,False,_,False,there,_
+283,2,8,anything,anything,PRON,NN,Number=Sing,7,nsubj,7:nsubj,_,False,True,X,False,True,ARG1,False,anything I can do,ARG0
+283,4,9,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,11,nsubj,11:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+283,7,17,to,to,PART,TO,_,18,mark,18:mark,_,False,True,X,False,False,_,False,willing to help,_
+286,0,2,guys,guy,NOUN,NNS,Number=Plur,3,nsubj,3:nsubj,_,False,True,X,False,True,ARG0,False,These guys,ARG0
+286,0,7,route,route,NOUN,NN,Number=Sing,3,obj,3:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,the Ken Lay route,ARG1
+290,0,2,up,up,ADP,RP,_,1,compound:prt,1:compound:prt,_,False,True,X,False,False,_,False,up,_
+290,0,9,conversation,conversation,NOUN,NN,Number=Sing,1,obl,1:obl:on,_,False,True,X,False,True,ARG1,False,your and Ken Lay 's conversation with Gary Cohn,ARG2
+290,3,14,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,16,nsubj,16:nsubj|18:nsubj:xsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+290,4,17,to,to,PART,TO,_,18,mark,18:mark,_,False,True,X,False,False,_,False,to,_
+290,4,21,proposal,proposal,NOUN,NN,Number=Sing,18,obj,18:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,the following proposal,ARG1
+290,7,25,each,each,DET,DT,_,23,obl,23:obl:for,_,False,True,X,False,True,ARG1,False,each of Goldman Sachs Capital Markets and J. Aron,_
+292,0,1,Not,not,PART,RB,_,2,advmod,2:advmod,_,False,True,X,False,True,ARGM-NEG,False,Not,ARGM-NEG
+292,0,3,well,well,ADV,RB,Degree=Pos,2,advmod,2:advmod,_,False,True,X,False,True,ARGM-MNR,False,well,ARGM-ADV
+294,0,1,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,2,nsubj,2:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+294,3,3,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,6,nsubj,6:nsubj|7:nsubj:xsubj,_,False,True,X,False,True,ARG1,False,you,ARG0
+294,3,7,nuts,nuts,ADJ,JJ,Degree=Pos,6,xcomp,6:xcomp,_,False,True,X,False,True,ARG2,False,nuts,ARG2
+294,3,11,events,event,NOUN,NNS,Number=Plur,6,obl,6:obl:with,SpaceAfter=No,False,True,X,False,True,ARG3,False,all the events,ARG2
+294,6,13,so,so,ADV,RB,_,17,advmod,17:advmod,_,False,True,X,False,True,ARGM-ADV,False,so,ARGM-ADV
+294,6,14,I,I,PRON,PRP,Case=Nom|Number=Sing|Person=1|PronType=Prs,17,nsubj,17:nsubj,_,False,True,X,False,True,ARG0,False,I,ARG0
+294,6,16,not,not,PART,RB,_,17,advmod,17:advmod,_,False,True,X,False,True,ARGM-NEG,False,not,ARGM-NEG
+295,3,2,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,5,nsubj:pass,5:nsubj:pass,_,False,True,X,False,True,ARG1,True,you,ARG1
+296,0,2,me,I,PRON,PRP,Case=Acc|Number=Sing|Person=1|PronType=Prs,1,obj,1:obj,_,False,True,X,False,True,ARG1,False,me,ARG1
+296,1,3,if,if,SCONJ,IN,_,5,mark,5:mark,_,False,True,X,False,False,_,False,if,_
+296,1,4,you,you,PRON,PRP,Case=Nom|Person=2|PronType=Prs,5,nsubj,5:nsubj,_,False,True,X,False,True,ARG0,False,you,ARG0
+296,1,6,time,time,NOUN,NN,Number=Sing,5,obj,5:obj,SpaceAfter=No,False,True,X,False,True,ARG1,False,time,ARG1
+298,0,1,Please,please,INTJ,UH,_,2,discourse,2:discourse,_,False,True,X,False,True,ARGM-DIS,False,Please,ARGM-DIS
+298,0,3,daily,daily,ADV,RB,_,2,advmod,2:advmod,_,False,True,X,False,True,ARGM-TMP,False,daily,ARGM-ADV

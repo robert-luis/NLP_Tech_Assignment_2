@@ -51,12 +51,12 @@ def classifyArguments(executionMode_dict,
     # Read in dev / test set depeding on argument provided when running the python file
 
     #train_df 
-    train_df = pd.read_csv('../data/intermediate/sample_train_05_identifiedArguments.csv') 
+    train_df = pd.read_csv(path_to_input_train) 
     train_df = train_df.fillna('X')
     train_df = train_df[train_df['label_ident_prediction'] == True]
 
     #test_df
-    test_df = pd.read_csv('../data/intermediate/sample_test_05_identifiedArguments.csv')
+    test_df = pd.read_csv(path_to_input_test)
     test_df = test_df.fillna('X')
     test_df = test_df[test_df['label_ident_prediction'] == True]
 
