@@ -1,5 +1,57 @@
 # Assignment 2, Semantic Role Labeling<br>
 
+
+## Run SRL model
+
+__Requirements__<br>
+Plase make sure to have scikit-learn and spacy installed as well as standard packages like numpy and pandas.
+
+
+__Input__<br>
+
+- conll train file
+- conll test file
+
+
+
+__Output__
+
+Main output containing overview on achieved precision / recall / f1-scores: <br>
+- data/output/production_results.txt
+(https://github.com/robert-luis/NLP_Tech_Assignment_2/blob/main/data/output/production_results.txt)
+
+Other relevant outputs: <br>
+  # csv containing expanded data incl. predicate and argument identification predictions <br>
+- data/intermediate/production_train_05_identifiedArguments.csv <br>
+  # csv containing predictions for predicates <br>
+- data/output/production_06_predictedArguments.csv <br>
+
+
+__Run train and testing of model__ <br>
+
+The pipeline can be run with the provided test <br>
+
+mode options: <br>
+- production
+- sample
+- custom
+
+<path_to_train> <path_to_test> only have to be set for custom. <br>
+For production and sample mode, predefined paths are set (or can be amended) in the main.py file.<br>
+
+```
+cd part1
+python main.py <mode> <path_to_train> <path_to_test>
+```
+
+The following execution plan provides an overview on the structure of the files and functions executed within the SRL model.
+![Execution Plan](./data/images/SRLexecutionPlan.svg)
+
+
+
+
+## Overview / Report
+
 ### The task<br>
 This assignment focuses on semantic role labeling, which comes down to ‘teach’ a  machine to establish ‘who did what to whom and when, how, etc’.<br>
 
