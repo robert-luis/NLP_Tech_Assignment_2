@@ -145,7 +145,7 @@ The test strategy underlying the following evaluations follows the same approach
 The general low level of the achieved results reflect the small amount of training and testing data taken into consideration as described in Section 5.<br>
 
 __Results__<br>
-Taken from (https://github.com/robert-luis/NLP_Tech_Assignment_2/data/output/production_results.txt) <br>
+Taken from (https://github.com/robert-luis/NLP_Tech_Assignment_2/blob/main/data/output/production_results.txt) <br>
 
 Mode:production<br>
 *Predicate Prediction ConfusionMatrix*<br>
