@@ -144,32 +144,32 @@ __Results__<br>
 Mode:production<br>
 Predicate Prediction ConfusionMatrix<br>
 
-              precision    recall  f1-score   support<br><br>
+              precision    recall  f1-score   support
 
-       False      0.997     0.992     0.995     28727<br>
-        True      0.771     0.893     0.828       847<br>
+       False      0.997     0.992     0.995     28727
+        True      0.771     0.893     0.828       847
 
-    accuracy                          0.989     29574<br>
-   macro avg      0.884     0.942     0.911     29574<br>
-weighted avg      0.990     0.989     0.990     29574<br>
+    accuracy                          0.989     29574
+   macro avg      0.884     0.942     0.911     29574
+weighted avg      0.990     0.989     0.990     29574
 <br>
 
 
 Argument Identification ConfusionMatrix<br>
 
-              precision    recall  f1-score   support<br><br>
+              precision    recall  f1-score   support
 
-       False      0.990     0.964     0.977     28306<br>
-        True      0.495     0.779     0.605      1268<br>
+       False      0.990     0.964     0.977     28306
+        True      0.495     0.779     0.605      1268
 
-    accuracy                          0.956     29574<br>
-   macro avg      0.742     0.872     0.791     29574<br>
-weighted avg      0.969     0.956     0.961     29574<br>
+    accuracy                          0.956     29574
+   macro avg      0.742     0.872     0.791     29574
+weighted avg      0.969     0.956     0.961     29574
 
 
 
 Argument Classification ConfusionMatrix<br>
-
+```
       Unnamed: 0  precision    recall  f1-score      support<br>
 0           ARG0   0.739274  0.945148  0.829630   237.000000<br>
 1           ARG1   0.790614  0.682243  0.732441   321.000000<br>
@@ -207,6 +207,8 @@ Argument Classification ConfusionMatrix<br>
 33     macro avg   0.301708  0.205225  0.217931  1268.000000<br>
 34  weighted avg   0.716584  0.614353  0.638224  1268.000000<br>
 <br>
+```
+
 
 Total Processing Time: 104.34 min.<br><br>
 
@@ -218,7 +220,7 @@ Some insights we gained from the made predictions are <br>ollowing:<br>
 * the last sentence is passive, but unfortunately the dataset does not have 'Voice=Pass' for this verb, so our system did not pick that up<br>
 * as our system classifies a person as an ARGM-LOC multiple times, using a named-entity classifier – which also indicates the type of named entity (i.e. PER) might help the system to avoid this classification<br><br>
 
-***Submit your code***<br><br><br>
+<br><br><br>
 
 ## Part 2: The neural approach<br>
 **DatasetReader**<br>
