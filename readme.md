@@ -166,5 +166,5 @@ VERB: looked | ARGS: ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', 'B-V', '
 As can be seen, the 2 example sentences contain verbs that are correctly labeled as predicates and their arguments. So, we can conclude that the preprocessing works well.<br> 
 
 ## References<br>
-* Xavier Carreras and Lluís Màrquez. 2005. Introduction to the CoNLL-2005 Shared Task: Semantic Role Labeling. In Proceedings of the Ninth Conference on Computational Natural Language Learning (CoNLL-2005), pages 152–164, Ann Arbor, Michigan. Association for Computational Linguistics.
-* Liu.S., Agam.G., Grossman.D (n.d). Generalized Sentiment-Bearing Expression Features for Sentiment Analysis. Retrieved from: https://aclanthology.org/C12-2072.pdf
+* Carreras.X., and Màrquez. L., (2005). Introduction to the CoNLL-2005 Shared Task: Semantic Role Labeling. In Proceedings of the Ninth Conference on Computational Natural Language Learning (CoNLL-2005), pages 152–164, Ann Arbor, Michigan. Association for Computational Linguistics.
+* Joshi.M., and Penstein-Rosé. C., (2009). Generalizing Dependency Features for Opinion Mining. In Proceedings of the ACL-IJCNLP 2009 Conference Short Papers, pages 313–316, Suntec, Singapore. Association for Computational Linguistics. 
