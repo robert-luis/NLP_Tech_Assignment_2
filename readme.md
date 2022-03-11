@@ -153,17 +153,17 @@ A model takes as input some instances, and outputs some labels. AllenNLP takes a
 The trainer in AllenNLP, gives the input instances to Model.forward(), which is part of the training loop, which in srl_main is the run_training_loop function. The trainer makes everything 1 whole, it uses the model, optimizer, instance, data loader, etc. A vocabulary is built in the run_training_loop function, based on the training data and the development data.<br><br> 
 **Predictor**<br>
 A predictor takes as input a JSON file, and also predicts things in JSON. It is used to predict new instances. In the srl_main.py, there is a Semantic Role Labeler Predictor that takes as input the model, with a sentence, and tries to predict the arguments of the predicates in a sentence.<br> 
-In the conll_to_json.py file, only the path_to_file and path_to_output variables need to be changed in order to alter between the training set and the development set. For this too, the dataset of the development set is used as the training set and the development set. Since the training dataset consists of many instances, running this entire dataset was not considered to be time efficient. Therefore, the development set in jsonl is used as input for both  TRAIN_PATH and DEV_PATH (in srl_main.py).<br> 
-When the development dataset is used as input, the 2 example sentences are labeled as followed:<br>
-I am running away from here:<br>
-['I', 'am', 'running', 'away', 'from', 'here', '!']<br>
-VERB: am | ARGS: ['B-ARG1', 'B-V', '0', '0', '0', '0', '0']<br>
-VERB: running | ARGS: ['B-ARG0', '0', 'B-V', '0', '0', '0', '0']<br><br>
-The paint and wheels looked like glass and the interior looked new !<br>
-['The', 'paint', 'and', 'wheels', 'looked', 'like', 'glass', 'and', 'the', 'interior', 'looked', 'new', '!']<br>
-VERB: looked | ARGS: ['0', '0', '0', '0', 'B-V', '0', 'B-ARG1', '0', '0', '0', '0', '0', '0']<br>
-VERB: looked | ARGS: ['0', '0', '0', '0', '0', '0', '0', '0', '0', 'B-ARG0', 'B-V', 'B-ARG1', '0']<br><br>
-As can be seen, the 2 examples sentences contain verbs that are correctly labeled as predicates and their arguments. So, we can conclude that the preprocessing works well.<br> 
+In the conll_to_json.py file, only the path_to_file and path_to_output variables need to be changed in order to alter between the training set and the development set. For this too, the dataset of the development set is used as the training set and the development set. Since the training dataset consists of many instances, running this entire dataset was not considered to be time efficient. Therefore, the training set is reduced to only include 2000 sentences. This smaller dataset is then used as input for the conll_to_json.py, as well as the development set.<br> 
+When the development dataset is used as input, the 2 example sentences are labeled as followed:<br>  
+I am running away from here !<br> 
+['I', 'am', 'running', 'away', 'from', 'here', '!']<br> 
+VERB: am | ARGS: ['0', 'B-V', '0', '0', '0', '0', '0']<br> 
+VERB: running | ARGS: ['B-ARG0', '0', 'B-V', '0', '0', '0', '0']<br><br> 
+The paint and wheels looked like glass and the interior looked new !<br> 
+['The', 'paint', 'and', 'wheels', 'looked', 'like', 'glass', 'and', 'the', 'interior', 'looked', 'new', '!']<br> 
+VERB: looked | ARGS: ['0', '0', '0', 'B-ARG0', 'B-V', '0', 'B-ARG1', '0', '0', '0', '0', '0', '0']<br> 
+VERB: looked | ARGS: ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', 'B-V', '0', '0']<br><br> 
+As can be seen, the 2 example sentences contain verbs that are correctly labeled as predicates and their arguments. So, we can conclude that the preprocessing works well.<br> 
 
 ## References<br>
 * Xavier Carreras and Lluís Màrquez. 2005. Introduction to the CoNLL-2005 Shared Task: Semantic Role Labeling. In Proceedings of the Ninth Conference on Computational Natural Language Learning (CoNLL-2005), pages 152–164, Ann Arbor, Michigan. Association for Computational Linguistics.
