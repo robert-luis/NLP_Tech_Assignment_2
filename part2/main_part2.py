@@ -1,29 +1,29 @@
 #!/usr/bin/env python
 # coding: utf-8
-
 import os, sys
-import srl_main
 from conll_to_json import *
-from srl_main import *
 
 path_to_file_train = '../data/input/srl_univprop_en.train_2000.conll' 
 path_to_output_train = '../data/intermediate/neuralSRL_train_2000.jsonl'  
 path_to_file_dev = '../data/input/srl_univprop_en.dev.conll'
 path_to_output_dev = '../data/intermediate/neuralSRL_dev.jsonl'
 
-print('byeee')
+path_to_srl_main = 'srl_main.py'
+    
+# read srl_main
+file  = open(path_to_srl_main, 'r')
+lines = file.readlines()
 
-def main():
-    #convertConllToJSON(path_to_file_train, path_to_output_train)
-    #convertConllToJSON(path_to_file_dev, path_to_output_dev)
-    for x in dir(srl_main):
-        print(x)
-        if x == 'TRAIN_PATH':
-            print('hellooo')
-   
-    TRAIN_PATH = path_to_output_train
-    #DEV_PATH = path_to_output_dev
+for i in range(len(lines)):
+    if lines[i].startswith('    TRAIN_PATH ='):
+        lines[i] = '    TRAIN_PATH = \"' + path_to_output_train + '\"\n'
+    if lines[i].startswith('    DEV_PATH = \"'):
+        lines[i] = '    DEV_PATH = \"' + path_to_output_dev + '\"\n'
 
-if __name__ == "__main__":
-    main()
+# write file back 
+file = open(path_to_srl_main, 'w')
+file.writelines(lines)
+file.close()
 
+import srl_main
+os.popen('python srl_main.py')
